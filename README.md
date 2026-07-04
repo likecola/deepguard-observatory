@@ -51,7 +51,7 @@ check   API     channels  stats    run
 
 - Python 3.9+
 - Reddit API credentials (free)
-- Claude API key (~$10-20/month)
+- Claude API key (~$1-5/month with the default cost controls, see below)
 
 ### Setup (30 minutes)
 
@@ -78,32 +78,64 @@ python src/main.py
 # See .github/workflows/daily_scan.yml
 ```
 
+## Keeping API Costs Low
+
+This is a solo project, so the pipeline is designed to spend as little as possible:
+
+1. **Deduplication** — item IDs that were already analyzed are stored in
+   `data/seen_ids.json`, so daily runs only pay for *new* content. This is the
+   biggest saving: without it, every run re-analyzes the same recent posts.
+2. **Two-tier analysis** — every candidate is screened with a cheap model
+   (Haiku 4.5, $1/$5 per MTok). Only items flagged as harmful — or that the
+   screen is unsure about — are re-checked with a stronger model (Opus 4.8,
+   $5/$25 per MTok) before being treated as harmful. Most candidates are
+   noise, so the expensive model runs rarely. Configure via `SCREEN_MODEL` /
+   `CONFIRM_MODEL` in `.env`.
+3. **Input capping** — post bodies are truncated to 1,500 characters before
+   analysis.
+4. **Usage logging** — every run prints token usage and estimated cost, so
+   drift is visible immediately.
+
+Also recommended: set a monthly spend limit in the
+[Anthropic Console](https://console.anthropic.com/) as a hard backstop.
+
+With ~10-30 new items/day this lands around **$1-5/month**. If volume grows
+10x, the next lever is the [Message Batches API](https://platform.claude.com/docs/en/build-with-claude/batch-processing)
+(50% discount, results within an hour — a fine fit for a daily cron).
+
 ## Output
 
 ```
 reports/
-├── monthly_report.md     # Human-readable summary
-└── [YYYY-MM].json        # Raw data
+└── scan-[timestamp].json  # Raw analysis results per run
 
 data/
-└── deepguard.db          # SQLite findings database
+└── seen_ids.json          # Already-analyzed item IDs (dedup state)
 ```
 
 ## Project Structure
 
 ```
 ├── src/
-│   ├── main.py           # Entry point
-│   ├── analyzer.py       # Content analysis
-│   ├── database.py       # Data storage
-│   └── reporter.py       # Platform interaction
-├── reports/              # Monthly summaries
-├── data/                 # Local database
-├── .github/workflows/    # GitHub Actions setup
+│   ├── main.py             # Entry point
+│   ├── reddit_scanner.py   # Reddit keyword scanning
+│   ├── github_scanner.py   # GitHub repo search
+│   ├── analyzer.py         # Two-tier Claude analysis
+│   └── state.py            # Dedup state (seen IDs)
+├── reports/                # Per-run scan results
+├── data/                   # Dedup state
+├── .github/workflows/      # GitHub Actions daily scan
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
+
+## Roadmap
+
+- [ ] SQLite findings database (`database.py`) for longitudinal stats
+- [ ] Reporting helper (`reporter.py`) — drafts for official platform report channels
+- [ ] Monthly transparency report generator (`monthly_report.md`)
+- [ ] Track report outcomes and platform response times
 
 ## Metrics
 
@@ -166,6 +198,6 @@ MIT License - do what you want with this code.
 
 **Status**: Active development  
 **Maintainer**: Solo developer, ~5 hours/week  
-**Last Updated**: June 2026  
+**Last Updated**: July 2026  
 
 For Korean documentation, see [README_KO.md](README_KO.md)
