@@ -50,7 +50,9 @@ check   API     channels  stats    run
 ### Requirements
 
 - Python 3.9+
-- Reddit API credentials (free)
+- Reddit Data API credentials (free, non-commercial use — requires an
+  [access request](https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=14868593862164);
+  optional — the Reddit scan is skipped until credentials are set)
 - Claude API key (~$1-5/month with the default cost controls, see below)
 
 ### Setup (30 minutes)
