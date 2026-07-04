@@ -1,6 +1,7 @@
 """Entry point: scan Reddit/GitHub, analyze new findings with Claude, save results."""
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -16,8 +17,19 @@ load_dotenv()
 REPORTS_DIR = Path(__file__).resolve().parent.parent / "reports"
 
 
+def _reddit_configured() -> bool:
+    return bool(
+        os.environ.get("REDDIT_CLIENT_ID") and os.environ.get("REDDIT_CLIENT_SECRET")
+    )
+
+
 def run_scan() -> list:
-    findings = scan_reddit() + scan_github()
+    findings = []
+    if _reddit_configured():
+        findings += scan_reddit()
+    else:
+        print("Reddit credentials not set - skipping Reddit scan (GitHub only).")
+    findings += scan_github()
     if not findings:
         print("No matching content found.")
         return []
