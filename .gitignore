@@ -217,8 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-echo ".env" >> .gitignore
-echo "*.db" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "venv/" >> .gitignore
-echo ".DS_Store" >> .gitignore
+# SQLite data files
+*.db
+
+# macOS
+.DS_Store
