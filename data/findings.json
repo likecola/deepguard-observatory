@@ -1,0 +1,62 @@
+{
+  "github:1222837559": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "first_seen": "2026-07-11",
+    "reasoning": "The repository advertises a real-time deepfake face-swap tool for live webcam streams and virtual cameras. Real-time face-swapping onto live video enables impersonation of real people, which is a common vector for non-consensual synthetic media and identity fraud. There is no indication of consent documentation, licensing, or research/detection framing. However, some legitimate live face-swap tools exist for entertainment, so confidence is medium rather than high.",
+    "recommended_action": "Flag for human review; verify whether the repo includes NSFW/nudify capabilities or consent safeguards, and check against known malicious forks of Deep-Live-Cam.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "Feefgganapt/Deep-Live-Cam-User-Face",
+    "url": "https://github.com/Feefgganapt/Deep-Live-Cam-User-Face"
+  },
+  "github:1243738302": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "first_seen": "2026-07-11",
+    "reasoning": "The repository name 'nudify' strongly indicates a tool designed to generate non-consensual synthetic nude imagery of real people, a hallmark of harmful nudify apps. Although no description or README content is provided to confirm the implementation details, the explicit naming aligns directly with known non-consensual generation tools. Confidence is medium rather than high due to the absence of body content to verify functionality.",
+    "recommended_action": "Flag for human review and further inspection of repository contents; consider reporting to GitHub if the tool is confirmed to produce non-consensual synthetic imagery.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "suhasgowda-coder/nudify",
+    "url": "https://github.com/suhasgowda-coder/nudify"
+  },
+  "github:1248962965": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "first_seen": "2026-07-11",
+    "reasoning": "The repository is under an account named 'ai-affi' and titled 'ai-nudify.net', which strongly indicates it is associated with a 'nudify' tool/service designed to generate non-consensual synthetic nude imagery of real people. The naming convention (nudify.net) is characteristic of exactly the category of non-consensual synthetic media tools this project monitors. While the description is empty, the explicit 'nudify' branding leaves little ambiguity about the intended purpose.",
+    "recommended_action": "Flag for review and prioritize documentation. Capture repository contents, associated domain (ai-nudify.net), and account details. Consider reporting to GitHub for Terms of Service violations regarding non-consensual intimate imagery tooling.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "ai-affi/ai-nudify.net",
+    "url": "https://github.com/ai-affi/ai-nudify.net"
+  },
+  "github:976210744": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "first_seen": "2026-07-11",
+    "reasoning": "The repository name 'best-undress-ai-app' directly references an 'undress AI' tool, which is a category of applications explicitly designed to generate non-consensual synthetic nude imagery of real people ('nudify' apps). The naming and framing ('best' app) indicate promotion or provision of such a tool, matching the flagged harmful category for non-consensual synthetic media generation.",
+    "recommended_action": "Flag for immediate review and report to GitHub for likely Terms of Service violation (non-consensual intimate imagery tooling). Escalate to human moderator for takedown request.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "best-undress-ai-app/de",
+    "url": "https://github.com/best-undress-ai-app/de"
+  },
+  "github:976230413": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "first_seen": "2026-07-11",
+    "reasoning": "The repository name 'what-is-undress-ai/app' strongly suggests a 'nudify'/'undress' application, which is a category of tool designed to generate non-consensual synthetic nude imagery of real people. The organization name and 'app' repo indicate a working implementation rather than research. However, there is no description or body content provided to confirm functionality, so confidence is medium rather than high pending review of actual repo contents.",
+    "recommended_action": "Escalate for human review to confirm the repository hosts a functional nudify tool; if confirmed, flag for takedown reporting to GitHub and log as a non-consensual generation tool.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "what-is-undress-ai/app",
+    "url": "https://github.com/what-is-undress-ai/app"
+  }
+}
