@@ -124,8 +124,10 @@ deepguard-observatory/
 │   ├── reddit_scanner.py       # Reddit 키워드 스캔
 │   ├── github_scanner.py       # GitHub 저장소 검색
 │   ├── huggingface_scanner.py  # Hugging Face 모델/스페이스 검색
-│   ├── civitai_scanner.py      # Civitai 모델 검색 (선택 — 한국에서 지역 차단됨)
+│   ├── google_cse_scanner.py   # Google Programmable Search 웹 검색
+│   ├── civitai_scanner.py      # Civitai 모델 검색 (선택 — 일부 국가 지역 차단)
 │   ├── analyzer.py             # 2단계 Claude 분석
+│   ├── report.py               # 발견 사항 추적 + 요약 리포트 생성
 │   └── state.py                # 중복 제거 상태 (seen IDs)
 ├── reports/                 # 실행별 스캔 결과 (scan-*.json)
 ├── data/                    # 중복 제거 상태 (seen_ids.json)
@@ -145,10 +147,19 @@ deepguard-observatory/
 python src/main.py
 ```
 
-출력:
-- 결과가 포함된 콘솔 로그 (토큰 사용량/예상 비용 포함)
-- reports/scan-[타임스탬프].json 생성
-- data/seen_ids.json 업데이트
+출력 (원본 → 사람이 읽는 순서로 3층):
+- `reports/scan-[타임스탬프].json` — 실행별 원본 분석 결과
+- `data/findings.json` — 유해 판정 항목의 추적 대장 (상태 포함)
+- `reports/summary.md` — 자동 생성 통계 + 미처리 발견 사항 표
+
+유해 판정 항목은 `new` 상태로 대장에 등록됩니다. 신고/제거 등 조치 후
+상태를 기록하면 요약 통계(신고율, 제거율, 월별 추이)가 자동 갱신됩니다:
+
+```bash
+python src/report.py mark github:12345 reported   # 공식 채널로 신고함
+python src/report.py mark github:12345 removed    # 플랫폼이 제거함
+# 그 외: rejected (플랫폼 거절), dismissed (오탐 판정)
+```
 
 ### 자동화된 일일 스캔
 
@@ -159,10 +170,11 @@ python src/main.py
 
 ## 로드맵
 
-- [ ] SQLite 발견 사항 데이터베이스 (`database.py`) — 장기 통계용
+- [x] 신고/제거 상태를 갖는 발견 사항 추적 대장 (`data/findings.json`)
+- [x] 월별 추이 포함 자동 요약 리포트 (`reports/summary.md`)
 - [ ] 신고 도우미 (`reporter.py`) — 공식 플랫폼 신고 채널용 초안 생성
-- [ ] 월간 투명성 리포트 생성기 (`monthly_report.md`)
-- [ ] 신고 결과 및 플랫폼 대응 시간 추적
+- [ ] 플랫폼 대응 시간 추적 (`reported` → `removed`까지 일수)
+- [ ] Telegram 공개 채널 스캔 (프로젝트가 자리 잡은 후 검토)
 
 ## 데이터 및 투명성
 
