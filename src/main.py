@@ -8,7 +8,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from analyzer import analyze_batch, usage_summary
+from civitai_scanner import scan_civitai
 from github_scanner import scan_github
+from huggingface_scanner import scan_huggingface
 from reddit_scanner import scan_reddit
 from state import item_key, load_seen_ids, save_seen_ids
 
@@ -23,13 +25,29 @@ def _reddit_configured() -> bool:
     )
 
 
+def _safe_scan(name: str, scan) -> list:
+    """Run one scanner; a failing source logs a warning instead of killing the run."""
+    try:
+        results = scan()
+        print(f"{name}: {len(results)} candidate(s)")
+        return results
+    except Exception as exc:
+        print(f"WARNING: {name} scan failed, continuing without it: {exc}")
+        return []
+
+
 def run_scan() -> list:
     findings = []
     if _reddit_configured():
-        findings += scan_reddit()
+        findings += _safe_scan("Reddit", scan_reddit)
     else:
-        print("Reddit credentials not set - skipping Reddit scan (GitHub only).")
-    findings += scan_github()
+        print("Reddit credentials not set - skipping Reddit scan.")
+    findings += _safe_scan("GitHub", scan_github)
+    findings += _safe_scan("Hugging Face", scan_huggingface)
+    # Civitai region-blocks some countries (e.g. South Korea) with HTTP 451,
+    # so this source is opt-in. See README "Keeping API Costs Low" note.
+    if os.environ.get("CIVITAI_ENABLED", "").lower() == "true":
+        findings += _safe_scan("Civitai", scan_civitai)
     if not findings:
         print("No matching content found.")
         return []
