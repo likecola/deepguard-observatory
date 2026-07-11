@@ -109,12 +109,26 @@ With ~10-30 new items/day this lands around **$1-5/month**. If volume grows
 
 ## Output
 
+Three layers, from raw to human-readable:
+
 ```
 reports/
-└── scan-[timestamp].json  # Raw analysis results per run
+├── scan-[timestamp].json  # Raw analysis results per run (append-only log)
+└── summary.md             # Auto-generated stats + open findings table
 
 data/
+├── findings.json          # Tracker: every harmful finding with a status
 └── seen_ids.json          # Already-analyzed item IDs (dedup state)
+```
+
+Every harmful finding enters `data/findings.json` with status `new`. After you
+act on one, record the outcome — the summary (report/removal rates, monthly
+trends) regenerates automatically:
+
+```bash
+python src/report.py mark github:12345 reported   # submitted via official channel
+python src/report.py mark github:12345 removed    # platform took it down
+# other statuses: rejected (platform declined), dismissed (false positive)
 ```
 
 ## Project Structure
@@ -125,8 +139,10 @@ data/
 │   ├── reddit_scanner.py       # Reddit keyword scanning
 │   ├── github_scanner.py       # GitHub repo search
 │   ├── huggingface_scanner.py  # Hugging Face models/spaces search
-│   ├── civitai_scanner.py      # Civitai model search (opt-in, region-blocked in KR)
+│   ├── google_cse_scanner.py   # Web search via Google Programmable Search
+│   ├── civitai_scanner.py      # Civitai model search (opt-in — region-blocked in some countries)
 │   ├── analyzer.py             # Two-tier Claude analysis
+│   ├── report.py               # Findings tracker + summary generation
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -138,10 +154,11 @@ data/
 
 ## Roadmap
 
-- [ ] SQLite findings database (`database.py`) for longitudinal stats
+- [x] Findings tracker with report/removal status (`data/findings.json`)
+- [x] Auto-generated summary with monthly trends (`reports/summary.md`)
 - [ ] Reporting helper (`reporter.py`) — drafts for official platform report channels
-- [ ] Monthly transparency report generator (`monthly_report.md`)
-- [ ] Track report outcomes and platform response times
+- [ ] Platform response-time tracking (days from `reported` to `removed`)
+- [ ] Telegram public channel scanning (evaluate once the project is established)
 
 ## Metrics
 

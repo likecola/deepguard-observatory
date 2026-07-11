@@ -10,8 +10,10 @@ from dotenv import load_dotenv
 from analyzer import analyze_batch, usage_summary
 from civitai_scanner import scan_civitai
 from github_scanner import scan_github
+from google_cse_scanner import scan_google_cse
 from huggingface_scanner import scan_huggingface
 from reddit_scanner import scan_reddit
+from report import generate_summary, update_findings
 from state import item_key, load_seen_ids, save_seen_ids
 
 load_dotenv()
@@ -44,8 +46,12 @@ def run_scan() -> list:
         print("Reddit credentials not set - skipping Reddit scan.")
     findings += _safe_scan("GitHub", scan_github)
     findings += _safe_scan("Hugging Face", scan_huggingface)
-    # Civitai region-blocks some countries (e.g. South Korea) with HTTP 451,
-    # so this source is opt-in. See README "Keeping API Costs Low" note.
+    if os.environ.get("GOOGLE_API_KEY") and os.environ.get("GOOGLE_CSE_ID"):
+        findings += _safe_scan("Google CSE", scan_google_cse)
+    else:
+        print("Google CSE credentials not set - skipping web search.")
+    # Civitai region-blocks a growing list of countries (HTTP 451), so this
+    # source is opt-in. See README.
     if os.environ.get("CIVITAI_ENABLED", "").lower() == "true":
         findings += _safe_scan("Civitai", scan_civitai)
     if not findings:
@@ -87,6 +93,12 @@ def main() -> None:
     if results:
         out_path = save_results(results)
         print(f"Results saved to {out_path}")
+
+        added = update_findings(results)
+        if added:
+            print(f"{added} new finding(s) added to data/findings.json.")
+    summary_path = generate_summary()
+    print(f"Summary updated: {summary_path}")
 
 
 if __name__ == "__main__":
