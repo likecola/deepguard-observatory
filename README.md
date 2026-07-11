@@ -4,7 +4,9 @@ A community-driven monitoring system for detecting and tracking deepfake-related
 
 ## Overview
 
-DeepGuard Observatory monitors public platforms (Reddit, GitHub) for AI models and techniques that could be used to create non-consensual synthetic media. When harmful content is detected, we report it through official channels and maintain transparent statistics about ecosystem health.
+DeepGuard Observatory monitors public platforms (GitHub, Hugging Face, Reddit, optionally Civitai) for AI models and techniques that could be used to create non-consensual synthetic media. When harmful content is detected, we report it through official channels and maintain transparent statistics about ecosystem health.
+
+The focus is deliberately the *upstream* of the problem — the places where tools and models are distributed — rather than shallow coverage of every social network. Walled gardens without public APIs (X, Meta platforms) are out of scope; see Limitations.
 
 **This is a solo weekend project.** The goal is modest but concrete: catch and prevent the deepfakes we can see, document what we find, and let the data speak for itself.
 
@@ -25,7 +27,7 @@ check   API     channels  stats    run
 
 ### Process
 
-1. **Scan**: Daily checks of Reddit/GitHub for deepfake-related content
+1. **Scan**: Daily keyword checks of GitHub repos, Hugging Face models/spaces, Reddit posts, and (opt-in) Civitai models
 2. **Analyze**: Use Claude API to confirm if content is actually harmful
 3. **Report**: Submit through official platform channels
 4. **Track**: Record outcomes and response times
@@ -119,11 +121,13 @@ data/
 
 ```
 ├── src/
-│   ├── main.py             # Entry point
-│   ├── reddit_scanner.py   # Reddit keyword scanning
-│   ├── github_scanner.py   # GitHub repo search
-│   ├── analyzer.py         # Two-tier Claude analysis
-│   └── state.py            # Dedup state (seen IDs)
+│   ├── main.py                 # Entry point
+│   ├── reddit_scanner.py       # Reddit keyword scanning
+│   ├── github_scanner.py       # GitHub repo search
+│   ├── huggingface_scanner.py  # Hugging Face models/spaces search
+│   ├── civitai_scanner.py      # Civitai model search (opt-in, region-blocked in KR)
+│   ├── analyzer.py             # Two-tier Claude analysis
+│   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
 ├── .github/workflows/      # GitHub Actions daily scan
