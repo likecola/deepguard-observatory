@@ -1,0 +1,1632 @@
+[
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is a safety and security tool designed to detect and prevent harmful content and attacks. It functions as a risk detection and content scanning system that identifies scams, fraud, phishing, injection attacks, and other security threats. The tool is explicitly built for defensive purposes - to protect against malicious inputs and activities, not to enable non-consensual synthetic media generation or deepfake creation. The mention of 'universal risk detectors' and 'safety gateway' indicates this is infrastructure for harm prevention, not facilitation.",
+    "recommended_action": "No action required. This is a legitimate security and safety tool that aligns with content moderation and harm prevention objectives.",
+    "item": {
+      "source": "github",
+      "id": "1236761161",
+      "title": "inbharatai/jak-shield",
+      "body": "Universal MCP safety gateway for AI agents + universal risk detectors: scans tenders, emails, source code, URLs, and media for scams, procurement fraud, hardcoded secrets, phishing, and unsafe code — signed decisions, PII controls, prompt-injection scanning, and approval boundaries.",
+      "url": "https://github.com/inbharatai/jak-shield",
+      "created_utc": "2026-05-12T14:47:22Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a productivity application repository with no indicators of deepfake/synthetic media generation, safety filter bypass, or non-consensual media creation. The title 'productivity-hub' and generic nature suggest a legitimate utility project unrelated to the harmful categories being monitored.",
+    "recommended_action": "No action needed. Continue monitoring for actual harmful content.",
+    "item": {
+      "source": "github",
+      "id": "601246958",
+      "title": "rohan-cce/productivity-hub",
+      "body": "",
+      "url": "https://github.com/rohan-cce/productivity-hub",
+      "created_utc": "2023-02-13T17:08:06Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The repository name 'Audio-Shield-AI' suggests a defensive/protective tool rather than one designed to create non-consensual synthetic media. The naming pattern indicates this is likely a safety, detection, or protection system for audio content. Without access to the full repository contents, the defensive framing of 'Shield' in the title and the context of audio protection systems suggests this is research or detection-focused rather than a tool for generating harmful synthetic media. However, confidence is medium rather than high due to inability to verify actual implementation details.",
+    "recommended_action": "Review full repository code to confirm defensive/detection purpose. If the tool is designed to detect deepfake audio or protect against synthetic media abuse, it should be classified as legitimate research. Flag for deeper review only if code reveals generative capabilities for non-consensual audio synthesis.",
+    "item": {
+      "source": "github",
+      "id": "1294838855",
+      "title": "gautamhardik/Audio-Shield-Ai",
+      "body": "",
+      "url": "https://github.com/gautamhardik/Audio-Shield-Ai",
+      "created_utc": "2026-07-09T07:45:41Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository name 'SachiAwaaz' (Hindi for 'True Voice') does not indicate a non-consensual deepfake or synthetic media generation tool. Without access to the actual repository contents, the name alone suggests a legitimate project possibly related to voice authentication, speech recognition, or audio processing. The name implies authenticity and truth rather than synthetic content creation. No evidence of harmful intent or non-consensual media generation purpose is apparent from the title alone.",
+    "recommended_action": "No action required. If concerned about specific repository contents, review the actual code and documentation to verify the project's legitimate purpose.",
+    "item": {
+      "source": "github",
+      "id": "1289165791",
+      "title": "jashvithak18/SachiAwaaz",
+      "body": "",
+      "url": "https://github.com/jashvithak18/SachiAwaaz",
+      "created_utc": "2026-07-04T12:04:09Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a personal portfolio website repository. The title and description indicate a standard portfolio project, likely containing personal projects, resume information, and work examples for professional purposes. There is no indication of deepfake generation tools, synthetic media creation, safety filter bypasses, or any non-consensual content generation capabilities.",
+    "recommended_action": "No action needed. This is a legitimate personal portfolio project unrelated to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1208346966",
+      "title": "22kathan/portfolio",
+      "body": "Portfolio website - Mod",
+      "url": "https://github.com/22kathan/portfolio",
+      "created_utc": "2026-04-12T06:31:58Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'amd-hackthaon' appears to be a hackathon project related to AMD. The minimal information provided (just a repository name with a typo in 'hackathon') gives no indication of non-consensual synthetic media generation, deepfake creation, safety filter bypassing, or any related harmful content. Without access to the actual repository contents, code, or documentation, and based solely on the title and URL structure, this appears to be an unrelated hackathon project.",
+    "recommended_action": "No action needed. If concerns arise based on actual repository contents, re-evaluate with full context.",
+    "item": {
+      "source": "github",
+      "id": "1295446428",
+      "title": "Vishalkagade/amd-hackthaon",
+      "body": "",
+      "url": "https://github.com/Vishalkagade/amd-hackthaon",
+      "created_utc": "2026-07-09T15:13:17Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'Open-Omniscience' and minimal context provided do not suggest this is related to non-consensual synthetic media generation. Without access to the actual repository contents, the name appears to be a generic project title that could relate to knowledge systems, AI research, or other technical projects. There is no indication of deepfake generation, face-swapping for non-consensual purposes, nudification tools, or safety filter bypassing methods.",
+    "recommended_action": "No action required. If monitoring this repository, review actual code and documentation when available to confirm it contains no harmful synthetic media generation tools or tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1231685847",
+      "title": "ideotion/Open-Omniscience",
+      "body": "",
+      "url": "https://github.com/ideotion/Open-Omniscience",
+      "created_utc": "2026-05-07T07:31:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a repository for an iOS application called 'Q-Audion'. The title and description indicate it is an audio or media application for iOS. There is no indication that this project involves generating non-consensual synthetic media, deepfakes, face-swapping, or any techniques for bypassing safety filters. Without evidence of malicious intent or non-consensual media generation capabilities, this should not be flagged as harmful.",
+    "recommended_action": "No action needed. This repository does not appear to be related to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1202490352",
+      "title": "sigarone/Q-Audion-IOS",
+      "body": "IOS version of Q-Audion app",
+      "url": "https://github.com/sigarone/Q-Audion-IOS",
+      "created_utc": "2026-04-06T04:36:41Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The title 'VoxGuard' combined with the context of deepfake monitoring suggests this is likely a voice authentication or spoofing detection tool rather than a generative tool. Without access to the repository content, the name pattern ('Guard' suffix) and absence of generative language in the limited information provided indicates this is probably a defensive/protective security tool. However, confidence is medium due to inability to verify the full repository contents.",
+    "recommended_action": "Review the repository README and primary code files to confirm the tool's actual purpose. If it's a voice authentication system or speaker verification/spoofing detection tool, it should be marked safe. Only escalate if the code demonstrates voice synthesis or impersonation generation capabilities.",
+    "item": {
+      "source": "github",
+      "id": "1297777755",
+      "title": "nayefsiddique-eng/VoxGuard",
+      "body": "",
+      "url": "https://github.com/nayefsiddique-eng/VoxGuard",
+      "created_utc": "2026-07-11T20:56:19Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'video_generation' is generic and does not indicate non-consensual synthetic media generation. Without access to the actual repository contents, code, documentation, or implementation details, there is insufficient evidence to classify this as a harmful tool. The title alone could refer to legitimate video generation work (animation, synthesis, visual effects, research, etc.). Generic video generation repositories are common in computer vision and machine learning communities for lawful purposes.",
+    "recommended_action": "No action needed based on available information. If concerned about specific functionality, manual review of the repository contents would be required to determine if it contains harmful implementations targeting non-consensual deepfakes.",
+    "item": {
+      "source": "github",
+      "id": "1260226818",
+      "title": "ziyu4huang/video_generation",
+      "body": "",
+      "url": "https://github.com/ziyu4huang/video_generation",
+      "created_utc": "2026-06-05T09:20:37Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'gpt5pro-bot' appears to be a chatbot or automation tool related to GPT language models. Without access to the actual repository contents, based on the naming convention alone, this does not indicate a tool designed for non-consensual deepfake or synthetic media generation. The term 'bot' typically refers to automated chatbots or bots for various purposes, not media generation or manipulation tools. This falls outside the scope of non-consensual synthetic media creation tools that DeepGuard Observatory monitors.",
+    "recommended_action": "No action required. This does not appear to be related to non-consensual deepfake or synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1071799127",
+      "title": "Cozyasia/gpt5pro-bot",
+      "body": "",
+      "url": "https://github.com/Cozyasia/gpt5pro-bot",
+      "created_utc": "2025-10-07T20:36:13Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be an 'awesome' list repository (a common GitHub pattern for curated collections). Based on the repository name 'awesome-ai-tracker', this is likely a curated list or index of AI-related tools, resources, or projects for tracking purposes. There is no indication from the title or description that it relates to non-consensual synthetic media generation, face-swapping tools, nudification applications, or safety filter bypass techniques. Without access to the actual repository contents, but given the generic nature of 'AI tracker', this is most consistent with legitimate AI resource aggregation.",
+    "recommended_action": "No action required. This does not match the profile of harmful non-consensual deepfake generation content or related tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1170460510",
+      "title": "awpbash/awesome-ai-tracker",
+      "body": "",
+      "url": "https://github.com/awpbash/awesome-ai-tracker",
+      "created_utc": "2026-03-02T06:28:50Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title 'morphora' describes a generic 'Video & Image Face Swap Service.' Face swap technology has legitimate uses (entertainment, VFX, research) as well as potential for abuse. The provided metadata contains no indication of intent to target real people non-consensually, no explicit mention of nudify/NSFW functionality, no consent-bypass features, and no tutorial content. Without examining the actual code, README details, or stated use cases, there is insufficient evidence to classify this as a tool built specifically for non-consensual synthetic media. Per conservative guidance, this remains unflagged pending further review.",
+    "recommended_action": "Do not flag at this time. Recommend a manual reviewer inspect the full README, code, and any documentation for evidence of NSFW/nudify capabilities, targeting of real individuals, or consent-bypass features that would warrant reclassification.",
+    "item": {
+      "source": "github",
+      "id": "1298142984",
+      "title": "erenkumcuoglu/morphora",
+      "body": "Video & Image Face Swap Service",
+      "url": "https://github.com/erenkumcuoglu/morphora",
+      "created_utc": "2026-07-12T09:20:25Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title 'faceswap-bot' suggests a face-swapping tool, but no description, README content, or other details are provided. Face-swapping technology has many legitimate uses (entertainment, filters, creative projects) as well as potential for misuse in non-consensual deepfakes. With only a bare title and no evidence of intent to target real people without consent, generate non-consensual synthetic media, or bypass safety filters, there is insufficient information to classify this as harmful. Per the conservative guidance, I default to not flagging when genuinely unsure.",
+    "recommended_action": "Manual review recommended: inspect the repository's README, code, and functionality to determine whether it targets real individuals without consent or includes explicit NSFW/nudify capabilities before making a harm determination.",
+    "item": {
+      "source": "github",
+      "id": "1297433791",
+      "title": "muhammadfayzboss-a11y/faceswap-bot",
+      "body": "",
+      "url": "https://github.com/muhammadfayzboss-a11y/faceswap-bot",
+      "created_utc": "2026-07-11T12:43:13Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model based on Vision Transformer (ViT) fine-tuned for image classification to distinguish deepfakes from real images. The model is clearly designed for defensive purposes - detecting synthetic media rather than generating it. It uses standard open-source components (Google's ViT), has proper Apache 2.0 licensing, and is hosted on Hugging Face's model hub. Detection research is explicitly listed as non-harmful in the guidelines.",
+    "recommended_action": "No action needed. This is legitimate research and detection work that supports safety objectives.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:dima806/deepfake_vs_real_image_detection",
+      "title": "model: dima806/deepfake_vs_real_image_detection",
+      "body": "Pipeline: image-classification\nTags: transformers, pytorch, safetensors, vit, image-classification, base_model:google/vit-base-patch16-224-in21k, base_model:finetune:google/vit-base-patch16-224-in21k, license:apache-2.0, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/dima806/deepfake_vs_real_image_detection",
+      "created_utc": "2023-10-14T13:26:23.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The model repository is named 'deepfake' and hosts ONNX files, but there is no description, pipeline info, or documentation indicating its purpose. The name 'CountFloyd/deepfake' could relate to the roop/face-swap ecosystem (CountFloyd is associated with such projects), but face-swapping technology has legitimate uses and there is no explicit indication here that it targets real people non-consensually or is a nudify tool. With no supporting content, I cannot confidently classify it as a tool built for non-consensual synthetic media. Following the conservative guidance, this remains ambiguous.",
+    "recommended_action": "Route for manual human review to inspect the actual model files and any linked usage context; monitor for updates that clarify purpose.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:CountFloyd/deepfake",
+      "title": "model: CountFloyd/deepfake",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/CountFloyd/deepfake",
+      "created_utc": "2023-07-27T14:42:03.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model, not a tool for generating non-consensual synthetic media. The model is explicitly designed for image classification to detect deepfakes, which is a defensive/protective use case. The Apache 2.0 license and clear documentation on Hugging Face indicate this is a legitimate research and detection project. Deepfake detection models are essential for countering non-consensual synthetic media and do not enable harmful generation.",
+    "recommended_action": "No action needed. This is legitimate detection research that should be monitored positively as part of defensive AI safety infrastructure.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:prithivMLmods/Deepfake-Detect-Siglip2",
+      "title": "model: prithivMLmods/Deepfake-Detect-Siglip2",
+      "body": "Pipeline: image-classification\nTags: transformers, safetensors, siglip, image-classification, deepfake, detection, en, base_model:google/siglip2-base-patch16-224, base_model:finetune:google/siglip2-base-patch16-224, license:apache-2.0, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/prithivMLmods/Deepfake-Detect-Siglip2",
+      "created_utc": "2025-02-25T07:18:09.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model, not a tool for generating non-consensual synthetic media. The model is designed to identify and classify deepfakes in videos using computer vision techniques (ResNext50 + LSTM architecture). The tags explicitly indicate it's a detection/security tool focused on AI safety. MIT license and public documentation support legitimate research purposes. Detection models are essential for combating non-consensual deepfakes and are not themselves harmful.",
+    "recommended_action": "No action needed. This is a legitimate detection and safety tool that should be encouraged.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:Naman712/Deep-fake-detection",
+      "title": "model: Naman712/Deep-fake-detection",
+      "body": "Pipeline: video-classification\nTags: deepfake_detector, deepfake, video-classification, pytorch, computer-vision, detection, resnext50, lstm, security, ai-safety, deepfake-detection, en, dataset:custom, license:mit, region:us",
+      "url": "https://huggingface.co/Naman712/Deep-fake-detection",
+      "created_utc": "2025-08-10T15:22:43.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model using EfficientNet-B2 architecture for image classification. The model is explicitly designed to detect deepfakes and synthetic media, not generate them. The tags and description indicate it's used for identity verification, KYC (Know Your Customer), liveness detection, and anti-spoofing - all legitimate security applications. The Apache 2.0 license is openly disclosed. This is defensive security research/deployment, not a tool for creating non-consensual synthetic media.",
+    "recommended_action": "No action needed. This is a legitimate deepfake detection tool that helps prevent non-consensual synthetic media abuse.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:ThinothW/DFDS-EfficientNet-B2-Deepfake-Detection-Engine",
+      "title": "model: ThinothW/DFDS-EfficientNet-B2-Deepfake-Detection-Engine",
+      "body": "Pipeline: image-classification\nTags: pytorch, python, computer-vision, deepfake-detection, deepfakes, synthetic-media, ai-generated-images, face-swap, efficientnet, efficientnet-b2, cnn, transfer-learning, fintech, kyc, identity-verification, biometrics, liveness-detection, anti-spoofing, cybersecurity, image-classification, en, dataset:ThinothW/Deepfake-Identity-Isolated-Dataset-PreP, license:apache-2.0, region:us",
+      "url": "https://huggingface.co/ThinothW/DFDS-EfficientNet-B2-Deepfake-Detection-Engine",
+      "created_utc": "2026-06-11T16:12:08.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model designed to identify synthetic or cloned voices, not generate them. The model uses wav2vec2 architecture for audio classification to detect deepfake audio and synthetic speech. The tags explicitly indicate it's for 'deepfake-detection' and 'synthetic-speech' detection purposes. This is a defensive safety tool aligned with harm prevention, not a tool for creating non-consensual synthetic media. The Apache 2.0 license and transparent documentation further support this as legitimate research.",
+    "recommended_action": "No action needed. This is a beneficial detection tool for identifying deepfakes.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:zodumair/wav2vec2-deepfake-voice-detector",
+      "title": "model: zodumair/wav2vec2-deepfake-voice-detector",
+      "body": "Pipeline: audio-classification\nTags: transformers, safetensors, wav2vec2, audio-classification, audio, deepfake-detection, synthetic-speech, tts, voice-cloning, en, dataset:garystafford/deepfake-audio-detection, base_model:Gustking/wav2vec2-large-xlsr-deepfake-audio-classification, base_model:finetune:Gustking/wav2vec2-large-xlsr-deepfake-audio-classification, license:apache-2.0, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/zodumair/wav2vec2-deepfake-voice-detector",
+      "created_utc": "2026-07-11T04:48:39.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model (ResNetInceptionV1-based) hosted on Hugging Face with an Apache 2.0 license. The model is designed to identify and detect deepfakes rather than generate non-consensual synthetic media. Detection tools are legitimate safety and security research resources that help identify manipulated content. The Apache 2.0 license indicates proper open-source licensing.",
+    "recommended_action": "No action required. This is a legitimate detection/research tool that supports safety efforts against deepfakes.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:aaronespasa/deepfake-detection-resnetinceptionv1",
+      "title": "model: aaronespasa/deepfake-detection-resnetinceptionv1",
+      "body": "Pipeline: \nTags: license:apache-2.0, region:us",
+      "url": "https://huggingface.co/aaronespasa/deepfake-detection-resnetinceptionv1",
+      "created_utc": "2022-06-10T11:34:46.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The model is named 'deepfake' but there is no description, pipeline information, or any details indicating its purpose. There's no evidence it targets real people non-consensually, generates explicit content, or is designed for nudify/face-swap abuse. The name alone is insufficient to determine intent—it could be a detection model, a research artifact, or a general face-swap demo. License is unknown, which adds ambiguity but doesn't establish harm.",
+    "recommended_action": "Do not flag at this time. Add to a watchlist for manual review if more metadata, model card content, or usage examples become available that clarify the model's purpose.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:charlesgleizes/deepfake",
+      "title": "model: charlesgleizes/deepfake",
+      "body": "Pipeline: \nTags: license:unknown, region:us",
+      "url": "https://huggingface.co/charlesgleizes/deepfake",
+      "created_utc": "2022-09-15T19:16:03.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a wav2vec2 model fine-tuned for audio classification with the explicit purpose of detecting deepfakes. The model is trained on ASVspoof2019 dataset (a standard benchmark for spoofed and synthetic speech detection), has an Apache 2.0 license, and the pipeline tag indicates it's for audio-classification. This is a detection/research tool designed to identify synthetic audio, not generate it. The naming convention 'finetuned-deepfake' refers to deepfake detection capability, not generation.",
+    "recommended_action": "No action needed. This is a legitimate detection model that supports safety research and monitoring of synthetic media threats.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:HyperMoon/wav2vec2-base-960h-finetuned-deepfake",
+      "title": "model: HyperMoon/wav2vec2-base-960h-finetuned-deepfake",
+      "body": "Pipeline: audio-classification\nTags: transformers, pytorch, tensorboard, wav2vec2, audio-classification, generated_from_trainer, dataset:asvspoof2019, license:apache-2.0, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/HyperMoon/wav2vec2-base-960h-finetuned-deepfake",
+      "created_utc": "2022-09-18T08:03:47.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a wav2vec2 model fine-tuned for deepfake detection, not generation. The model is built on a standard speech recognition architecture (wav2vec2-base-960h) and appears designed to identify or classify deepfake audio content. The naming convention 'finetuned-deepfake' indicates a classification/detection task rather than a generation tool. No evidence suggests this model generates non-consensual synthetic media.",
+    "recommended_action": "No action required. This is a legitimate research/detection tool.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:HyperMoon/wav2vec2-base-960h-finetuned-deepfake-v1.1",
+      "title": "model: HyperMoon/wav2vec2-base-960h-finetuned-deepfake-v1.1",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/HyperMoon/wav2vec2-base-960h-finetuned-deepfake-v1.1",
+      "created_utc": "2022-09-19T04:59:43.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a general-purpose face-swap LoRA adapter for the FLUX.2-klein image generation model. Face-swap tools have legitimate uses (entertainment, creative projects, VFX) and this listing contains no indication it targets non-consensual media, real specific individuals without consent, or explicit/sexual content (no 'nudify', NSFW, or targeting language). The description is purely technical metadata about the pipeline and base model. While face-swap technology can be misused, this listing alone shows no evidence of harmful intent or purpose. There is some inherent ambiguity since face-swap tools carry dual-use risk, but nothing here meets the threshold for flagging.",
+    "recommended_action": "No action required; monitor if model card is later updated with NSFW or targeting-specific content or example outputs of identifiable real people.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:ilkerzgi/face-swap",
+      "title": "model: ilkerzgi/face-swap",
+      "body": "Pipeline: image-to-image\nTags: diffusers, lora, face-swap, flux, flux-2-klein, fal, safetensors, image-generation, image-to-image, base_model:black-forest-labs/FLUX.2-klein-9B, base_model:adapter:black-forest-labs/FLUX.2-klein-9B, license:other, region:us",
+      "url": "https://huggingface.co/ilkerzgi/face-swap",
+      "created_utc": "2026-04-13T17:50:11.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "While the repository name 'faceswap' could indicate a face-swapping tool, the provided information lacks sufficient context to determine its purpose or implementation. The listing shows it has an MIT license and is hosted on Hugging Face, a legitimate ML platform. Without access to the model's documentation, code, actual capabilities, or evidence of non-consensual use targeting, we cannot definitively classify this as harmful. It could be a legitimate computer vision research model, an entertainment tool with proper safeguards, or a detection/analysis tool. The absence of explicit language about non-consensual deepfakes and the presence of a standard open-source license suggest this is likely a general-purpose tool rather than one specifically designed for creating non-consensual synthetic media.",
+    "recommended_action": "Review the full repository documentation and code on Hugging Face to determine the model's actual purpose, intended use cases, and whether it includes safeguards or consent mechanisms. If documentation confirms non-consensual targeting capabilities with no friction, escalate for further investigation.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:codewhizamit/faceswap",
+      "title": "model: codewhizamit/faceswap",
+      "body": "Pipeline: \nTags: license:mit, region:us",
+      "url": "https://huggingface.co/codewhizamit/faceswap",
+      "created_utc": "2026-07-05T17:21:11.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": true,
+    "category": "harmful_model_collection",
+    "confidence": "medium",
+    "reasoning": "The model name 'webui-faceswap-unlocked' strongly suggests a face-swap tool with safety restrictions removed ('unlocked'), which is a common pattern for tools enabling non-consensual synthetic media of real people. The term 'unlocked' implies bypassing content filters or NSFW restrictions typically present in faceswap extensions. However, the description is sparse (no explicit statement of purpose), so confidence is medium rather than high.",
+    "recommended_action": "Flag for human review; investigate the model card and repository for evidence of NSFW/safety-filter removal and intended use for non-consensual face-swapping.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:ninjawick/webui-faceswap-unlocked",
+      "title": "model: ninjawick/webui-faceswap-unlocked",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/ninjawick/webui-faceswap-unlocked",
+      "created_utc": "2023-06-10T07:58:57.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a HuggingFace model titled 'face_swap' with no description, pipeline details, or documentation. Face-swap technology has many legitimate uses (entertainment, research, licensed content) and there is no indication this tool is built or intended for generating non-consensual synthetic media of real people. The absence of any explicit targeting of real individuals without consent, nudify functionality, or filter-bypass methods means it does not meet the flagging criteria. Being conservative given the sparse metadata.",
+    "recommended_action": "No action required, but could be revisited if additional metadata, documentation, or usage examples emerge indicating non-consensual intent.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:supArs/face_swap",
+      "title": "model: supArs/face_swap",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/supArs/face_swap",
+      "created_utc": "2023-09-14T17:34:47.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a generic face-swapper model with an ONNX tag and no description, pipeline details, or documentation. Face-swapping technology has many legitimate uses (entertainment, VFX, research, privacy anonymization) and there is no indication this tool is built or marketed for non-consensual synthetic media targeting real people. There is no explicit sexual/nudify purpose, no targeting of specific individuals, and no filter-bypass content. The minimal metadata makes intent genuinely ambiguous, so I default to not harmful with low confidence.",
+    "recommended_action": "Leave unflagged but consider manual review if additional metadata, model card content, or NSFW/nudify indicators emerge.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:tsi-org/face-swapper",
+      "title": "model: tsi-org/face-swapper",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/tsi-org/face-swapper",
+      "created_utc": "2023-11-18T20:38:23.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a face-swapping ONNX model with minimal metadata. Face-swapping technology has legitimate uses (entertainment, VFX, research) and the listing provides no description, target, or indication that it is designed for non-consensual synthetic media of real people. Without evidence of intent to target specific individuals without consent or NSFW/nudify functionality, there is not enough to classify it as harmful. The sparse metadata and generic username create some ambiguity, but the tool itself is generic face-swap tech.",
+    "recommended_action": "Monitor; no action needed unless additional context (e.g. NSFW capability, targeting real individuals, or non-consensual use documentation) emerges. Could be reviewed periodically given face-swap models' dual-use nature.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:kiddobellamy/faceswapping_kiddo",
+      "title": "model: kiddobellamy/faceswapping_kiddo",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/kiddobellamy/faceswapping_kiddo",
+      "created_utc": "2024-01-04T15:12:39.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The model is titled 'faceswap' with no description, pipeline info, or documentation beyond a region tag. Face-swap technology has many legitimate uses (entertainment, VFX, research) and there is no indication this is specifically built for or marketed toward non-consensual synthetic media of real people. Without evidence of intent to produce non-consensual content, no NSFW capability described, and no targeting of real individuals, there is insufficient basis to flag. The ambiguity lies in the generic nature of face-swap tools, which can be misused, but the listing itself provides no harmful indicators.",
+    "recommended_action": "No action required; optionally monitor for updated model card content, sample outputs, or usage documentation that could reveal non-consensual intent.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:nettyfy/faceswap",
+      "title": "model: nettyfy/faceswap",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/nettyfy/faceswap",
+      "created_utc": "2024-02-12T12:43:48.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a face-swap ONNX model (inswapper128), a general-purpose tool that has both legitimate uses (entertainment, VFX, research) and potential for misuse. The listing provides no description, pipeline info, or stated purpose targeting non-consensual content of real people. Face-swap models alone are not inherently built for non-consensual synthetic media, and inswapper128 is a widely available general model. There is insufficient evidence that this specific upload is assembled or intended for non-consensual deepfake generation. Given the ambiguity and lack of context, defaulting to not harmful with low confidence.",
+    "recommended_action": "No action required, but monitor for any associated description, usage examples, or linked tutorials indicating intent to target real individuals without consent.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:Olek03282255/faceswap_inswapper128_MVP",
+      "title": "model: Olek03282255/faceswap_inswapper128_MVP",
+      "body": "Pipeline: \nTags: onnx, en, region:us",
+      "url": "https://huggingface.co/Olek03282255/faceswap_inswapper128_MVP",
+      "created_utc": "2024-02-16T06:18:09.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap model hosted on HuggingFace with minimal metadata (only ONNX format and region tags). Face-swapping technology has many legitimate uses (entertainment, VFX, research) and there is no indication in the title, description, or tags that this model is specifically built or intended for generating non-consensual synthetic media of real people. The description is empty and provides no evidence of harmful intent, targeting of specific individuals, or NSFW/nudify functionality. Without further evidence of malicious purpose, this should not be flagged, though the ambiguous nature of face-swap tools warrants low confidence.",
+    "recommended_action": "No action required at this time. Optionally monitor for updates to the model card, usage examples, or associated content that might indicate non-consensual use targeting real individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:evenedge/face-swap",
+      "title": "model: evenedge/face-swap",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/evenedge/face-swap",
+      "created_utc": "2024-04-08T19:04:41.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The model is a generic face-swap model with an empty description, no pipeline details, no tags beyond region, and no indication it targets real people without consent or generates explicit/non-consensual content. Face-swapping technology has many legitimate uses (entertainment, VFX, research). Without any evidence of intent to create non-consensual synthetic media or explicit content, there is not enough information to flag this as harmful. The ambiguity is that face-swap tools can be misused, but this listing alone provides no such indication.",
+    "recommended_action": "No action needed based on current information; optionally monitor if additional metadata (explicit content, targeting named individuals, or nudify functionality) later appears.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:arpansharma/face-swap",
+      "title": "model: arpansharma/face-swap",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/arpansharma/face-swap",
+      "created_utc": "2024-04-26T11:36:53.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a general-purpose face-swap/head-swap LoRA adapter built on Qwen-Image-Edit, MIT licensed. Face-swap tools have legitimate uses (creative editing, entertainment, ComfyUI workflows) and this listing contains no indication it targets specific real people, non-consensual sexual content, or is designed for producing harmful synthetic media. There is no explicit intent or content aimed at non-consensual deepfakes described here. However, general face-swap technology can be misused, so there is inherent ambiguity, but the listing itself does not meet the bar for a nonconsensual generation tool.",
+    "recommended_action": "No action required; leave unflagged but note that general face-swap tools carry dual-use potential and could be periodically re-reviewed if usage patterns or model card content indicate targeting of real individuals or NSFW nonconsensual output.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:Alissonerdx/BFS-Best-Face-Swap",
+      "title": "model: Alissonerdx/BFS-Best-Face-Swap",
+      "body": "Pipeline: image-to-image\nTags: diffusers, lora, qwen-image-edit, face-swap, head-swap, image-editing, ai-generated, comfyui, bfs, flux 2, flux, klein, image-to-image, en, base_model:Qwen/Qwen-Image-Edit-2511, base_model:adapter:Qwen/Qwen-Image-Edit-2511, license:mit, region:us",
+      "url": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap",
+      "created_utc": "2025-11-07T09:50:28.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a general-purpose face-swap/head-swap video model built on diffusers/LoRA technology. Face-swap tools have legitimate uses (entertainment, VFX, content creation) and this listing contains no indication it targets specific real people without consent, nor does it advertise non-consensual or explicit/nudify use. The name 'Best Face Swap Video' describes a generic capability. While face-swap tech can be misused, this model card as described does not itself constitute a non-consensual generation tool or provide tutorials for such. There is ambiguity because face-swap models are dual-use, so confidence is low.",
+    "recommended_action": "No action required; monitor for downstream usage descriptions or examples that indicate targeting of real individuals without consent or explicit/nudify applications, which would warrant re-evaluation.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:Alissonerdx/BFS-Best-Face-Swap-Video",
+      "title": "model: Alissonerdx/BFS-Best-Face-Swap-Video",
+      "body": "Pipeline: image-to-video\nTags: diffusers, ltx-2, ic-lora, head-swap, video-to-video, image-to-video, bfs, lora, base_model:ByteDance/Bernini-R, base_model:adapter:ByteDance/Bernini-R, license:other, region:us",
+      "url": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap-Video",
+      "created_utc": "2026-01-24T17:13:26.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a HuggingFace model titled 'Video-Face-Swap' with essentially no description, empty pipeline field, and only a generic region tag. Face-swap technology has legitimate uses (film, VFX, research, entertainment) as well as potential for non-consensual deepfakes. There is no evidence in the metadata indicating the model is built or intended for creating non-consensual synthetic media of real people, no target individuals, no NSFW/nudify framing, and no filter-bypass content. With no substantive information, there is insufficient basis to flag it as harmful, though the generic face-swap nature warrants some ambiguity.",
+    "recommended_action": "Do not flag at this time; monitor for additional metadata, model card updates, or usage context that indicates non-consensual targeting or NSFW intent, and re-review if such signals appear.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:yoshibomball123/Video-Face-Swap",
+      "title": "model: yoshibomball123/Video-Face-Swap",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/yoshibomball123/Video-Face-Swap",
+      "created_utc": "2025-03-08T17:42:27.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The model namespace 'nudifyme' and model name 'instant_come_sdxl' strongly indicate a purpose-built tool for generating non-consensual sexual/nude synthetic imagery. The 'nudify' terminology is directly associated with nudification apps that create non-consensual explicit content of real people. Despite the apache-2.0 license tag, the naming and apparent function clearly point to a non-consensual generation tool, not a legitimate or consent-documented project.",
+    "recommended_action": "Flag for review and report to platform (Hugging Face) for potential Terms of Service violation regarding non-consensual intimate imagery generation. Escalate as high priority.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:nudifyme/instant_come_sdxl",
+      "title": "model: nudifyme/instant_come_sdxl",
+      "body": "Pipeline: \nTags: license:apache-2.0, region:us",
+      "url": "https://huggingface.co/nudifyme/instant_come_sdxl",
+      "created_utc": "2025-07-24T02:36:55.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The model is hosted under the username 'nudifyme' with the name 'flux-bdy', strongly indicating it is a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The naming convention directly aligns with known non-consensual deepfake/nudify tooling. While the description fields are empty, the account name and model name provide clear signals of intent. The MIT license does not mitigate the harm, as it does not document consent.",
+    "recommended_action": "Flag for review and report to the hosting platform (Hugging Face) for potential terms-of-service violation related to non-consensual intimate imagery generation.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:nudifyme/flux-bdy",
+      "title": "model: nudifyme/flux-bdy",
+      "body": "Pipeline: \nTags: license:mit, region:us",
+      "url": "https://huggingface.co/nudifyme/flux-bdy",
+      "created_utc": "2025-07-25T17:18:12.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "reasoning": "The model is hosted under an account named 'Undressee' with a model named after what appears to be a specific person's name ('Ananya'). The account name strongly implies a 'nudify'/undress tool, and naming a model after a specific individual suggests it targets a real person without consent. While the description is empty and no pipeline details are provided, the naming pattern is highly consistent with non-consensual synthetic media generation tools. Confidence is medium due to the sparse metadata.",
+    "recommended_action": "Escalate for human review; verify whether the model is a nudify/undress tool targeting a real individual and report to the platform for potential takedown if confirmed.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:Undressee/Ananya",
+      "title": "model: Undressee/Ananya",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/Undressee/Ananya",
+      "created_utc": "2024-12-29T17:13:41.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a Hugging Face space for deepfake detection, not generation. The title explicitly indicates it's a detection tool/pipeline, which is a legitimate research and safety application designed to identify synthetic media rather than create it. Deepfake detection systems are important defensive tools in the AI safety ecosystem. The use of Gradio (a demo framework) suggests this is a publicly accessible research tool or demonstration for academic/detection purposes.",
+    "recommended_action": "No action needed. This is a legitimate deepfake detection resource that supports safety and research objectives.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:aaronespasa/deepfake-detection",
+      "title": "space: aaronespasa/deepfake-detection",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/aaronespasa/deepfake-detection",
+      "created_utc": "2022-06-10T11:28:57.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a Hugging Face Space for deepfake detection, not generation. The space appears to be a Gradio-based tool designed to identify or detect deepfake images, which is a legitimate safety and research application. Detection tools help defend against non-consensual synthetic media rather than enable its creation. The repository name explicitly references 'Detection' rather than generation or creation.",
+    "recommended_action": "No action needed. This is a legitimate detection/research tool that supports safety objectives.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:KoreaPeter/DeepFake-Image-Detection",
+      "title": "space: KoreaPeter/DeepFake-Image-Detection",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/KoreaPeter/DeepFake-Image-Detection",
+      "created_utc": "2026-06-29T06:26:43.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a Hugging Face Space that hosts an EfficientNetV2-based deepfake detection model. The purpose is clearly to identify and detect deepfakes in images, not to generate them. This represents legitimate defensive security research and AI safety work aimed at detecting non-consensual synthetic media rather than enabling its creation. The use of Gradio indicates it's an interactive demo for detection purposes.",
+    "recommended_action": "No action needed. This is a beneficial safety tool for detecting deepfakes.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Ron0420/EfficientNetV2_Deepfakes_Image_Detector",
+      "title": "space: Ron0420/EfficientNetV2_Deepfakes_Image_Detector",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Ron0420/EfficientNetV2_Deepfakes_Image_Detector",
+      "created_utc": "2022-03-02T23:29:35.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection tool, not a generation tool. The EfficientNetV2 model is being used to identify and detect deepfakes in videos, which is a legitimate safety and research application. The Hugging Face Space provides an interface for analyzing videos to determine if they contain synthetic media. Detection tools are essential for combating non-consensual deepfakes and should be supported.",
+    "recommended_action": "No action needed. This is a beneficial security and detection resource.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Ron0420/EfficientNetV2_Deepfakes_Video_Detector",
+      "title": "space: Ron0420/EfficientNetV2_Deepfakes_Video_Detector",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Ron0420/EfficientNetV2_Deepfakes_Video_Detector",
+      "created_utc": "2022-03-02T23:29:35.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection tool/space, not a generation tool. The artspark/deepfake-detect project appears to be designed to identify or classify deepfakes, which is a defensive/protective technology. Detection tools are explicitly listed as non-harmful in the guidelines. The Gradio-based interface suggests it's a public research/demonstration tool for analyzing media rather than creating non-consensual synthetic content.",
+    "recommended_action": "No action needed. This is a legitimate detection/research resource.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:artspark/deepfake-detect",
+      "title": "space: artspark/deepfake-detect",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/artspark/deepfake-detect",
+      "created_utc": "2022-03-02T23:29:35.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The metadata is extremely sparse—only a title referencing 'deepfake', a streamlit tag, and no description of purpose or functionality. There is no indication that this is a tool for non-consensual synthetic media of real people, no NSFW/nudify references, and no tutorials or filter-bypass content. The name 'deepfake' alone is insufficient; it could equally be a detection demo, an academic project, or a generic face-swap experiment. Given the lack of substantiating detail, I default to not harmful with low confidence and note the ambiguity.",
+    "recommended_action": "Manual review recommended: inspect the actual Space content/README to determine whether it generates synthetic media of real people or is a detection/research demo before classifying.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Intae/deepfake",
+      "title": "space: Intae/deepfake",
+      "body": "Pipeline: \nTags: streamlit, region:us",
+      "url": "https://huggingface.co/spaces/Intae/deepfake",
+      "created_utc": "2022-09-06T04:05:28.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection/classification tool hosted on Hugging Face Spaces. The model is designed to identify and classify deepfakes, which is a safety and research application. Detection tools help prevent the spread of non-consensual synthetic media by identifying manipulated content. This falls squarely within legitimate academic and safety research domains, not content creation for non-consensual purposes.",
+    "recommended_action": "No action needed. This is a beneficial detection tool that supports content moderation and research efforts.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Hamidreza-Hashemp/DeepFakeClassifier",
+      "title": "space: Hamidreza-Hashemp/DeepFakeClassifier",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Hamidreza-Hashemp/DeepFakeClassifier",
+      "created_utc": "2022-12-25T12:32:40.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection project hosted on Hugging Face Spaces. The title and description clearly indicate it is designed to DETECT deepfakes rather than generate them. The use of Gradio suggests it's an interactive tool for analysis/detection purposes. Detection research is legitimate security and safety work that helps identify synthetic media, not create it. No evidence of any tool for non-consensual generation or safety filter bypass.",
+    "recommended_action": "No action needed. This is legitimate deepfake detection research/tooling.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:ericskh2/deepfake-detection-project",
+      "title": "space: ericskh2/deepfake-detection-project",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/ericskh2/deepfake-detection-project",
+      "created_utc": "2023-01-28T16:10:32.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection tool published on HuggingFace Spaces. The DFDC (Deepfake Detection Challenge) dataset and models are academic research resources designed to identify and detect synthetic media, not to create it. The Gradio interface indicates this is a public demo for detection/classification purposes. This falls squarely within legitimate deepfake detection research and defense research.",
+    "recommended_action": "No action needed. This is a legitimate research and detection tool.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:greenteaboom/dfdc-deepfake-detection",
+      "title": "space: greenteaboom/dfdc-deepfake-detection",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/greenteaboom/dfdc-deepfake-detection",
+      "created_utc": "2023-02-10T11:10:50.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection project, not a generation tool. The title explicitly indicates it's a 'deepfake_detection_reimplementation' - meaning it's designed to identify and detect synthetic media, not create it. The use of Gradio suggests an interactive demo for detection purposes. Detection tools are essential for AI safety and are explicitly excluded from the harmful category per guidelines.",
+    "recommended_action": "No action needed. This is legitimate research/detection work that contributes to safety infrastructure.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:jungwoonshin/deepfake_detection_reimplementation",
+      "title": "space: jungwoonshin/deepfake_detection_reimplementation",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/jungwoonshin/deepfake_detection_reimplementation",
+      "created_utc": "2023-02-24T09:18:29.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio space with minimal metadata (no pipeline description, no README content, only 'gradio' and 'region:us' tags). Face-swap tools have legitimate uses (entertainment, photo editing, research) and there is no evidence this tool targets real people non-consensually, produces explicit/nudify content, or is assembled for abuse. Without further information indicating malicious intent or non-consensual sexual content, there is insufficient basis to flag it. The ambiguity lies in the fact that any face-swap tool could theoretically be misused, but the schema requires evidence of harmful purpose which is absent here.",
+    "recommended_action": "Do not flag at this time. Optionally queue for manual review to inspect the actual pipeline/app functionality and any generated outputs, since generic face-swap tools warrant periodic monitoring for potential misuse.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:kongyiji/face-swap",
+      "title": "space: kongyiji/face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/kongyiji/face-swap",
+      "created_utc": "2024-08-18T13:23:21.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a Hugging Face Space - a hosted application interface. Without additional context in the title and description provided, this is minimal information. Face-swap technology itself has legitimate uses including entertainment, film effects, and research. The listing alone does not indicate it is designed for or being used for non-consensual generation of synthetic media of real people. The entry lacks evidence of tutorials, bypass methods, or explicit targeting of non-consensual use. A Hugging Face Space with standard tags and no additional harmful context cannot be conclusively determined to be a non-consensual deepfake tool based solely on the name and generic metadata shown.",
+    "recommended_action": "Monitor for updates or changes to the Space description and terms of use. If evidence emerges that this tool is being actively promoted for non-consensual use, or if the description/documentation explicitly encourages non-consensual media generation, re-flag for review. Standard face-swap technology is dual-use and requires evidence of harmful intent or purpose to warrant flagging.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:felixrosberg/face-swap",
+      "title": "space: felixrosberg/face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/felixrosberg/face-swap",
+      "created_utc": "2022-03-02T23:29:35.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a Hugging Face Space titled 'Faceswaper' with minimal metadata (gradio, region:us) and an empty pipeline description. Face-swap tools have legitimate uses (entertainment, research, novelty) and there is no indication in the available information that this tool is built or intended for non-consensual synthetic media of real people, nor any evidence of targeting specific individuals or producing explicit content. Face swapping alone is not inherently harmful under the stated criteria. Given the sparse description, this is ambiguous, but per conservative guidance it should not be flagged without clearer evidence of harmful purpose.",
+    "recommended_action": "Do not flag at this time; optionally monitor or manually review the Space's actual functionality (e.g., whether it targets specific individuals or generates explicit content) to reassess if more detail becomes available.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:SS86910/Faceswaper",
+      "title": "space: SS86910/Faceswaper",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/SS86910/Faceswaper",
+      "created_utc": "2024-05-04T04:20:23.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space using Roop, a face-swap tool. While face-swapping technology can be misused for non-consensual deepfakes, the listing provides no description, no indication of targeting real people without consent, no NSFW/nudify purpose, and no explicit intent to create harmful content. Roop is a general-purpose face-swap library used for many legitimate purposes. Without additional context indicating malicious intent or non-consensual targeting, there is insufficient evidence to flag this as harmful. The ambiguity lies in the dual-use nature of face-swap tools.",
+    "recommended_action": "Monitor but do not flag. Consider reviewing if the Space later adds NSFW capabilities, targeting of specific real individuals, or lacks consent documentation. Manual review could confirm the actual pipeline contents given the empty description.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Whalberg01/Face-Swap-Roop",
+      "title": "space: Whalberg01/Face-Swap-Roop",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Whalberg01/Face-Swap-Roop",
+      "created_utc": "2024-10-05T08:51:21.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio space with minimal description. Face-swap technology has legitimate uses (entertainment, creative projects) and there is no indication in the sparse metadata that it targets real people non-consensually or is intended for producing NSFW/nudify content. Without evidence of malicious intent, consent violations, or safety-filter bypass, it does not meet the threshold for flagging. However, confidence is low because general face-swap tools can be misused and the description provides little context.",
+    "recommended_action": "Do not flag at this time; optionally add to a watchlist for periodic review given face-swap tools' potential for misuse, but no immediate action warranted based on available metadata.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:tonyassi/face-swap",
+      "title": "space: tonyassi/face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/tonyassi/face-swap",
+      "created_utc": "2023-09-01T04:47:52.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio space with virtually no description (empty pipeline field, only 'gradio' and region tags). Face-swap tools have many legitimate uses (entertainment, research, creative projects) and there is no evidence this is targeting real people non-consensually or generating explicit/nudify content. Without further indication of malicious intent or NCII focus, it does not meet the flagging criteria. The ambiguity is that face-swap tools can be misused, but the metadata alone doesn't establish harmful purpose.",
+    "recommended_action": "No action needed based on current metadata; optionally monitor if additional context (README, model card, or usage indicating targeting of real individuals or explicit content) emerges.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:LucanDerLurch/face-swap",
+      "title": "space: LucanDerLurch/face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/LucanDerLurch/face-swap",
+      "created_utc": "2025-03-04T15:40:03.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic Gradio-based faceswap Space with minimal metadata. Face-swapping technology has many legitimate uses (entertainment, research, consensual creative projects), and there is no description, tags, or content indicating it is built or marketed for non-consensual synthetic media of real people, nudification, or safety-filter bypass. Without further evidence of harmful intent or targeting, this does not meet the bar for flagging. The ambiguity is that faceswap tools can be misused, but the listing itself provides no indication of harmful purpose.",
+    "recommended_action": "Do not flag at this time. Optionally monitor for updated descriptions, example outputs, or usage patterns that suggest non-consensual targeting of real individuals; escalate for manual review if such evidence appears.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Lazzy6666/faceswap",
+      "title": "space: Lazzy6666/faceswap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Lazzy6666/faceswap",
+      "created_utc": "2025-06-07T18:02:29.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a HuggingFace Space titled 'faceswap' with minimal metadata (empty pipeline description, only docker and region tags). Face-swapping technology has legitimate uses (entertainment, VFX, research demos) and the listing provides no evidence that it targets real people without consent or generates non-consensual explicit content. There is no description indicating intent to create non-consensual synthetic media, no explicit/nudify functionality mentioned, and no safety-filter-bypass content. Given the sparse information and generic name, there is not enough to conclude harm. The ambiguity is that 'faceswap' tools can be misused, but absent evidence of non-consensual targeting, I default to not flagging.",
+    "recommended_action": "No action required at this time; optionally add to a low-priority watchlist for manual review if the Space later publishes explicit or non-consensual targeting functionality.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:skelon/faceswap",
+      "title": "space: skelon/faceswap",
+      "body": "Pipeline: \nTags: docker, region:us",
+      "url": "https://huggingface.co/spaces/skelon/faceswap",
+      "created_utc": "2026-04-28T15:38:03.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly titled 'nsfw-video-face-swap-free' and tagged 'not-for-all-audiences', indicating a working Gradio-hosted tool designed to swap faces into NSFW video content. This combination (face-swap + NSFW + no consent documentation) is the hallmark of a non-consensual synthetic media generation tool, enabling users to place real people's faces into explicit content without consent.",
+    "recommended_action": "Flag for review and report to Hugging Face for policy violation (non-consensual intimate imagery). Add to monitored list of nudify/face-swap tools.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:face-swap/nsfw-video-face-swap-free",
+      "title": "space: face-swap/nsfw-video-face-swap-free",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/face-swap/nsfw-video-face-swap-free",
+      "created_utc": "2026-04-17T02:50:47.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "reasoning": "The Hugging Face Space is titled 'Face_Swap_Uncensored' and is tagged 'not-for-all-audiences', indicating it is a face-swapping tool oriented toward adult/uncensored content. Face-swap tools combined with uncensored/NSFW positioning are commonly used to generate non-consensual synthetic media of real people, with no indication of consent documentation, licensing, or safeguards. The empty pipeline description limits certainty, so confidence is medium rather than high.",
+    "recommended_action": "Flag for human review; investigate whether the Space applies any consent verification or NSFW safeguards, and consider reporting to Hugging Face for potential ToS violations regarding non-consensual intimate imagery.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Agung1453/Face_Swap_Uncensored",
+      "title": "space: Agung1453/Face_Swap_Uncensored",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/Agung1453/Face_Swap_Uncensored",
+      "created_utc": "2025-08-17T13:17:20.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space for a face-swap tool (FaceFusion/Hyperswap), which is general-purpose face-swapping technology. The description is essentially empty with no indication that it is built or marketed for non-consensual synthetic media of real people, nor does it advertise nudify/NSFW functionality or filter bypass. Face-swap tools have legitimate uses (entertainment, VFX, research), so absent explicit intent toward non-consensual content, this cannot be confidently classified as harmful. However, the lack of description and the deployable nature of the tool create ambiguity worth noting.",
+    "recommended_action": "Do not flag automatically, but queue for periodic human review given face-swap tools' potential for misuse; monitor for any added NSFW or non-consent-related content.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:V0pr0S/FaceFusion-Face-Swap-Hyperswap",
+      "title": "space: V0pr0S/FaceFusion-Face-Swap-Hyperswap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/V0pr0S/FaceFusion-Face-Swap-Hyperswap",
+      "created_utc": "2025-12-22T18:51:37.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space for a face-swap pipeline built on Flux. Face-swap tools have legitimate uses (creative editing, research, entertainment) and there is no indication in the minimal metadata that this tool is designed for non-consensual synthetic media of real people, targets specific individuals, or produces explicit/nudify content. The description is essentially empty ('Pipeline:') with only generic gradio tags. While generic face-swap tools can be misused, the available information does not establish harmful intent or capability specific to non-consensual sexual/deepfake content. Ambiguity remains because face-swap technology can be repurposed, but there is insufficient evidence to flag.",
+    "recommended_action": "No action required based on current metadata; optionally monitor the Space for updates or documentation that could indicate non-consensual or explicit use, and review the actual model card/README if available for more context.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:linoyts/Flux2-Klein-Face-Swap",
+      "title": "space: linoyts/Flux2-Klein-Face-Swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/linoyts/Flux2-Klein-Face-Swap",
+      "created_utc": "2026-02-03T14:43:29.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a Hugging Face Space titled 'Flux2-Klein-Face-Swap' with minimal metadata (gradio, mcp-server tags) and no description of purpose, target use, or consent controls. Face-swap tools have legitimate uses (entertainment, research, consensual creative work) and there is no explicit indication this is built to target real people without consent or to produce non-consensual/explicit content. Without further evidence of harmful intent or NSFW/nudify functionality, the conservative call is not to flag, though the generic face-swap nature warrants monitoring.",
+    "recommended_action": "Do not flag at this time; queue for manual review to inspect the pipeline README, example outputs, and any NSFW or non-consensual targeting capabilities before deciding.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:laruss5/Flux2-Klein-Face-Swap",
+      "title": "space: laruss5/Flux2-Klein-Face-Swap",
+      "body": "Pipeline: \nTags: gradio, mcp-server, region:us",
+      "url": "https://huggingface.co/spaces/laruss5/Flux2-Klein-Face-Swap",
+      "created_utc": "2026-02-16T18:16:50.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space for video face-swapping with minimal description (no pipeline details, just a gradio tag). Face-swap technology has many legitimate uses (entertainment, VFX, research) and there is no indication here that it targets real people without consent, produces explicit/non-consensual content, or provides tutorials for bypassing safety filters. The listing lacks the specific harmful signals (nudify functionality, targeting specific individuals, safety-filter bypass) required to flag. Given the ambiguity and sparse description, defaulting to not harmful with low confidence.",
+    "recommended_action": "No action required, but consider periodic monitoring since generic face-swap tools can be misused; review if the Space is updated with explicit non-consensual or nudify functionality.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:tonyassi/video-face-swap",
+      "title": "space: tonyassi/video-face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/tonyassi/video-face-swap",
+      "created_utc": "2023-10-29T18:47:02.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a HuggingFace Space using InsightFace for face swapping on video via a Streamlit app. Face-swap technology can be dual-use, but the description is sparse and provides no evidence of intent to target real people without consent, no explicit sexual/nudify content, and no safety-filter bypass. Face swapping has many legitimate uses (entertainment, research, effects). Without indications of non-consensual or explicit-content targeting, there is insufficient basis to flag it as harmful. The dual-use nature makes this ambiguous, hence low confidence.",
+    "recommended_action": "Do not flag automatically; queue for human review to assess whether the tool includes NSFW/nudify capabilities or is marketed for non-consensual use of real individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Infeksion/InsightFace-Face_Swapper-on_video",
+      "title": "space: Infeksion/InsightFace-Face_Swapper-on_video",
+      "body": "Pipeline: \nTags: streamlit, region:us",
+      "url": "https://huggingface.co/spaces/Infeksion/InsightFace-Face_Swapper-on_video",
+      "created_utc": "2025-12-17T10:39:09.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly named 'DeepNude', which is a well-known category of 'nudify' tools designed to generate non-consensual synthetic nude images of real people. The name directly references the original DeepNude application that gained notoriety for this exact purpose. Combined with a Gradio interface (indicating a deployable, working tool), this strongly indicates a non-consensual synthetic media generation tool. The sparse description does not provide any consent documentation, licensing, or research disclaimer that would mitigate the harm.",
+    "recommended_action": "Flag for review and report to Hugging Face for likely Terms of Service violation regarding non-consensual intimate imagery. Escalate to human moderators for confirmation and potential takedown request.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:liztochek/DeepNude",
+      "title": "space: liztochek/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/liztochek/DeepNude",
+      "created_utc": "2023-12-21T10:34:42.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'DeepNude', which directly references the notorious 'nudify' application designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates a tool built for exactly this harmful purpose. While the description is empty, the explicit branding as 'DeepNude' (a well-known non-consensual nudification tool) leaves little ambiguity about its intended function.",
+    "recommended_action": "Flag for immediate review and likely removal/reporting to the platform as a non-consensual synthetic media generation tool. Verify the Space's actual functionality via the Gradio interface to confirm.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Zacharytrackmaster/DeepNude",
+      "title": "space: Zacharytrackmaster/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Zacharytrackmaster/DeepNude",
+      "created_utc": "2024-07-20T01:13:13.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face space is explicitly named 'deep-nude-ai', which directly references the 'DeepNude' category of tools designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates a nudify tool, which falls squarely within the harmful category of non-consensual synthetic media generation. The Gradio tag suggests it is a deployed, usable interface rather than theoretical discussion or detection research.",
+    "recommended_action": "Flag for review and report to Hugging Face for takedown as a non-consensual intimate imagery generation tool violating platform policies.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:lansmerker/deep-nude-ai",
+      "title": "space: lansmerker/deep-nude-ai",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/lansmerker/deep-nude-ai",
+      "created_utc": "2024-08-22T16:05:34.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "reasoning": "The space is named 'deepnuded-test', which strongly evokes the 'DeepNude' family of applications designed to generate non-consensual nude imagery of real people. The naming convention and Gradio deployment suggest a functional tool for this purpose. While the description is empty and I cannot confirm the exact functionality, the name is a clear reference to a well-known non-consensual nudify tool, warranting a flag. Confidence is medium because there is no visible pipeline detail or model description to confirm working implementation.",
+    "recommended_action": "Escalate for human review and consider reporting to Hugging Face for potential Terms of Service violation regarding non-consensual intimate imagery generation.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:rbnsptra/deepnuded-test",
+      "title": "space: rbnsptra/deepnuded-test",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/rbnsptra/deepnuded-test",
+      "created_utc": "2024-10-13T15:52:49.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly named 'Deepnude', which directly references the notorious application designed to generate non-consensual synthetic nude imagery of real people. The name alone strongly indicates the tool is built for producing non-consensual explicit synthetic media, which falls squarely under the nonconsensual_generation_tool category. The Gradio tag suggests it is a functional, interactive deployment rather than research or detection.",
+    "recommended_action": "Flag for immediate review and report to Hugging Face for likely Terms of Service violation; escalate as a functional non-consensual synthetic media generation tool.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Mosaab09/Deepnude",
+      "title": "space: Mosaab09/Deepnude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Mosaab09/Deepnude",
+      "created_utc": "2025-02-01T19:40:55.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'deep-nude-ai-dublicatedok', which directly references a 'deepnude' style tool. Such tools are designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates a nudify application, which falls squarely within the harmful category of non-consensual synthetic media generation tools.",
+    "recommended_action": "Report the Space to Hugging Face for violating content policies on non-consensual intimate imagery, and flag for removal. Escalate to the monitoring team for tracking of duplicated/forked instances.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:ShahbazAlam/deep-nude-ai-dublicatedok",
+      "title": "space: ShahbazAlam/deep-nude-ai-dublicatedok",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/ShahbazAlam/deep-nude-ai-dublicatedok",
+      "created_utc": "2025-05-17T08:01:30.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly named 'DeepNude', which directly references the notorious nudify application designed to generate non-consensual synthetic nude images of real people. The name alone strongly indicates the tool's purpose is to produce non-consensual synthetic sexual imagery. This falls squarely within the category of tools built to generate non-consensual synthetic media.",
+    "recommended_action": "Flag for immediate review and report to Hugging Face for removal as a non-consensual intimate imagery generation tool violating platform policies.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Edeisssskar/DeepNude",
+      "title": "space: Edeisssskar/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Edeisssskar/DeepNude",
+      "created_utc": "2025-11-08T19:53:11.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "reasoning": "The space name 'deepnude-ai-illusions' strongly references the 'DeepNude' concept, a well-known category of non-consensual nudify tools that generate synthetic nude imagery of real people without consent. The tags 'static' and 'deepsite-v3' suggest it may be a static hosted site or template, and the description is minimal (empty pipeline), so I cannot fully confirm a working generation implementation. However, the explicit naming convention aligns with non-consensual synthetic media tools, warranting a flag. Confidence is medium due to lack of confirmed working functionality in the description.",
+    "recommended_action": "Escalate for human review; inspect the space contents to confirm whether it hosts a functional nudify/deepnude generation tool. If a working implementation is present, report to Hugging Face for policy violation.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Torbek/deepnude-ai-illusions",
+      "title": "space: Torbek/deepnude-ai-illusions",
+      "body": "Pipeline: \nTags: static, deepsite-v3, region:us",
+      "url": "https://huggingface.co/spaces/Torbek/deepnude-ai-illusions",
+      "created_utc": "2025-12-02T10:05:52.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'DeepNude', which directly references the infamous nudify application designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates this is a deployed tool (gradio interface) for producing non-consensual explicit synthetic media. There is no indication of research, detection, or consent documentation.",
+    "recommended_action": "Flag for takedown review and report to Hugging Face trust & safety; log the URL for monitoring and potential escalation to platform abuse teams.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:pdffff123/DeepNude",
+      "title": "space: pdffff123/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/pdffff123/DeepNude",
+      "created_utc": "2026-01-06T18:08:57.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'DeepNude', which is a well-known and specific reference to a class of 'nudify' applications designed to generate non-consensual synthetic nude imagery of real people. The name directly signals the purpose of the tool, and it is hosted as a runnable Gradio app (functional interface), not academic research or detection work. There is no indication of consent documentation, licensing, or a detection/research purpose.",
+    "recommended_action": "Flag for review and report to the Hugging Face platform for likely violation of their content policy regarding non-consensual intimate imagery. Prioritize for takedown request.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:heckerstone/DeepNude",
+      "title": "space: heckerstone/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/heckerstone/DeepNude",
+      "created_utc": "2026-02-27T06:41:32.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'undresstemp' under a user account 'sweetner', with naming strongly indicative of a 'nudify'/'undress' tool designed to generate non-consensual synthetic nude imagery of real people. The 'undress' terminology is a well-known signal for these non-consensual generation tools. Despite the sparse description, the name alone is highly consistent with the harmful category this monitor targets.",
+    "recommended_action": "Flag for review and report to Hugging Face for policy violation (non-consensual intimate imagery / nudify tooling). Preserve URL and metadata for the observatory record.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:sweetner/undresstemp",
+      "title": "space: sweetner/undresstemp",
+      "body": "Pipeline: \nTags: streamlit, region:us",
+      "url": "https://huggingface.co/spaces/sweetner/undresstemp",
+      "created_utc": "2023-08-24T08:02:27.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'undressInator' by a user called 'sweetner', which strongly indicates a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The naming clearly signals purpose-built non-consensual generation functionality, matching the flagging criteria despite sparse description.",
+    "recommended_action": "Flag for immediate review and report to Hugging Face for violation of their terms prohibiting non-consensual intimate imagery tools.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:sweetner/undressInator",
+      "title": "space: sweetner/undressInator",
+      "body": "Pipeline: \nTags: streamlit, region:us",
+      "url": "https://huggingface.co/spaces/sweetner/undressInator",
+      "created_utc": "2024-03-02T11:31:49.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face space is titled 'Undress-AI', which strongly indicates a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. This falls directly under the category of tools built to generate non-consensual synthetic media. The gradio tag suggests it is a functioning interactive application.",
+    "recommended_action": "Flag for review and report to Hugging Face for violation of policies against non-consensual intimate imagery tools; escalate for potential takedown.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Nymbo/Undress-AI",
+      "title": "space: Nymbo/Undress-AI",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Nymbo/Undress-AI",
+      "created_utc": "2024-07-30T16:04:12.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly titled 'undress' and tagged 'not-for-all-audiences', strongly indicating it is a 'nudify'-type tool designed to generate non-consensual synthetic nude imagery of real people. This matches the definition of a non-consensual synthetic media generation tool.",
+    "recommended_action": "Flag for takedown/report to Hugging Face for violation of policies on non-consensual intimate imagery; escalate to human reviewer for confirmation and documentation.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Nymbo/undress",
+      "title": "space: Nymbo/undress",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/Nymbo/undress",
+      "created_utc": "2024-07-30T16:04:16.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is explicitly titled 'Undress-AI', which strongly indicates a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The 'not-for-all-audiences' tag and gradio interface suggest a functional, deployed tool producing explicit content. This matches the category of tools built to generate non-consensual synthetic media.",
+    "recommended_action": "Flag for immediate review and report to Hugging Face for policy violation (non-consensual intimate imagery generation). Escalate to platform trust & safety.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Rooc/Undress-AI",
+      "title": "space: Rooc/Undress-AI",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/Rooc/Undress-AI",
+      "created_utc": "2024-08-01T03:59:29.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is titled 'Undress-AI' and tagged 'not-for-all-audiences', strongly indicating a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The name and framing match known non-consensual deepfake generation tools, with no indication of consent documentation, research purpose, or licensing.",
+    "recommended_action": "Flag for review and report to Hugging Face for violation of policies against non-consensual intimate imagery tools; escalate for takedown.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Zhofang/Undress-AI",
+      "title": "space: Zhofang/Undress-AI",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/Zhofang/Undress-AI",
+      "created_utc": "2024-08-09T07:47:37.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is titled 'undresser', which strongly indicates a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The name and framing match the exact pattern of non-consensual synthetic media generation tools that this project monitors. There is no indication of consent documentation, licensing, or a research/detection purpose.",
+    "recommended_action": "Flag for review and report to the hosting platform (Hugging Face) for likely violation of policies against non-consensual intimate imagery tools; document the URL and metadata for the DeepGuard Observatory dataset.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Spooke/undresser",
+      "title": "space: Spooke/undresser",
+      "body": "Pipeline: \nTags: streamlit, region:us",
+      "url": "https://huggingface.co/spaces/Spooke/undresser",
+      "created_utc": "2024-09-27T20:14:03.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The space is titled 'Undress-AI' with a 'not-for-all-audiences' tag, which strongly indicates it is a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. Such tools are a primary target for flagging. The naming leaves little ambiguity about its purpose.",
+    "recommended_action": "Flag for review and report to Hugging Face for potential terms-of-service violation; add to monitored nonconsensual generation tool list.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Tu060925/Undress-AI",
+      "title": "space: Tu060925/Undress-AI",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/Tu060925/Undress-AI",
+      "created_utc": "2024-10-06T05:42:37.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face space is explicitly named 'UndressAI' and tagged 'not-for-all-audiences', which strongly indicates it is a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. This matches the core category of tools built for non-consensual synthetic media generation. There is no indication of consent documentation, licensing, or research/detection purpose.",
+    "recommended_action": "Flag for review and report to Hugging Face for potential Terms of Service violation regarding non-consensual intimate imagery generation tools.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:zaikaman/UndressAI",
+      "title": "space: zaikaman/UndressAI",
+      "body": "Pipeline: \nTags: gradio, not-for-all-audiences, region:us",
+      "url": "https://huggingface.co/spaces/zaikaman/UndressAI",
+      "created_utc": "2024-10-06T14:20:45.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is titled 'Undress-AI', which strongly indicates a 'nudify' tool designed to generate non-consensual synthetic nude imagery of real people. The name and gradio interface tag suggest a functioning deployed application built specifically for this harmful purpose.",
+    "recommended_action": "Flag for review and report to Hugging Face for policy violation (non-consensual intimate imagery generation tool).",
+    "item": {
+      "source": "huggingface",
+      "id": "space:MommaKomugi/Undress-AIL",
+      "title": "space: MommaKomugi/Undress-AIL",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/MommaKomugi/Undress-AIL",
+      "created_utc": "2024-10-09T08:31:57.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
