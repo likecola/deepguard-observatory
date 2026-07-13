@@ -1,12 +1,12 @@
 # DeepGuard Observatory — Summary
 
-_Auto-generated 2026-07-12 10:26 UTC. Do not edit by hand — run `python src/report.py`._
+_Auto-generated 2026-07-13 11:50 UTC. Do not edit by hand — run `python src/report.py`._
 
 ## Totals
 
-- Scan runs recorded: **2**
-- Harmful findings tracked: **31**
-- Awaiting report (status `new`): **31**
+- Scan runs recorded: **3**
+- Harmful findings tracked: **32**
+- Awaiting report (status `new`): **32**
 - Reported to platforms: **0**
 - Removed by platforms: **0** (removal rate: n/a)
 - Dismissed as false positives: **0**
@@ -15,20 +15,20 @@ _Auto-generated 2026-07-12 10:26 UTC. Do not edit by hand — run `python src/re
 
 | Month | Findings |
 |---|---|
-| 2026-07 | 31 |
+| 2026-07 | 32 |
 
 ## Findings by source
 
 | Source | Findings |
 |---|---|
-| huggingface | 26 |
+| huggingface | 27 |
 | github | 5 |
 
 ## Findings by category
 
 | Category | Findings |
 |---|---|
-| nonconsensual_generation_tool | 30 |
+| nonconsensual_generation_tool | 31 |
 | harmful_model_collection | 1 |
 
 ## Open findings
@@ -66,6 +66,7 @@ _Auto-generated 2026-07-12 10:26 UTC. Do not edit by hand — run `python src/re
 | `huggingface:space:sweetner/undressInator` | [space: sweetner/undressInator](https://huggingface.co/spaces/sweetner/undressInator) | huggingface | nonconsensual_generation_tool | high | 2026-07-12 | new |
 | `huggingface:space:sweetner/undresstemp` | [space: sweetner/undresstemp](https://huggingface.co/spaces/sweetner/undresstemp) | huggingface | nonconsensual_generation_tool | high | 2026-07-12 | new |
 | `huggingface:space:zaikaman/UndressAI` | [space: zaikaman/UndressAI](https://huggingface.co/spaces/zaikaman/UndressAI) | huggingface | nonconsensual_generation_tool | high | 2026-07-12 | new |
+| `huggingface:space:Justforailolomg/face-swap-docker-NSFW` | [space: Justforailolomg/face-swap-docker-NSFW](https://huggingface.co/spaces/Justforailolomg/face-swap-docker-NSFW) | huggingface | nonconsensual_generation_tool | medium | 2026-07-13 | new |
 
 ---
 

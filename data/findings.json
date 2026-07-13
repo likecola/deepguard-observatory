@@ -131,6 +131,18 @@
     "title": "space: Edeisssskar/DeepNude",
     "url": "https://huggingface.co/spaces/Edeisssskar/DeepNude"
   },
+  "huggingface:space:Justforailolomg/face-swap-docker-NSFW": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "first_seen": "2026-07-13",
+    "reasoning": "The Hugging Face Space name explicitly combines 'face-swap' with 'NSFW', strongly suggesting a tool designed to generate non-consensual sexual synthetic media by swapping faces (of real people) into explicit content. The username 'Justforailolomg' and lack of any consent documentation, licensing, or legitimate research framing reinforce concern. While the description body is empty (limiting certainty to medium), the combination of face-swap capability and NSFW targeting matches the profile of a nudify/non-consensual deepfake tool.",
+    "recommended_action": "Flag for human review and report to Hugging Face for potential Terms of Service violation regarding non-consensual sexual content generation tools.",
+    "source": "huggingface",
+    "status": "new",
+    "status_updated": null,
+    "title": "space: Justforailolomg/face-swap-docker-NSFW",
+    "url": "https://huggingface.co/spaces/Justforailolomg/face-swap-docker-NSFW"
+  },
   "huggingface:space:MommaKomugi/Undress-AIL": {
     "category": "nonconsensual_generation_tool",
     "confidence": "high",

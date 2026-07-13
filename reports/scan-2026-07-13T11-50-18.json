@@ -1,0 +1,368 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "Truthlayer is described as an 'AI Social Media Intelligence Platform' focused on truth/verification, which appears to be a legitimate content analysis or fact-checking tool. This is unrelated to non-consensual synthetic media generation, deepfake creation, or safety filter bypassing. The project name and description suggest it may be designed for detection, verification, or intelligence purposes rather than generation of harmful synthetic content.",
+    "recommended_action": "No action required. This project does not appear to fall within the scope of non-consensual deepfake/synthetic media tools.",
+    "item": {
+      "source": "github",
+      "id": "1277106426",
+      "title": "sauharddubey/Truthlayer",
+      "body": "Truth Layer is a AI Social Media Intelligence Platform ",
+      "url": "https://github.com/sauharddubey/Truthlayer",
+      "created_utc": "2026-06-22T15:31:12Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository appears to be a final master's thesis project (TFM likely refers to 'Trabajo Fin de Máster') focused on deepfake detection rather than deepfake generation. The title explicitly indicates detection capabilities, which is a legitimate research and safety application. Detection research is a protective measure against non-consensual synthetic media and is explicitly listed as non-harmful in the guidelines.",
+    "recommended_action": "No action required. This is a legitimate academic research project on deepfake detection.",
+    "item": {
+      "source": "github",
+      "id": "1274613218",
+      "title": "pablo-Tesoro/tfm-deepfake-detection",
+      "body": "",
+      "url": "https://github.com/pablo-Tesoro/tfm-deepfake-detection",
+      "created_utc": "2026-06-19T17:43:58Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is an image mosaic generator - a legitimate artistic tool that creates photo mosaics from smaller images arranged to form a larger picture. This is a decades-old non-synthetic media technique used for legitimate creative purposes. There is no indication this involves generating synthetic media, deepfakes, face-swapping, or any non-consensual manipulation of real people's likenesses. The project appears to be a straightforward artistic software installation guide.",
+    "recommended_action": "No action required. This is not related to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1266602831",
+      "title": "thegonxan-oss/AndreaMosaic-Artful-Mosaic-Generator",
+      "body": "Stunning Photo Mosaics in 2026 AndreaMosaic 3.55 Latest Version Install Guide",
+      "url": "https://github.com/thegonxan-oss/AndreaMosaic-Artful-Mosaic-Generator",
+      "created_utc": "2026-06-11T19:22:48Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a family office monitoring tool - a financial/investment management application for tracking assets and portfolios across family office structures. It has no connection to synthetic media generation, deepfakes, face-swapping, or non-consensual content creation. The name and domain clearly indicate it is a business/financial tool.",
+    "recommended_action": "No action needed - not within scope of deepfake/synthetic media monitoring",
+    "item": {
+      "source": "github",
+      "id": "1275831213",
+      "title": "familyoffice-hub/family-office-monitor",
+      "body": "",
+      "url": "https://github.com/familyoffice-hub/family-office-monitor",
+      "created_utc": "2026-06-21T07:28:38Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The submission contains only a generic repository name ('vidproject/x') with no description, README content, or any details about the project's purpose. There is no evidence indicating this tool generates non-consensual synthetic media, provides harmful tutorials, or bypasses safety filters. Without any substantive information, there is no basis to flag it as harmful. Per the conservative guidance, insufficient information means defaulting to not harmful with low confidence.",
+    "recommended_action": "Do not flag at this time. Manually review the repository contents (README, code, commit history) to determine actual purpose before making a determination.",
+    "item": {
+      "source": "github",
+      "id": "1243242655",
+      "title": "vidproject/x",
+      "body": "",
+      "url": "https://github.com/vidproject/x",
+      "created_utc": "2026-05-19T07:01:32Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository appears to be an automated news aggregator tool based on the title and description. There is no indication that it relates to synthetic media generation, deepfake creation, non-consensual image manipulation, or safety filter bypassing. News aggregation is a standard software utility unrelated to the scope of non-consensual deepfake content monitoring.",
+    "recommended_action": "No action needed. This content falls outside the scope of DeepGuard Observatory's monitoring mandate.",
+    "item": {
+      "source": "github",
+      "id": "1285103655",
+      "title": "jonesrh5/Cavalry-Digest",
+      "body": "Automated news aggregator ",
+      "url": "https://github.com/jonesrh5/Cavalry-Digest",
+      "created_utc": "2026-06-30T13:36:36Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'Riakoine-Empire' does not indicate any connection to deepfake generation, non-consensual synthetic media, or face-swap tools. Based on the naming convention alone, this appears to be either a gaming project, fictional world-building, or similar creative work unrelated to non-consensual media generation. No description text was provided to suggest otherwise.",
+    "recommended_action": "No action needed. This repository does not appear to be relevant to non-consensual synthetic media tools or tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1175020015",
+      "title": "xhaqs/Riakoine-Empire",
+      "body": "",
+      "url": "https://github.com/xhaqs/Riakoine-Empire",
+      "created_utc": "2026-03-07T05:42:24Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is explicitly described as a deepfake detection system designed to identify manipulated multimedia content. Deepfake detection research is a legitimate defensive security application that helps protect against non-consensual synthetic media. The title and description indicate the goal is to detect and identify deepfakes rather than generate them or bypass safety measures.",
+    "recommended_action": "No action needed. This is academic/security research aligned with content safety goals.",
+    "item": {
+      "source": "github",
+      "id": "1299205655",
+      "title": "marvinmarphie-cloud9/addsfi-v",
+      "body": "Research project focused on designing and developing an AI-powered Automated Deepfake Detection System for identifying manipulated multimedia content.",
+      "url": "https://github.com/marvinmarphie-cloud9/addsfi-v",
+      "created_utc": "2026-07-13T11:21:58Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "The repository title and name indicate a deepfake detection application, which is a defensive/protective tool designed to identify synthetic media rather than generate it. Deepfake detection projects are academic and safety-oriented research that helps combat non-consensual synthetic media. This aligns with legitimate detection and defense research rather than enabling non-consensual generation.",
+    "recommended_action": "No action required. This appears to be a legitimate detection/research project.",
+    "item": {
+      "source": "github",
+      "id": "1243307401",
+      "title": "luffdavid/deepfake-detection-app",
+      "body": "",
+      "url": "https://github.com/luffdavid/deepfake-detection-app",
+      "created_utc": "2026-05-19T08:16:24Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a Model Context Protocol (MCP) server designed for child safety, fraud detection, and content moderation purposes. The tool is explicitly built to DETECT harmful behaviors (bullying, grooming, sextortion, scams, etc.) rather than to create non-consensual synthetic media. This is a legitimate safety-focused tool that helps protect users from harm, which aligns with protective rather than harmful objectives.",
+    "recommended_action": "No action required. This project is beneficial for safety and should not be flagged.",
+    "item": {
+      "source": "github",
+      "id": "1151447405",
+      "title": "Tuteliq/mcp",
+      "body": "MCP server with 41 AI-powered tools for child safety, fraud detection, and content moderation. Detects bullying, grooming, sextortion, romance scams, social engineering, and more. For Claude, Cursor, and MCP-compatible AI assistants.",
+      "url": "https://github.com/Tuteliq/mcp",
+      "created_utc": "2026-02-06T13:32:25Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title and description provide insufficient context to determine harmful intent. The phrase 'Site export without faceswap' is vague and appears to be a website export/backup tool. There is no clear indication that this is a tool designed for non-consensual synthetic media generation. The repository name does not suggest deepfake, nudify, or face-swap creation functionality. Without access to the actual code or more detailed documentation, and given the ambiguity of the description, this should not be flagged as harmful.",
+    "recommended_action": "Monitor for updates; if the repository adds faceswap capabilities or contains tutorials for non-consensual media, reassess and flag accordingly.",
+    "item": {
+      "source": "github",
+      "id": "1225927061",
+      "title": "almazazamatov22-blip/paracetamolhazeweb",
+      "body": "Site export without faceswap",
+      "url": "https://github.com/almazazamatov22-blip/paracetamolhazeweb",
+      "created_utc": "2026-04-30T19:43:25Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a documentation repository for ModelsLab. The title and description indicate it is an official documentation project. Without evidence of non-consensual synthetic media generation tools, tutorials for bypassing safety filters, or harmful collections in the repository content itself, this appears to be a standard documentation repository. ModelsLab operates as a legitimate AI/ML API platform. A documentation repository alone does not indicate harmful content.",
+    "recommended_action": "No action required. This is a documentation repository and does not present evidence of enabling non-consensual deepfake or synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "988368532",
+      "title": "ModelsLab/docs-v2",
+      "body": "Official Repository for ModelsLab Documentation.",
+      "url": "https://github.com/ModelsLab/docs-v2",
+      "created_utc": "2025-05-22T12:53:05Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The only information provided is a repository name 'faceswapstudio' with no description, README content, or other details. While the name references face-swapping technology, face-swap tools have many legitimate uses (entertainment, VFX, research) and there is no indication this targets real people non-consensually, lacks consent documentation, or is intended for producing synthetic sexual/abusive content. With no substantive content to evaluate, I cannot conclude it is harmful. Per the conservative guidance, I default to not harmful with low confidence given the ambiguity.",
+    "recommended_action": "Manual review recommended: fetch the repository README, code, and documentation to determine intended use, presence of consent safeguards, or capabilities for non-consensual synthetic media before making a determination.",
+    "item": {
+      "source": "github",
+      "id": "1299155126",
+      "title": "MidoomDotDev/faceswapstudio",
+      "body": "",
+      "url": "https://github.com/MidoomDotDev/faceswapstudio",
+      "created_utc": "2026-07-13T10:25:57Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a curated collection/directory of generative AI applications and tools. Based on the description 'The Generative AI Landscape - A Collection of Awesome Generative AI Applications', this appears to be an informational resource cataloging various AI applications across legitimate use cases (image generation, text generation, code assistants, etc.). There is no indication this collection is specifically assembled for non-consensual synthetic media generation, bypassing safety filters, or enabling deepfake abuse. Such repositories serve legitimate educational and discovery purposes for the broader AI community.",
+    "recommended_action": "No action needed. This is a general AI tools directory unrelated to non-consensual deepfake or synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "584639396",
+      "title": "ai-collection/ai-collection",
+      "body": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
+      "url": "https://github.com/ai-collection/ai-collection",
+      "created_utc": "2023-01-03T06:02:03Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a GitHub Pages repository (standard GitHub user/organization site based on naming convention 'navai.github.io'). GitHub Pages repositories typically contain static website content, documentation, or portfolio pages. Without access to the actual repository contents, the title and URL alone indicate this is almost certainly a personal or project website repository rather than a tool for generating non-consensual synthetic media, a tutorial for harmful deepfake creation, or a safety filter bypass method.",
+    "recommended_action": "No action required. This appears to be a standard GitHub Pages website repository with no indicators of harmful synthetic media generation tools or related content.",
+    "item": {
+      "source": "github",
+      "id": "188029478",
+      "title": "navai/navai.github.io",
+      "body": "",
+      "url": "https://github.com/navai/navai.github.io",
+      "created_utc": "2019-05-22T11:59:23Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a repository with a humorous/nonsensical name ('the-link-poop') that simply hosts a Cloudflare tunnel link for someone without their own domain. The description indicates it's just a temporary link sharing mechanism, not a tool or guide for generating non-consensual synthetic media, bypassing safety filters, or any other harmful deepfake-related activity. The repository name and context suggest personal infrastructure setup, not malicious content.",
+    "recommended_action": "No action needed. This repository does not relate to non-consensual deepfake or synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1298347587",
+      "title": "bluebluebluejhgafjk/the-link-poop",
+      "body": "the link from trycloudflare cuz I don't own any domain",
+      "url": "https://github.com/bluebluebluejhgafjk/the-link-poop",
+      "created_utc": "2026-07-12T14:25:47Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository appears to be a curated list or collection of AI news content (based on the title 'awesome-ai-news'). Awesome lists are standard GitHub repositories that aggregate links and resources on particular topics. There is no indication from the title or description that this relates to non-consensual synthetic media generation, deepfakes, or safety filter bypassing. This is a general AI news aggregation resource.",
+    "recommended_action": "No action needed. This is a legitimate informational resource unrelated to non-consensual deepfake/synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1125243269",
+      "title": "IreneBurresi/awsome-ai-news",
+      "body": "",
+      "url": "https://github.com/IreneBurresi/awsome-ai-news",
+      "created_utc": "2025-12-30T11:35:43Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a generic face-swap ONNX model with no description, no target of real individuals, and no indication it is built for non-consensual synthetic media. Face-swap models have many legitimate uses (research, entertainment, VFX). There is insufficient evidence of harmful intent or non-consensual purpose to flag it. The ambiguity lies in the fact that face-swap tools can be misused, but nothing here indicates it was assembled for non-consensual deepfakes.",
+    "recommended_action": "No action; optionally monitor for future updates that add explicit non-consensual or nudify functionality.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:richiebailey/faceswap",
+      "title": "model: richiebailey/faceswap",
+      "body": "Pipeline: \nTags: onnx, region:us",
+      "url": "https://huggingface.co/richiebailey/faceswap",
+      "created_utc": "2024-05-04T18:06:10.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "medium",
+    "reasoning": "The Hugging Face Space name explicitly combines 'face-swap' with 'NSFW', strongly suggesting a tool designed to generate non-consensual sexual synthetic media by swapping faces (of real people) into explicit content. The username 'Justforailolomg' and lack of any consent documentation, licensing, or legitimate research framing reinforce concern. While the description body is empty (limiting certainty to medium), the combination of face-swap capability and NSFW targeting matches the profile of a nudify/non-consensual deepfake tool.",
+    "recommended_action": "Flag for human review and report to Hugging Face for potential Terms of Service violation regarding non-consensual sexual content generation tools.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Justforailolomg/face-swap-docker-NSFW",
+      "title": "space: Justforailolomg/face-swap-docker-NSFW",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Justforailolomg/face-swap-docker-NSFW",
+      "created_utc": "2024-08-08T19:47:52.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio app with minimal metadata. Face-swap tools have many legitimate uses (entertainment, research, creative projects), and there is no indication in the title or description that this tool targets real people without consent or is designed for non-consensual synthetic media, nudification, or filter bypassing. The empty pipeline description and lack of explicit harmful intent means there is insufficient evidence to flag it. Ambiguity remains because face-swap tools can be misused, but per conservative guidance, absence of harmful indicators means it should not be flagged.",
+    "recommended_action": "No action; optionally monitor for updates or usage examples that indicate non-consensual targeting of real individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Amrith2k6/face-swap-app2k6",
+      "title": "space: Amrith2k6/face-swap-app2k6",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Amrith2k6/face-swap-app2k6",
+      "created_utc": "2026-02-26T10:11:31.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space appearing to be a duplicate ('duplic') of a Flux-based face-swap Gradio app. The metadata is minimal: no pipeline description, no explicit indication that it targets real people without consent, and no NSFW/nudify functionality described. Face-swap tools have legitimate uses (entertainment, research, creative editing) and there is no evidence here of intent to create non-consensual synthetic media. Without additional content indicating targeting of real individuals or explicit sexual/harmful use, the available information is too sparse to flag as harmful, so I am being conservative.",
+    "recommended_action": "Do not flag at this time; consider manual review of the app's actual functionality (whether it enables face-swapping onto real individuals or NSFW content) and monitor for updates or descriptions indicating non-consensual use.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:raubatz/Flux2-Klein-Face-Swap-duplic",
+      "title": "space: raubatz/Flux2-Klein-Face-Swap-duplic",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/raubatz/Flux2-Klein-Face-Swap-duplic",
+      "created_utc": "2026-06-10T10:15:37.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  }
+]
