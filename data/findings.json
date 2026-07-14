@@ -35,6 +35,18 @@
     "title": "ai-affi/ai-nudify.net",
     "url": "https://github.com/ai-affi/ai-nudify.net"
   },
+  "github:1299741800": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "first_seen": "2026-07-14",
+    "reasoning": "The repository is explicitly named 'Nudify', which is a well-known category of tools designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates the purpose is to create non-consensual explicit deepfakes. While the description and README are empty, the naming convention for this tool type is unambiguous and matches known harmful 'nudify' applications.",
+    "recommended_action": "Flag for review and report to GitHub for violation of policies against non-consensual sexual/intimate imagery tools. Monitor for any forks or mirrors.",
+    "source": "github",
+    "status": "new",
+    "status_updated": null,
+    "title": "R0U5/Nudify",
+    "url": "https://github.com/R0U5/Nudify"
+  },
   "github:976210744": {
     "category": "nonconsensual_generation_tool",
     "confidence": "high",
@@ -322,6 +334,18 @@
     "status_updated": null,
     "title": "space: liztochek/DeepNude",
     "url": "https://huggingface.co/spaces/liztochek/DeepNude"
+  },
+  "huggingface:space:mateus1231256/DeepNude": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "first_seen": "2026-07-14",
+    "reasoning": "The Hugging Face Space is named 'DeepNude', which directly references the notorious application designed to generate non-consensual nude imagery of real people. The name signals a nudify tool, which falls squarely into the non-consensual synthetic media category. Even with a sparse description, the explicit branding strongly indicates a tool built for non-consensual generation.",
+    "recommended_action": "Flag for review and report to Hugging Face for likely terms-of-service violation; document the URL for monitoring and potential takedown.",
+    "source": "huggingface",
+    "status": "new",
+    "status_updated": null,
+    "title": "space: mateus1231256/DeepNude",
+    "url": "https://huggingface.co/spaces/mateus1231256/DeepNude"
   },
   "huggingface:space:pdffff123/DeepNude": {
     "category": "nonconsensual_generation_tool",

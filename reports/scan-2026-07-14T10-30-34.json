@@ -1,0 +1,357 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "NetSmart is described as a cyber awareness/education portal built with Flask and SQLite. This is a legitimate educational web application focused on cybersecurity awareness, not a tool for generating non-consensual synthetic media, bypassing safety filters, or creating deepfakes. The project name and description indicate it is an educational resource.",
+    "recommended_action": "No action needed. This project is unrelated to non-consensual deepfake or synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1291848513",
+      "title": "nehasawant99/netsmart",
+      "body": "NetSmart is a web-based cyber mini awareness portal built with Flask and SQLite. ",
+      "url": "https://github.com/nehasawant99/netsmart",
+      "created_utc": "2026-07-07T06:10:13Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The provided information is extremely sparse. The title 'G2VD' and description 'Anonymous implementation accompanying a double-blind submission' suggest an academic research paper submission, which typically indicates a legitimate research context. There is no indication of non-consensual synthetic media generation, nudify tools, or filter-bypass techniques. Without further content (README, code, model details), there is no evidence of harm. The double-blind submission framing leans toward academic research, but the acronym is undecipherable so I cannot confirm the exact purpose.",
+    "recommended_action": "Do not flag at this time. Manually review the repository's README and code contents to determine the actual purpose before making a final determination.",
+    "item": {
+      "source": "github",
+      "id": "1300337247",
+      "title": "DMOSCAR-98/G2VD",
+      "body": "Anonymous implementation accompanying a double-blind submission.",
+      "url": "https://github.com/DMOSCAR-98/G2VD",
+      "created_utc": "2026-07-14T10:26:38Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "research_or_detection",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "This repository appears to be a liveness detection/verification demonstration project. Liveness detection is a legitimate security technology used to verify that a real person (not a photo, video, or deepfake) is present during authentication. The project name and typical use cases for liveness-demo repositories involve facial recognition security, anti-spoofing measures, or biometric authentication - all defensive technologies. Without evidence of code designed to generate non-consensual synthetic media or bypass safety filters, this falls outside the scope of harmful deepfake generation tools.",
+    "recommended_action": "No action needed. This appears to be a legitimate security/authentication project.",
+    "item": {
+      "source": "github",
+      "id": "1300332867",
+      "title": "Shobhan-Kumar-P/liveness-demo",
+      "body": "",
+      "url": "https://github.com/Shobhan-Kumar-P/liveness-demo",
+      "created_utc": "2026-07-14T10:22:22Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection project, not a tool for generating non-consensual synthetic media. Deepfake detection research is explicitly in the category of legitimate safety research aimed at identifying and preventing harmful deepfake content. The title clearly indicates this is about detection (defense) rather than generation (offense).",
+    "recommended_action": "No action needed. This project supports safety and detection efforts against harmful deepfakes.",
+    "item": {
+      "source": "github",
+      "id": "1289080571",
+      "title": "AbdelrahmanHassan131/Novel-Deepfake-Detection",
+      "body": "",
+      "url": "https://github.com/AbdelrahmanHassan131/Novel-Deepfake-Detection",
+      "created_utc": "2026-07-04T10:14:10Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a multimodal fake news detection system using AI techniques (PyTorch, Flask, React). The project analyzes both text and images to assess news credibility. This is a detection/research tool for identifying misinformation, not a tool for creating non-consensual synthetic media. The description indicates it's designed to evaluate the reliability of news content, which aligns with legitimate content moderation and verification research.",
+    "recommended_action": "No action needed. This is legitimate academic/research work focused on detection of false information rather than generation of harmful synthetic media.",
+    "item": {
+      "source": "github",
+      "id": "1271371584",
+      "title": "NguyenHoangLe0701/Multimodal-Fake-News-Detection",
+      "body": "Hệ thống phát hiện tin giả đa phương thức sử dụng AI (PyTorch, Flask, React). Phân tích kết hợp cả văn bản và hình ảnh để đánh giá mức độ tin cậy của tin tức.",
+      "url": "https://github.com/NguyenHoangLe0701/Multimodal-Fake-News-Detection",
+      "created_utc": "2026-06-16T15:42:27Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The submission references a GitHub user profile (salahuddin212/salahuddin212) without any specific content details. A bare user profile URL does not inherently indicate the presence of harmful synthetic media tools, non-consensual deepfake generation content, or safety filter bypass methods. Without examination of the repository contents showing explicit evidence of non-consensual synthetic media tools or tutorials, this cannot be classified as harmful.",
+    "recommended_action": "No action required. If future monitoring identifies specific repositories under this user containing non-consensual synthetic media tools or tutorials, those specific repositories should be flagged separately with detailed evidence.",
+    "item": {
+      "source": "github",
+      "id": "1300304066",
+      "title": "salahuddin212/salahuddin212",
+      "body": "",
+      "url": "https://github.com/salahuddin212/salahuddin212",
+      "created_utc": "2026-07-14T09:54:27Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a general-purpose LoRA dataset building and training workbench for face/character models. The tool itself does not explicitly target non-consensual synthetic media of real people, and generating character LoRAs from reference photos has many legitimate uses (original characters, licensed likenesses, self-portraits). However, the repository name 'perfectgf' (perfect girlfriend) plus the workflow of generating many variations from a single reference photo raises some concern about potential misuse for creating synthetic media of real individuals without consent. There is no explicit NSFW/nudify functionality, safety-filter bypass, or stated intent to target real people non-consensually in the description, so it does not meet the threshold for flagging. The ambiguity lies in the suggestive naming versus the neutral described functionality.",
+    "recommended_action": "Do not flag at this time, but add to a watchlist for periodic re-review. If the repo adds NSFW model integrations, targeting of specific real individuals, or 'nudify' features, escalate for flagging.",
+    "item": {
+      "source": "github",
+      "id": "1290022584",
+      "title": "perfectgf/lora-dataset-studio",
+      "body": "Self-hosted workbench for building face/character LoRA datasets - generate variations from one reference photo, curate, auto-caption, train (ai-toolkit) and rank checkpoints, all from one UI",
+      "url": "https://github.com/perfectgf/lora-dataset-studio",
+      "created_utc": "2026-07-05T13:43:17Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection system designed to identify and analyze synthetic media, not create it. The project explicitly focuses on forensic analysis and detection by examining audio and video evidence. Detection and analysis tools are legitimate cybersecurity/research work that helps combat non-consensual deepfakes rather than enable them.",
+    "recommended_action": "No action needed. This project aligns with safety and detection research objectives.",
+    "item": {
+      "source": "github",
+      "id": "1266317431",
+      "title": "PrabhuVineeth/Multi-Modal-Deepfake-Detection-System",
+      "body": "A system that not only detects the deepfake but also gives the specific reason why the media is being flagged as fake by considering forensic level evidence from both audio and video.",
+      "url": "https://github.com/PrabhuVineeth/Multi-Modal-Deepfake-Detection-System",
+      "created_utc": "2026-06-11T14:04:08Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This project appears to be a general-purpose face-swapping tool designed for entertainment purposes (creating memes). The description explicitly states it's for 'putting your face in any GIF' and emphasizes local operation on Mac. While face-swapping technology can theoretically be misused, this project itself does not target non-consensual synthetic media creation of real people without consent. The framing as 'meme-swap' and emphasis on putting 'your face' suggests consent-based personal use. There is no indication this is a tool specifically designed for generating non-consensual deepfakes, bypassing safety filters, or assembling techniques for that purpose. Without evidence of non-consensual targeting functionality or intent, this falls outside the harmful scope despite using face-swap technology.",
+    "recommended_action": "No action required. Monitor for future updates if the project scope or documentation changes to explicitly enable non-consensual media generation, but current evidence does not support a harmful classification.",
+    "item": {
+      "source": "github",
+      "id": "1194072932",
+      "title": "Tlahey/meme-swap",
+      "body": "🎭 Put your face in any GIF — AI face swapping running 100% locally on your Mac (FaceFusion + CoreML). Web app, desktop app & MCP server.",
+      "url": "https://github.com/Tlahey/meme-swap",
+      "created_utc": "2026-03-27T22:21:23Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The title 'image-edit-flux' suggests a general image editing tool based on Flux (a diffusion model framework). Without access to the actual repository content, description, or code, there are no indicators that this is designed for non-consensual synthetic media generation. Image editing tools have legitimate uses in graphic design, photo editing, and creative work. The name does not reference face-swapping, nudification, or non-consensual generation. This appears to be a standard image editing utility.",
+    "recommended_action": "No action required. If future evidence suggests misuse or non-consensual generation capabilities, re-evaluate.",
+    "item": {
+      "source": "github",
+      "id": "1239367023",
+      "title": "minhngoc2512/image-edit-flux",
+      "body": "",
+      "url": "https://github.com/minhngoc2512/image-edit-flux",
+      "created_utc": "2026-05-15T02:57:21Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a ComfyUI node extension for Z-Image and Flux.2 image generation models. ComfyUI is a legitimate open-source node-based interface for running diffusion models. The description indicates this is a studio tool for image generation workflows, similar to other creative software extensions. There is no indication this is designed for non-consensual synthetic media generation of real people, nor does it appear to be a guide for bypassing safety measures. It's a technical tool for image generation that could be used for many legitimate purposes (art, design, creative work).",
+    "recommended_action": "No action required. This is a legitimate generative AI tool extension.",
+    "item": {
+      "source": "github",
+      "id": "1280477230",
+      "title": "designloves2/ComfyUI-TJ_NODE_STUDIO_ONE",
+      "body": "Z-Image and Flux.2 Klein image generation Studio-ONE node.",
+      "url": "https://github.com/designloves2/ComfyUI-TJ_NODE_STUDIO_ONE",
+      "created_utc": "2026-06-25T16:12:17Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is an official HeyGen repository for their licensed AI agent skills platform. HeyGen is a legitimate, commercially operated company providing avatar creation and video production tools with proper consent and licensing frameworks. The repository represents authorized, commercially developed software for the HeyGen platform - not a tool designed to create non-consensual synthetic media of real people. Avatar creation systems where users control their own avatars are distinct from non-consensual deepfake tools that target real people without permission.",
+    "recommended_action": "No action required. This is a legitimate commercial AI service repository.",
+    "item": {
+      "source": "github",
+      "id": "1140152286",
+      "title": "heygen-com/skills",
+      "body": "HeyGen AI agent skills — avatar creation and video production via the v3 Video Agent pipeline",
+      "url": "https://github.com/heygen-com/skills",
+      "created_utc": "2026-01-22T22:28:44Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository appears to be a livestreaming application that integrates AKOOL (a licensed AI service) with MediaPipe for real-time face-swapping and background effects during live broadcasts. The use of AKOOL, a commercial service, suggests the project operates within a licensed framework. Livestreaming face-swap effects for entertainment purposes with disclosed technology is a legitimate use case. There is no indication this is designed for non-consensual synthetic media generation of real people—it appears to be a tool for self-modification during one's own broadcast. Without evidence of targeting non-consenting individuals or bypassing safety measures, this does not meet the criteria for harmful content.",
+    "recommended_action": "No action required. Monitor for potential misuse, but the repository itself does not present clear evidence of being built for non-consensual deepfake generation.",
+    "item": {
+      "source": "github",
+      "id": "1285892424",
+      "title": "AngeloJamesRomerosa/AI_Livestreaming_AKOOL_Render",
+      "body": "AI faceswapping using AKOOL and background change with mediapipe",
+      "url": "https://github.com/AngeloJamesRomerosa/AI_Livestreaming_AKOOL_Render",
+      "created_utc": "2026-07-01T08:38:54Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The repository is explicitly named 'Nudify', which is a well-known category of tools designed to generate non-consensual synthetic nude imagery of real people. The name strongly indicates the purpose is to create non-consensual explicit deepfakes. While the description and README are empty, the naming convention for this tool type is unambiguous and matches known harmful 'nudify' applications.",
+    "recommended_action": "Flag for review and report to GitHub for violation of policies against non-consensual sexual/intimate imagery tools. Monitor for any forks or mirrors.",
+    "item": {
+      "source": "github",
+      "id": "1299741800",
+      "title": "R0U5/Nudify",
+      "body": "",
+      "url": "https://github.com/R0U5/Nudify",
+      "created_utc": "2026-07-13T21:15:52Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is an audio classification model based on wav2vec2 fine-tuned for deepfake detection, not generation. The model is designed to classify and identify deepfake audio content using the ASVspoof2019 dataset, which is a standard benchmark for voice spoofing and deepfake detection research. The Apache 2.0 license and transparent model card indicate legitimate academic/research use. This is a detection/defense tool, not a tool for creating non-consensual synthetic media.",
+    "recommended_action": "No action needed. This is a legitimate deepfake detection research model.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:HyperMoon/wav2vec2-base-finetuned-deepfake-0919",
+      "title": "model: HyperMoon/wav2vec2-base-finetuned-deepfake-0919",
+      "body": "Pipeline: audio-classification\nTags: transformers, pytorch, tensorboard, wav2vec2, audio-classification, generated_from_trainer, dataset:asvspoof2019, license:apache-2.0, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/HyperMoon/wav2vec2-base-finetuned-deepfake-0919",
+      "created_utc": "2022-09-19T14:56:05.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection tool designed to identify synthetic media, not generate it. Detection tools are legitimate security research and help combat non-consensual deepfakes. The space appears to be a public ML pipeline for analyzing images to detect deepfakes, which is protective in nature.",
+    "recommended_action": "No action needed. This is a legitimate detection/research tool that supports safety against non-consensual synthetic media generation.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:FaceOnLive/Deepfake-Detector",
+      "title": "space: FaceOnLive/Deepfake-Detector",
+      "body": "Pipeline: \nTags: static, region:us",
+      "url": "https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector",
+      "created_utc": "2025-02-20T13:12:51.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio space with virtually no descriptive content (empty pipeline description, no explicit targeting of real people, no non-consensual or NSFW framing). Face-swap technology has many legitimate uses (entertainment, research, creative projects). While face-swap tools can be misused for non-consensual deepfakes, there is no evidence here that this tool is built or marketed for that purpose. Given the lack of information and the moderation guidance to be conservative, this does not meet the bar for flagging.",
+    "recommended_action": "No action required. Optionally monitor for any added NSFW capabilities or descriptions indicating targeting of real individuals without consent.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:MoinulwithAI/FaceSwapinHighQualitySWAPnet",
+      "title": "space: MoinulwithAI/FaceSwapinHighQualitySWAPnet",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/MoinulwithAI/FaceSwapinHighQualitySWAPnet",
+      "created_utc": "2025-05-03T22:24:46.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a generic face-swap Gradio Space with no description, pipeline details, or explicit non-consensual intent. Face-swap tools have legitimate uses (entertainment, research, art) and this entry lacks any indication it targets real people without consent or generates explicit/NSFW content. Without a description or model details, there is insufficient evidence to classify it as a non-consensual synthetic media tool. Ambiguity remains because face-swap tools can be misused, but nothing here explicitly points to harmful purpose.",
+    "recommended_action": "Do not flag automatically; optionally queue for human review to inspect the Space's actual functionality and whether it enables non-consensual or explicit face-swapping of real individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:ALSv/FaceSwapAll",
+      "title": "space: ALSv/FaceSwapAll",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/ALSv/FaceSwapAll",
+      "created_utc": "2025-08-08T20:19:30.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a face-swap tool (ReActor/ComfyUI on CPU) hosted as a Gradio space. Face-swap technology has legitimate uses (entertainment, creative work) but can also be misused for non-consensual synthetic media. The description is minimal and contains no explicit indication that the tool is intended or marketed for creating non-consensual content of real people, nudity, or filter bypassing. Without evidence of harmful intent or targeting, it does not meet the bar for flagging, though the dual-use nature creates genuine ambiguity.",
+    "recommended_action": "Do not flag automatically, but consider light-touch monitoring for dual-use face-swap tools; escalate to human review if usage examples or associated content suggest non-consensual or explicit targeting of real individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:V0pr0S/ComfyUI-Reactor-Fast-Face-Swap-CPU",
+      "title": "space: V0pr0S/ComfyUI-Reactor-Fast-Face-Swap-CPU",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/V0pr0S/ComfyUI-Reactor-Fast-Face-Swap-CPU",
+      "created_utc": "2025-12-22T20:24:43.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The Hugging Face Space is named 'DeepNude', which directly references the notorious application designed to generate non-consensual nude imagery of real people. The name signals a nudify tool, which falls squarely into the non-consensual synthetic media category. Even with a sparse description, the explicit branding strongly indicates a tool built for non-consensual generation.",
+    "recommended_action": "Flag for review and report to Hugging Face for likely terms-of-service violation; document the URL for monitoring and potential takedown.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:mateus1231256/DeepNude",
+      "title": "space: mateus1231256/DeepNude",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/mateus1231256/DeepNude",
+      "created_utc": "2026-04-03T18:14:43.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
