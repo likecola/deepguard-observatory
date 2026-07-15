@@ -1,0 +1,246 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title suggests a machine learning project related to audio deepfakes, but no description or body content is provided. The name 'ML-Audio_DeepFake' is ambiguous and could refer to either audio deepfake detection (common academic/research use) or generation. Audio deepfakes also fall outside the primary scope of non-consensual synthetic imagery/nudify tools, though voice cloning of real people could be a concern. Without any description, README content, or code details, there is insufficient evidence to determine intent or the presence of a working non-consensual generation tool. Prefer non-harmful given the ambiguity.",
+    "recommended_action": "Manual review recommended: inspect the repository README, code, and documentation to determine whether it is a detection project or a voice-cloning/generation tool, and whether it targets real individuals without consent.",
+    "item": {
+      "source": "github",
+      "id": "1219613667",
+      "title": "Rohit981/ML-Audio_DeepFake",
+      "body": "",
+      "url": "https://github.com/Rohit981/ML-Audio_DeepFake",
+      "created_utc": "2026-04-24T03:43:56Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "research_or_detection",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a PDF manipulation project ('pdfjin' suggests PDF tools). The description is generic and does not reference synthetic media generation, deepfakes, face-swapping, image manipulation for non-consensual purposes, or safety filter bypass techniques. The context provided does not contain any indicators of harmful content related to non-consensual deepfakes or synthetic media.",
+    "recommended_action": "No action needed. This project falls outside the scope of non-consensual synthetic media monitoring.",
+    "item": {
+      "source": "github",
+      "id": "1182531773",
+      "title": "pdfjin/pdfjin",
+      "body": "pdf project to use tools",
+      "url": "https://github.com/pdfjin/pdfjin",
+      "created_utc": "2026-03-15T16:41:33Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a GitHub user profile repository containing personal configuration files. The title and description indicate it is a standard profile README/config repository, which is a common GitHub feature for users to customize their profile pages. There is no indication of any tools, models, tutorials, or techniques related to non-consensual synthetic media generation or safety filter bypassing.",
+    "recommended_action": "No action needed. This is a benign personal GitHub profile configuration repository.",
+    "item": {
+      "source": "github",
+      "id": "395264078",
+      "title": "argha-sarkar/argha-sarkar",
+      "body": "Config files for my GitHub profile.",
+      "url": "https://github.com/argha-sarkar/argha-sarkar",
+      "created_utc": "2021-08-12T09:24:45Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository name and minimal metadata provided do not indicate any connection to non-consensual synthetic media generation, deepfakes, face-swap tools, or safety filter bypass techniques. 'SachAI' appears to be a generic AI project name without evidence of harmful intent. The username and project structure do not suggest tools designed for non-consensual generation of synthetic media. Without access to the actual repository content, code, or detailed description, no harmful indicators are present in the available information.",
+    "recommended_action": "No action required. Continue monitoring if additional context becomes available that suggests harmful use cases.",
+    "item": {
+      "source": "github",
+      "id": "1301246658",
+      "title": "tribhuwannishad999-spec/SachAI",
+      "body": "",
+      "url": "https://github.com/tribhuwannishad999-spec/SachAI",
+      "created_utc": "2026-07-15T05:44:41Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a face detection repository, which is a standard computer vision task used for many legitimate purposes including security, accessibility, video conferencing, photography, and research. Face detection itself is a foundational technology with widespread benign applications. The repository title contains no indicators of non-consensual synthetic media generation, deepfakes, nudification, face-swapping for harmful purposes, or safety filter bypass. Without access to the actual repository content showing misuse intent, this should be classified as a general ML/CV tool rather than harmful content.",
+    "recommended_action": "No action required. This is a legitimate computer vision tool category.",
+    "item": {
+      "source": "github",
+      "id": "1301494530",
+      "title": "Tuluz/abesnsi-Face-Detection",
+      "body": "",
+      "url": "https://github.com/Tuluz/abesnsi-Face-Detection",
+      "created_utc": "2026-07-15T10:34:45Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The project name 'deepfakeguard' suggests a defensive/protective tool rather than a generative tool for creating non-consensual synthetic media. The repository appears to be focused on detection or mitigation of deepfakes based on the naming convention. Without access to the actual repository contents, the name alone indicates research or protective purposes rather than a tool to generate non-consensual deepfakes. The minimal information provided does not contain evidence of harmful intent.",
+    "recommended_action": "Monitor for updates if repository becomes more active. Review actual code and documentation if accessibility permits to confirm protective rather than generative purpose.",
+    "item": {
+      "source": "github",
+      "id": "1276274313",
+      "title": "python3scapy-cmyk/deepfakeguard",
+      "body": "",
+      "url": "https://github.com/python3scapy-cmyk/deepfakeguard",
+      "created_utc": "2026-06-21T19:08:24Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a repository for Bittensor subnet metadata management and interface discovery. Bittensor is a decentralized machine learning platform. The project appears to be focused on operational metadata, health monitoring, and schema discovery - standard infrastructure tools for distributed systems. There is no indication this is designed for, capable of, or related to generating non-consensual synthetic media, deepfakes, or bypassing safety filters. The scope is clearly infrastructure/utility-focused.",
+    "recommended_action": "No action needed. This is unrelated to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1260856208",
+      "title": "JSONbored/metagraphed",
+      "body": "Operational metadata, health, schemas, and public interface discovery for Bittensor subnets.",
+      "url": "https://github.com/JSONbored/metagraphed",
+      "created_utc": "2026-06-06T00:29:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The repository title 'Attack-Agnostic' suggests academic research focused on detection or defense mechanisms rather than generation of harmful content. The minimal information provided (title and URL only, no actual code visible) indicates this is likely a research project addressing adversarial attacks or robustness. Without access to the full repository contents, code, or documentation, I cannot definitively confirm the purpose, but the naming convention and GitHub presence suggest legitimate security research rather than a tool for creating non-consensual synthetic media.",
+    "recommended_action": "Monitor for confirmation. If full repository analysis becomes available, verify that the project focuses on detection/defense rather than generation of non-consensual content. Current evidence is insufficient to classify as harmful.",
+    "item": {
+      "source": "github",
+      "id": "1301141457",
+      "title": "anu0707/Attack-Agnostic-",
+      "body": "",
+      "url": "https://github.com/anu0707/Attack-Agnostic-",
+      "created_utc": "2026-07-15T02:59:46Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a fork of a Fooocus-style image generation tool focused on txt2img (text-to-image) generation and upscaling/detailing functionality. The description indicates it is a creative studio tool for general image generation, similar to popular open-source projects like Fooocus. There is no indication this tool is specifically designed for or marketed toward non-consensual synthetic media generation. Text-to-image tools have legitimate uses in art, design, and creative work. Without evidence of explicit targeting toward non-consensual deepfakes or facial synthesis of real people without consent, this falls into the category of general-purpose generative AI tooling.",
+    "recommended_action": "No action required. Monitor for updates if the project scope changes or if documentation reveals non-consensual use cases, but current information does not warrant flagging.",
+    "item": {
+      "source": "github",
+      "id": "1260757024",
+      "title": "mikecastrodemaria/crispz-studio",
+      "body": "Z-Image txt2img + upscaler/detailer studio (Fooocus-style fork of crispz)",
+      "url": "https://github.com/mikecastrodemaria/crispz-studio",
+      "created_utc": "2026-06-05T20:54:05Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title 'Face-swap-interview' suggests a face-swapping project, but there is no description, README content, or other details provided to determine its purpose. The 'interview' component may indicate this is a coding interview exercise, technical demo, or educational project rather than a tool designed to generate non-consensual synthetic media of real people. Without evidence of intent to target real individuals without consent, or to produce explicit/harmful content, there is insufficient basis to flag it. Face-swap technology has many legitimate uses (entertainment, research, learning). The ambiguity stems entirely from lack of available information about actual functionality and purpose.",
+    "recommended_action": "Manually review the repository contents (README, code, sample outputs) to determine whether it targets real people without consent or produces explicit content. If it is a generic face-swap demo or interview coding exercise with no non-consensual application, no action needed.",
+    "item": {
+      "source": "github",
+      "id": "1301026831",
+      "title": "1iamharshraj/Face-swap-interview",
+      "body": "",
+      "url": "https://github.com/1iamharshraj/Face-swap-interview",
+      "created_utc": "2026-07-14T23:31:48Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "research_or_detection",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection and analysis tool, not a generation tool. The project uses EfficientNet-B4 for classification (detecting fakes) and GradCAM for explainability (showing manipulation locations). InsightFace is a legitimate computer vision library commonly used in detection pipelines. The explicit focus on detection and explanation of manipulations indicates defensive/research purposes, aligned with DeepGuard Observatory's own mission.",
+    "recommended_action": "No action needed. This is a beneficial detection tool that can help identify non-consensual deepfakes rather than create them.",
+    "item": {
+      "source": "github",
+      "id": "1282958049",
+      "title": "Sowaiba-01/DeepGuard-XAI",
+      "body": "A deepfake detection platform using fine-tuned EfficientNet-B4. Features GradCAM explainability to show exactly where a video was manipulated, alongside an InsightFace pipeline.",
+      "url": "https://github.com/Sowaiba-01/DeepGuard-XAI",
+      "created_utc": "2026-06-28T11:47:46Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "This is a WavLM-Large model fine-tuned for deepfake detection tasks. The model name and pipeline indicate it's designed to identify or classify deepfake audio rather than generate non-consensual synthetic media. WavLM is a standard speech processing architecture, and fine-tuning it for 'deepfake' classification suggests a defensive/detection use case. No evidence in the title or description suggests this is a generation tool or tutorial for creating non-consensual synthetic media.",
+    "recommended_action": "No action needed. This appears to be a legitimate deepfake detection/classification model, which serves a protective purpose in identifying synthetic media rather than enabling its creation.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:HyperMoon/wavlm-large-finetuned-deepfake-0929",
+      "title": "model: HyperMoon/wavlm-large-finetuned-deepfake-0929",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/HyperMoon/wavlm-large-finetuned-deepfake-0929",
+      "created_utc": "2022-09-28T17:16:56.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The listing is a generic Gradio-based face-swap tool with no description, pipeline details, or stated purpose. Face-swap technology has legitimate uses (entertainment, research, filters) as well as potential for non-consensual synthetic media, but there is no evidence here that the tool is built or marketed for creating non-consensual content of real people, nor any explicit content, targeting, or filter-bypass indication. With only a bare title and empty body, there is insufficient information to conclude harm, so per the conservative guidance this is marked not harmful with low confidence.",
+    "recommended_action": "Manual review recommended: inspect the Space's actual functionality, README, and outputs to determine whether it enables non-consensual or explicit face-swapping. Monitor for updates that add descriptive or NSFW context.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:Billone07/faceswap_tool",
+      "title": "space: Billone07/faceswap_tool",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/Billone07/faceswap_tool",
+      "created_utc": "2025-12-02T05:38:51.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space for a video face-swap tool with minimal description (empty pipeline description, only gradio/region tags). Face-swap technology itself has legitimate uses (entertainment, research, creative projects) and there is no indication here that it targets real people without consent, generates explicit/NSFW content, or is built specifically for non-consensual media. The listing lacks any content pointing to malicious intent, victim targeting, or NSFW output. Given the ambiguity and absence of clear harmful purpose, I default to not flagging, but note that generic face-swap tools can be misused.",
+    "recommended_action": "Do not flag at this time; optionally monitor for any updates to the Space description or associated content that indicate NSFW output or targeting of specific individuals.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:MarkoVidrih/video-face-swap",
+      "title": "space: MarkoVidrih/video-face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/MarkoVidrih/video-face-swap",
+      "created_utc": "2024-04-01T20:26:21.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
