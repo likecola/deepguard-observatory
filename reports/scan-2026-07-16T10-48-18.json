@@ -1,0 +1,172 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The repository title 'recon-modular' appears to be a reconnaissance/recon tool, likely for security testing, penetration testing, or information gathering purposes. Without access to the full repository contents, code, and documentation, this does not appear to be related to non-consensual deepfake or synthetic media generation. The name suggests it's a modular reconnaissance toolkit rather than a tool for generating non-consensual synthetic media. The limited information provided does not indicate any connection to face-swap, nudification, or synthetic media generation techniques.",
+    "recommended_action": "No action needed. This does not match the scope of tools that enable non-consensual synthetic media generation. If deeper investigation is warranted, examine the actual repository code and documentation to confirm the tool's true purpose.",
+    "item": {
+      "source": "github",
+      "id": "1302624827",
+      "title": "Ali-hey-0/recon-modular",
+      "body": "",
+      "url": "https://github.com/Ali-hey-0/recon-modular",
+      "created_utc": "2026-07-16T10:05:00Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository appears to be focused on deepfake detection rather than generation. The title explicitly indicates detection capabilities, which is a legitimate security and safety research domain. Deepfake detection tools are designed to identify and mitigate the harms of non-consensual synthetic media, not to create it. Detection research is a critical component of defending against malicious deepfake generation.",
+    "recommended_action": "No action needed. This appears to be legitimate deepfake detection research that supports safety and security.",
+    "item": {
+      "source": "github",
+      "id": "1203143446",
+      "title": "radharahiram-ux/Deepfake-detection",
+      "body": "",
+      "url": "https://github.com/radharahiram-ux/Deepfake-detection",
+      "created_utc": "2026-04-06T19:05:20Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository is explicitly a deepfake detection tool, not a generation tool. It uses EfficientNet-B0 for classification and includes interpretability features (Grad-CAM heatmaps), which are hallmarks of legitimate detection/analysis research. The technical stack (FastAPI REST API, face extraction, classification) is consistent with academic or security-focused detection work. There is no indication this tool generates, creates, or enables non-consensual synthetic media creation.",
+    "recommended_action": "No action needed. This appears to be legitimate deepfake detection research that helps identify manipulated media rather than create it.",
+    "item": {
+      "source": "github",
+      "id": "1215873171",
+      "title": "Dianthuspyrethrum984/deepfake-detector",
+      "body": "Detect deepfake images and videos with EfficientNet-B0, face extraction, Grad-CAM heatmaps, and a FastAPI REST API for clear analysis",
+      "url": "https://github.com/Dianthuspyrethrum984/deepfake-detector",
+      "created_utc": "2026-04-20T10:38:12Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The submission contains only a repository name with no description, body text, or other content to analyze. The name 'Shadow-Warden-AI' is generic and does not indicate any purpose related to non-consensual synthetic media generation, deepfakes, or safety filter bypassing. Without additional content, there is no evidence of harmful intent or functionality. Being conservative as instructed, this is flagged as not harmful with low confidence due to insufficient information.",
+    "recommended_action": "No action required based on available data. If further review is desired, retrieve the repository README, code, and documentation to assess actual functionality before making a determination.",
+    "item": {
+      "source": "github",
+      "id": "1171500980",
+      "title": "zborrman/Shadow-Warden-AI",
+      "body": "",
+      "url": "https://github.com/zborrman/Shadow-Warden-AI",
+      "created_utc": "2026-03-03T09:52:05Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a personal portfolio repository (based on the username 'hajersmiai' and title 'Mon_portfolio', likely a French naming convention for 'My portfolio'). Portfolio projects are typically collections of personal work samples, projects, or CV materials for professional purposes. There is no indication in the title or minimal description provided that this relates to deepfake generation, synthetic media creation, non-consensual image manipulation, or safety filter bypassing. This is standard professional/educational content.",
+    "recommended_action": "No action needed. This is legitimate portfolio content unrelated to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "969747476",
+      "title": "hajersmiai/Mon_portfolio",
+      "body": "",
+      "url": "https://github.com/hajersmiai/Mon_portfolio",
+      "created_utc": "2025-04-20T20:58:33Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project focuses on deepfake detection and authentication, not creation. The title explicitly indicates it's a system for detecting/authenticating deepfakes, which is a legitimate defensive security application. Detection and authentication systems are research tools designed to mitigate harm from deepfakes rather than enable non-consensual synthetic media generation.",
+    "recommended_action": "Approve. This is a beneficial security/research project and does not require further action.",
+    "item": {
+      "source": "github",
+      "id": "1283283240",
+      "title": "FRANKFRANK5/Deepfake-Authentification-Detection-system",
+      "body": "",
+      "url": "https://github.com/FRANKFRANK5/Deepfake-Authentification-Detection-system",
+      "created_utc": "2026-06-28T18:48:24Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "MboaShield is presented as a defensive AI shield against deepfakes and disinformation, not a tool for creating non-consensual synthetic media. The project title and description indicate it is designed for detection, protection, and mitigation of deepfake threats rather than generation or bypassing safety filters. This aligns with legitimate deepfake detection and defense research.",
+    "recommended_action": "No action needed. This is a defensive/detection project focused on protecting against deepfakes, not enabling their creation.",
+    "item": {
+      "source": "github",
+      "id": "1301770881",
+      "title": "TamahJustene/MboaShield",
+      "body": "MboaShield — sovereign AI shield against deepfakes & disinformation (SIN 2026) by Justene Nkwagoh Tamah",
+      "url": "https://github.com/TamahJustene/MboaShield",
+      "created_utc": "2026-07-15T15:32:59Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title 'lipsync-poc' suggests a proof-of-concept for lip synchronization, which could relate to legitimate applications like animation, dubbing, or accessibility. There is no description, body text, or other metadata provided to indicate the tool is designed for non-consensual deepfake generation of real people. Lip-sync technology has many benign uses, and without evidence of targeting real individuals without consent, there is no basis to flag as harmful. The lack of any descriptive content makes assessment difficult, hence low confidence.",
+    "recommended_action": "No action required based on available information. Consider manual review of the repository contents to confirm intended use case, particularly whether it targets real individuals or includes any consent/licensing documentation.",
+    "item": {
+      "source": "github",
+      "id": "1294262179",
+      "title": "Alok-Ranjan23/lipsync-poc",
+      "body": "",
+      "url": "https://github.com/Alok-Ranjan23/lipsync-poc",
+      "created_utc": "2026-07-08T21:26:16Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "research_or_detection",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The repository title 'veritas-ai' (Latin for 'truth' or 'reality') suggests a project focused on verification or detection rather than generation of synthetic media. Without access to the full repository contents, the generic title alone does not indicate a tool for creating non-consensual deepfakes or synthetic media. The name is consistent with potential detection, authenticity verification, or other legitimate AI applications.",
+    "recommended_action": "Review the full repository code and documentation to confirm the project's actual purpose. If it is a deepfake detection, media authentication, or other verification tool, it does not require flagging. Only flag if evidence emerges that it is used for or facilitates non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1302579130",
+      "title": "ssachin15/veritas-ai",
+      "body": "",
+      "url": "https://github.com/ssachin15/veritas-ai",
+      "created_utc": "2026-07-16T09:20:12Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a GitHub repository for 'Semeta kiosk distribution' described as a source mirror for field updates (auto-pushed from a private monorepo). The title and description indicate this is a legitimate kiosk/point-of-service system distribution repository, likely for retail or service deployment purposes. There is no indication of deepfake generation capabilities, synthetic media creation, safety filter bypassing, or non-consensual content generation. The Indonesian language description suggests a standard business software distribution system.",
+    "recommended_action": "No action needed. This repository is unrelated to non-consensual synthetic media generation or safety filter bypass techniques.",
+    "item": {
+      "source": "github",
+      "id": "1286829785",
+      "title": "epicyoung/semeta-kiosk-dist",
+      "body": "Semeta kiosk distribution — source mirror untuk update lapangan (auto-pushed dari monorepo private)",
+      "url": "https://github.com/epicyoung/semeta-kiosk-dist",
+      "created_utc": "2026-07-02T06:17:35Z"
+    },
+    "model": "claude-haiku-4-5"
+  }
+]
