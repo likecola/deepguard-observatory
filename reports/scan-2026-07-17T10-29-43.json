@@ -1,0 +1,231 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'RakshaNet' (where 'Raksha' means protection in Sanskrit/Hindi) and the minimal information provided suggests this is likely a legitimate project focused on security, protection, or safety applications. Without access to the actual repository contents, code, or detailed documentation, there is no evidence that this is a tool designed for generating non-consensual synthetic media. The name itself suggests defensive/protective purposes rather than malicious synthetic media generation.",
+    "recommended_action": "No action required. This does not appear to be related to non-consensual deepfake or synthetic media generation based on available information.",
+    "item": {
+      "source": "github",
+      "id": "1288990872",
+      "title": "DevangPatel2006/RakshaNet",
+      "body": "",
+      "url": "https://github.com/DevangPatel2006/RakshaNet",
+      "created_utc": "2026-07-04T07:49:44Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The submission appears to be a GitHub profile or personal repository with a generic name (username repeated). Without access to actual content, code, or specific project descriptions, there is no evidence of tools, tutorials, or techniques related to non-consensual synthetic media generation. The title and URL structure suggest this is likely a standard GitHub profile or README repository rather than a specialized tool targeting harmful use cases.",
+    "recommended_action": "No action needed. Monitor if this account later publishes suspicious projects, but current information does not indicate harmful content.",
+    "item": {
+      "source": "github",
+      "id": "1193932951",
+      "title": "Kaja-avinash/Kaja-avinash",
+      "body": "",
+      "url": "https://github.com/Kaja-avinash/Kaja-avinash",
+      "created_utc": "2026-03-27T18:27:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "This project appears to be a computer vision and multi-camera object tracking system with deepfake AI integration mentioned as a feature. The description is vague about the specific deepfake functionality, but the context suggests it's focused on live stream processing and object detection rather than generation of non-consensual synthetic media. There is no indication this tool is designed to create deepfakes of real people without consent. It could involve legitimate applications like video analysis, stream enhancement, or entertainment. Without access to the actual code demonstrating non-consensual synthetic media generation capabilities targeting real people, and given the emphasis on object tracking and computer vision for live streams, this appears to be a general-purpose video processing tool rather than a dedicated non-consensual deepfake generation tool.",
+    "recommended_action": "No action required. If deepfake generation is a core feature, recommend accessing the repository code directly to assess whether it includes built-in mechanisms for generating non-consensual synthetic media of real people. Generic deepfake detection or video processing tools are not inherently harmful.",
+    "item": {
+      "source": "github",
+      "id": "1222772406",
+      "title": "Stelepryz/Deep-Live-Cam-Multi-Camera-Object-Tracking-Webui",
+      "body": "Deep-Live-Cam-WebUI: Real-time Multi-Camera-System featuring Object-Tracking and Deepfake-AI integration. Powerful Computer-Vision for live streams.",
+      "url": "https://github.com/Stelepryz/Deep-Live-Cam-Multi-Camera-Object-Tracking-Webui",
+      "created_utc": "2026-04-27T17:35:42Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'kalashrao07-sys/kalashrao07-sys' appears to be a user profile or personal repository with no descriptive content provided that would indicate it contains harmful deepfake generation tools, tutorials, or models. Without access to actual repository content (only the name is provided), and given that this resembles a typical GitHub user profile or personal project repository, there is no evidence of non-consensual synthetic media generation capabilities or related harmful content.",
+    "recommended_action": "No action needed. If concerns arise after direct inspection of repository contents, reassess at that time.",
+    "item": {
+      "source": "github",
+      "id": "1301708003",
+      "title": "kalashrao07-sys/kalashrao07-sys",
+      "body": "",
+      "url": "https://github.com/kalashrao07-sys/kalashrao07-sys",
+      "created_utc": "2026-07-15T14:30:10Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository appears to be focused on detection of deepfakes and fake news rather than generation of non-consensual synthetic media. The title explicitly indicates a 'Detection Hub' which suggests it is research or tools aimed at identifying deepfakes, not creating them. Detection research and tools are legitimate security and safety work, not harmful content.",
+    "recommended_action": "No action needed. This appears to be a legitimate deepfake detection research project.",
+    "item": {
+      "source": "github",
+      "id": "1303859996",
+      "title": "Harshittiwari2306/Fake-News-Deepfake-Detection-Hub",
+      "body": "",
+      "url": "https://github.com/Harshittiwari2306/Fake-News-Deepfake-Detection-Hub",
+      "created_utc": "2026-07-17T10:19:29Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a voice biometric authentication system designed for security purposes. The project explicitly focuses on speaker verification, replay attack detection, and deepfake voice identification - all defensive/protective measures. The use of AntiSpoofNet and deepfake detection indicates the system is built to PREVENT non-consensual synthetic media misuse, not enable it. This is legitimate security research and authentication technology.",
+    "recommended_action": "No action needed. This project supports safety and security.",
+    "item": {
+      "source": "github",
+      "id": "1303856273",
+      "title": "Abhi-420bytes/voice-biometric-authentication",
+      "body": "AI-powered voice biometric authentication system using TDNN, ECAPA-TDNN, and AntiSpoofNet for secure speaker verification, replay attack detection, and deepfake voice identification.",
+      "url": "https://github.com/Abhi-420bytes/voice-biometric-authentication",
+      "created_utc": "2026-07-17T10:15:10Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository is an educational resource collection for AI/ML interview preparation. It contains interview questions, answers, and study materials for various roles and experience levels in the machine learning field. There is no indication of tools for generating non-consensual synthetic media, deepfake tutorials, safety filter bypassing, or any other harmful synthetic media creation capabilities. This is a legitimate career development and learning resource.",
+    "recommended_action": "No action needed. This content is unrelated to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1244957144",
+      "title": "JustInCache/awesome-ai-interviews",
+      "body": "The ultimate collection of AI/ML interview questions, answers & resources — for all roles (MLE, MLOps, Data Scientist, LLM Engineer) and all levels (fresher → staff). Used by 10,000+ engineers. ⭐ Star to bookmark!",
+      "url": "https://github.com/JustInCache/awesome-ai-interviews",
+      "created_utc": "2026-05-20T19:10:35Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository describes a face-swapping tool using YuNet detection with per-region identity mapping and color matching. Face-swap technology can be used for non-consensual synthetic media, but the description contains no explicit reference to targeting real people without consent, generating nude/sexual content, or bypassing safety filters. Face-swapping has many legitimate uses (VFX, entertainment, research). There is no indication of malicious intent or non-consensual targeting in the metadata provided, so I cannot conclude it is harmful. However, the dual-use nature warrants monitoring.",
+    "recommended_action": "Do not flag based on current metadata; add to watchlist for periodic review of README, examples, and any indication the tool is marketed for non-consensual or explicit content generation.",
+    "item": {
+      "source": "github",
+      "id": "1303742542",
+      "title": "vincentilagan/RTV-swapper",
+      "body": "Anatomy-driven face swapper. YuNet detection, per-region identity, colour matched by facial zone.",
+      "url": "https://github.com/vincentilagan/RTV-swapper",
+      "created_utc": "2026-07-17T08:10:13Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a remote desktop application (Bigscreen Remote Desktop) for cross-platform use. It is a legitimate systems administration and remote access tool with no connection to synthetic media generation, deepfakes, or non-consensual content creation. Remote desktop software is standard IT infrastructure.",
+    "recommended_action": "No action needed. This project falls outside the scope of deepfake and synthetic media monitoring.",
+    "item": {
+      "source": "github",
+      "id": "1289150269",
+      "title": "nextime/bsdrX",
+      "body": "Bigscreen remote desktop for linux, osx, windows, android",
+      "url": "https://github.com/nextime/bsdrX",
+      "created_utc": "2026-07-04T11:41:36Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "Based on the title 'antispoof', this repository appears to be focused on anti-spoofing or liveness detection technology, which is a defensive/protective measure against synthetic media attacks. Anti-spoofing research detects and prevents spoofing attacks (including deepfakes and face-swap attacks), making it a security/detection tool rather than a tool for generating non-consensual synthetic media. Without seeing the full repository contents, the naming suggests this is defensive technology aimed at protecting against non-consensual synthetic media rather than enabling it.",
+    "recommended_action": "No action needed. This appears to be legitimate anti-spoofing/detection research.",
+    "item": {
+      "source": "github",
+      "id": "1289213853",
+      "title": "SNurali/antispoof",
+      "body": "",
+      "url": "https://github.com/SNurali/antispoof",
+      "created_utc": "2026-07-04T13:13:22Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a mobile remote control application for ComfyUI, which is a node-based UI for Stable Diffusion. The project description indicates it's a utility tool for managing workflows, queue tracking, and gallery browsing. There is no indication this tool is designed for non-consensual synthetic media generation, nor does it provide methods for bypassing safety filters. ComfyUI itself is a legitimate open-source framework used for various image generation tasks, including many legitimate applications. This appears to be a functional interface/control application for workflow management.",
+    "recommended_action": "No action required. This is a legitimate utility tool not related to non-consensual deepfake generation.",
+    "item": {
+      "source": "github",
+      "id": "1302472634",
+      "title": "damienpjs/Komfy",
+      "body": "Mobile remote for ComfyUI — run embedded workflows, track the queue, browse & remix your gallery. Expo + Tailscale.",
+      "url": "https://github.com/damienpjs/Komfy",
+      "created_utc": "2026-07-16T07:34:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a personal portfolio project focused on real-time workflow metric updates. The title and description contain no indicators of deepfake generation, synthetic media creation, safety filter bypassing, or non-consensual content generation. It is a standard developer portfolio repository.",
+    "recommended_action": "No action required. Archive as benign.",
+    "item": {
+      "source": "github",
+      "id": "593491053",
+      "title": "jrzvnn/jrzvnn",
+      "body": "Selfmade portfolio with real-time worflow metric updates ",
+      "url": "https://github.com/jrzvnn/jrzvnn",
+      "created_utc": "2023-01-26T05:51:38Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "This appears to be an image classification model on HuggingFace's model hub. The model is tagged as an image classification pipeline using Vision Transformer (ViT) architecture. While the model name includes 'deepfakes', the architecture and tags suggest this is likely a deepfake detection or classification model rather than a generation tool. Image classification models are typically used for detecting or categorizing images, not creating non-consensual synthetic media. Without access to the full model card, documentation, or code, there are no clear indicators this is a tool for generating non-consensual deepfakes. The presence on the official HuggingFace hub (a platform that enforces community guidelines) also suggests it has passed basic content review.",
+    "recommended_action": "No action required. Monitor for updates if the model card or usage changes to indicate it is being used for non-consensual content generation, but current evidence suggests this is a detection/classification model.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:joyc360/deepfakes",
+      "title": "model: joyc360/deepfakes",
+      "body": "Pipeline: image-classification\nTags: transformers, pytorch, tensorboard, vit, image-classification, huggingpics, model-index, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/joyc360/deepfakes",
+      "created_utc": "2023-02-17T11:06:08.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "MTCNN (Multi-task Cascaded Convolutional Networks) is a widely-used face detection architecture. The model name includes 'deepfake' but this appears to be a face detection component, likely used for preprocessing in deepfake detection or analysis pipelines rather than generation. MTCNN itself is a detection/localization tool, not a generation or non-consensual synthesis tool. Without access to the full model description or documentation, there is some ambiguity, but the model class (face detection) suggests legitimate research or safety application use.",
+    "recommended_action": "Allow - this is a face detection model component commonly used in legitimate deepfake detection and analysis research. No blocking action needed unless additional context reveals non-consensual generation purposes.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:jungwoonshin/mtcnn_deepfake",
+      "title": "model: jungwoonshin/mtcnn_deepfake",
+      "body": "Pipeline: \nTags: region:us",
+      "url": "https://huggingface.co/jungwoonshin/mtcnn_deepfake",
+      "created_utc": "2023-02-24T12:07:34.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  }
+]
