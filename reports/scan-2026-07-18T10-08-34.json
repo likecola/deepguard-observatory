@@ -1,0 +1,316 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository appears to be an educational project focused on GenAI engineering notebooks with exercises and practice labs. The title and description indicate it is a learning resource for generative AI engineering concepts, not a tool designed to generate non-consensual synthetic media, bypass safety filters, or provide tutorials for harmful deepfake creation. Without access to the actual content, the naming and description suggest legitimate educational purposes around generative AI concepts.",
+    "recommended_action": "No action required. Monitor further if repository content contradicts the description, but current metadata indicates legitimate educational intent.",
+    "item": {
+      "source": "github",
+      "id": "1298126371",
+      "title": "netsetos/genai-engg-notebooks",
+      "body": "Netsetos GenAI Engineering - learner notebooks (exercises + practice labs)",
+      "url": "https://github.com/netsetos/genai-engg-notebooks",
+      "created_utc": "2026-07-12T08:53:20Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is a deepfake audio detection system designed to identify and flag synthetic audio content. The description explicitly indicates it is a defensive tool using machine learning techniques (SVM, CNNs) for detection purposes, not generation. The technical stack (FastAPI, frontend) and framing ('🛡️') make clear this is built to combat deepfakes, not create them. This aligns with legitimate academic and security research.",
+    "recommended_action": "No action needed. This is a protective/detection tool that contributes to safety against deepfake threats.",
+    "item": {
+      "source": "github",
+      "id": "1304010231",
+      "title": "return-tanvi/DeepFake-Audio-Detection",
+      "body": "🛡️ Multi-view deepfake audio detection system using SVM, CNNs, FastAPI, and a dark glassmorphism frontend.",
+      "url": "https://github.com/return-tanvi/DeepFake-Audio-Detection",
+      "created_utc": "2026-07-17T13:12:43Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a personal GitHub profile repository (username matching the repository name is a common pattern for GitHub profile README repositories). The content description provides no evidence of tools, tutorials, or collections related to non-consensual synthetic media generation. Without access to the actual repository contents, and given the generic nature of a personal profile page, there are no indicators of harmful deepfake or synthetic media tools.",
+    "recommended_action": "No action needed. This appears to be a standard personal GitHub profile repository with no apparent connection to non-consensual synthetic media tools or tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1303097612",
+      "title": "biyalizabraham08/biyalizabraham08",
+      "body": "",
+      "url": "https://github.com/biyalizabraham08/biyalizabraham08",
+      "created_utc": "2026-07-16T18:05:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository appears to be a personal profile README repository (GitHub convention for user profile pages). The title 'huda-usman/huda-usman' is the standard naming pattern for GitHub profile repositories that contain biographical or professional information. No description content provided suggests this is a personal portfolio or introduction repository, not a tool or collection related to synthetic media generation or deepfakes.",
+    "recommended_action": "No action needed. This is a benign personal GitHub profile repository.",
+    "item": {
+      "source": "github",
+      "id": "1169840953",
+      "title": "huda-usman/huda-usman",
+      "body": "",
+      "url": "https://github.com/huda-usman/huda-usman",
+      "created_utc": "2026-03-01T09:55:16Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a GitHub portfolio repository with a generic title and minimal description. There is no indication of deepfake generation tools, non-consensual synthetic media creation, safety filter bypass methods, or any harmful content related to the scope of DeepGuard Observatory. It appears to be a standard personal portfolio project.",
+    "recommended_action": "No action needed. Archive or skip in monitoring.",
+    "item": {
+      "source": "github",
+      "id": "1199706610",
+      "title": "nishant020208/nishant020208",
+      "body": "ITS MY PORTFOLIO",
+      "url": "https://github.com/nishant020208/nishant020208",
+      "created_utc": "2026-04-02T16:13:02Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a personal GitHub repository that appears to be a curated list or collection of starred repositories - a common practice on GitHub where users aggregate and organize links to projects they find interesting. The minimal description provided ('A curated list of my GitHub stars!') indicates this is a personal bookmarking/organization tool, not a tool or guide for creating non-consensual synthetic media. Without access to the actual list contents, but given the generic nature of the repository name and description, there is no indication this relates to deepfake generation, face-swapping, nudification, or circumventing safety filters.",
+    "recommended_action": "No action needed. This appears to be a benign personal repository for organizing GitHub bookmarks.",
+    "item": {
+      "source": "github",
+      "id": "758209497",
+      "title": "SHHSSH/awesome-stars",
+      "body": "A curated list of my GitHub stars!",
+      "url": "https://github.com/SHHSSH/awesome-stars",
+      "created_utc": "2024-02-15T20:51:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a curated list of streaming video tools, frameworks, and libraries. Based on the description, it appears to be a legitimate educational resource collection for video streaming technology. There is no indication this is related to non-consensual deepfake generation, face-swap tools, or safety filter bypass techniques. It's a general video technology resource list.",
+    "recommended_action": "No action needed. This is legitimate educational content.",
+    "item": {
+      "source": "github",
+      "id": "163883690",
+      "title": "krzemienski/awesome-video",
+      "body": "A curated list of awesome streaming video tools, frameworks, libraries, and learning resources.",
+      "url": "https://github.com/krzemienski/awesome-video",
+      "created_utc": "2019-01-02T19:58:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a Node.js middleware library called 'toobusy' that handles server load detection and request throttling. This is a legitimate utility for managing application performance and preventing server overload - it has no connection to synthetic media generation, deepfakes, or non-consensual content creation. The name and purpose are purely related to web server performance management.",
+    "recommended_action": "No action needed. This is a benign development utility unrelated to the monitoring objectives.",
+    "item": {
+      "source": "github",
+      "id": "999478522",
+      "title": "nicekriss/toobusy",
+      "body": "",
+      "url": "https://github.com/nicekriss/toobusy",
+      "created_utc": "2025-06-10T10:05:39Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be an 'awesome' curated list repository on GitHub - a common type of project that compiles and organizes resources on a particular topic. The title 'awesome-from-stars' suggests it's likely a tool or list that curates GitHub projects based on starred repositories. Without access to the actual repository contents, this appears to be a utility/organizational project unrelated to synthetic media generation, deepfakes, or safety filter bypasses. No indicators suggest this is designed to enable non-consensual deepfake creation.",
+    "recommended_action": "No action needed. Continue monitoring if future updates suggest harmful content.",
+    "item": {
+      "source": "github",
+      "id": "459634605",
+      "title": "krzemienski/awesome-from-stars",
+      "body": "",
+      "url": "https://github.com/krzemienski/awesome-from-stars",
+      "created_utc": "2022-02-15T15:22:08Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The title 'backend-hub' and generic repository name suggest this is a software development project related to backend systems or infrastructure. Without access to the actual repository contents, the description provided gives no indication of deepfake generation, synthetic media creation, face-swap functionality, or safety filter bypass techniques. The name and minimal information available do not match patterns associated with non-consensual synthetic media tools.",
+    "recommended_action": "No action required. If future monitoring reveals this repository contains relevant harmful content, it can be re-evaluated.",
+    "item": {
+      "source": "github",
+      "id": "1128161450",
+      "title": "adirkol/backend-hub",
+      "body": "",
+      "url": "https://github.com/adirkol/backend-hub",
+      "created_utc": "2026-01-05T08:25:12Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This repository appears to be API client example code for a general face-swap service, providing reference clients in Node.js, Python, and cURL. There is no indication in the title or description that the tool is designed for non-consensual synthetic media of real people, nor does it mention nudify features, targeting real individuals without consent, or safety filter bypasses. Face-swap technology has legitimate uses (entertainment, apps with consent). However, there is inherent ambiguity since face-swap APIs can be misused; without evidence of malicious intent or non-consensual purpose, the conservative classification is not harmful.",
+    "recommended_action": "No action required at this time. Optionally monitor the linked FaceSwapAI service for evidence of non-consensual or nudify functionality that would warrant reclassification.",
+    "item": {
+      "source": "github",
+      "id": "1304706410",
+      "title": "YAN555999/faceswapai-api-examples",
+      "body": "Official versioned Node.js, Python and cURL reference clients for the FaceSwapAI image, video, GIF and multiple face swap API.",
+      "url": "https://github.com/YAN555999/faceswapai-api-examples",
+      "created_utc": "2026-07-18T07:42:23Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository is a news aggregator/monitoring tool for wireless networking products and standards (WiFi routers, WiFi 7/8). It tracks manufacturer news from companies like Linksys, Netgear, TP-Link, and Asus. This has no connection to synthetic media generation, deepfakes, face-swapping, or safety filter bypassing. It is a legitimate technical monitoring project.",
+    "recommended_action": "No action needed. This content does not relate to non-consensual synthetic media tools or techniques.",
+    "item": {
+      "source": "github",
+      "id": "1208137509",
+      "title": "JianrongXiao-Linksys/wireless-news",
+      "body": "Daily WiFi router & WiFi 7/8 news monitor - tracks Linksys, Netgear, TP-Link, Asus and more",
+      "url": "https://github.com/JianrongXiao-Linksys/wireless-news",
+      "created_utc": "2026-04-11T21:44:37Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a general technology news aggregation/curation repository with a generic title and description. There is no indication in the provided information that this relates to deepfakes, synthetic media generation, face-swapping, nudification, or any non-consensual media creation tools. The title 'daily-tech-news' suggests a news collection or aggregation project.",
+    "recommended_action": "No action needed. This repository does not appear to involve non-consensual synthetic media generation tools or related harmful content.",
+    "item": {
+      "source": "github",
+      "id": "1226999261",
+      "title": "lj922891/daily-tech-news",
+      "body": "",
+      "url": "https://github.com/lj922891/daily-tech-news",
+      "created_utc": "2026-05-02T04:35:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "NexusFeed appears to be a feed aggregation or social media integration project based on the repository name and typical GitHub project patterns. Without access to the actual repository content, code, or documentation visible in the provided information, there is no evidence of non-consensual synthetic media generation, deepfake tools, face-swap functionality, or safety filter bypass mechanisms. The project name suggests general data/content aggregation rather than synthetic media creation.",
+    "recommended_action": "No action required. Repository does not appear related to non-consensual deepfake generation or synthetic media tools.",
+    "item": {
+      "source": "github",
+      "id": "1261271832",
+      "title": "mohabdelkarim/NexusFeed",
+      "body": "",
+      "url": "https://github.com/mohabdelkarim/NexusFeed",
+      "created_utc": "2026-06-06T13:18:01Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection project aimed at identifying non-consensual synthetic media, not creating it. The repository title explicitly indicates it's for detection purposes rather than generation. Detection and research into non-consensual deepfakes are legitimate safety and security research activities that help combat harmful synthetic media.",
+    "recommended_action": "No action needed. This project supports harm prevention rather than enabling harm.",
+    "item": {
+      "source": "github",
+      "id": "1304001537",
+      "title": "Sarthak-Create/AI-For-Detecting-Non-Consensual-Deepfake-Images",
+      "body": "",
+      "url": "https://github.com/Sarthak-Create/AI-For-Detecting-Non-Consensual-Deepfake-Images",
+      "created_utc": "2026-07-17T13:03:22Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The model is tagged as 'feature-extraction' and 'medical', suggesting it's designed for extracting features from medical data rather than generating non-consensual synthetic media. The 'pulse2pulse' tag indicates it may be related to pulse/physiological signal processing in medical contexts. The naming includes 'custom-deepfake' which could refer to detection, analysis, or legitimate medical imaging research. Without explicit evidence that this tool generates non-consensual deepfakes of real people, and given the medical context tags, this appears to be a research or medical application rather than a nonconsensual generation tool. The custom_code tag suggests academic or specialized research use.",
+    "recommended_action": "Monitor for updates but do not flag as harmful without further evidence of non-consensual generation capabilities. Consider reviewing the actual model card and code to confirm it's for medical feature extraction or deepfake detection rather than generation.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:vlbthambawita/custom-deepfake",
+      "title": "model: vlbthambawita/custom-deepfake",
+      "body": "Pipeline: feature-extraction\nTags: transformers, pytorch, pulse2pulse, feature-extraction, medical, custom_code, region:us",
+      "url": "https://huggingface.co/vlbthambawita/custom-deepfake",
+      "created_utc": "2023-02-24T14:12:59.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This model is for synthetic ECG (electrocardiogram) generation, which is a medical/physiological signal used for heart monitoring and diagnostics. ECG synthesis is a legitimate medical and research application unrelated to non-consensual synthetic media of real people. The model generates synthetic heart rate data, not deepfakes of individuals' faces, bodies, or identifiable biometric data. The BSD license and transparent documentation indicate this is a properly licensed research/medical tool.",
+    "recommended_action": "No action required. This is a legitimate medical signal synthesis tool outside the scope of non-consensual deepfake monitoring.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:deepsynthbody/deepfake_ecg",
+      "title": "model: deepsynthbody/deepfake_ecg",
+      "body": "Pipeline: unconditional-image-generation\nTags: transformers, pytorch, pulse2pulse-2, ECG, Synthetic ECG, unconditional-image-generation, custom_code, en, license:bsd, endpoints_compatible, region:us",
+      "url": "https://huggingface.co/deepsynthbody/deepfake_ecg",
+      "created_utc": "2023-02-24T17:08:37.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a Hugging Face Space for deepfake detection research, not for generating non-consensual synthetic media. The tags and description indicate it's a playground/leaderboard for testing detection models and forensic analysis techniques. Deepfake detection tools are defensive technologies designed to identify fake content, which is the opposite of the harmful use case (generation of non-consensual deepfakes). The mention of 'ensemble' and 'forensics' further confirms this is about analyzing and detecting deepfakes rather than creating them.",
+    "recommended_action": "No action needed. This is legitimate research infrastructure for deepfake detection.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:buildborderless/OpenSight-Deepfake-Detection-Models-Playground",
+      "title": "space: buildborderless/OpenSight-Deepfake-Detection-Models-Playground",
+      "body": "Pipeline: \nTags: gradio, deepfake-detection, ai-agents, leaderboards, deepfake, detection, ensemble, forensics, region:us",
+      "url": "https://huggingface.co/spaces/buildborderless/OpenSight-Deepfake-Detection-Models-Playground",
+      "created_utc": "2025-02-06T20:31:44.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swapping Gradio space with no description, no explicit purpose targeting non-consensual content, and no indication it produces sexual or nude imagery. Face-swapping tools have many legitimate uses (entertainment, creative editing). While face-swappers can be misused for non-consensual deepfakes, there is no evidence here that it is built or marketed for that purpose, and no mention of real-person targeting, NSFW output, or filter bypassing. Per conservative guidance, insufficient evidence to flag as harmful.",
+    "recommended_action": "No action needed based on available metadata; could add to watchlist for periodic review if the space later adds NSFW capabilities or targeting features.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:NihalGazi/FaceFlux-Face-Swapper",
+      "title": "space: NihalGazi/FaceFlux-Face-Swapper",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/NihalGazi/FaceFlux-Face-Swapper",
+      "created_utc": "2025-07-21T13:55:27.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
