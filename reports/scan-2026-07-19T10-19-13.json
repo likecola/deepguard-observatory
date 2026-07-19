@@ -1,0 +1,220 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository name 'kawach' (Hindi for 'shield/protection') and username provide no indication of non-consensual synthetic media tooling. There is no description, README content, or other information available to assess harm. With no body/description and no signals pointing to deepfake or nudify functionality, there is insufficient evidence to flag this as harmful. The name actually suggests a protection/security theme, but this is speculative.",
+    "recommended_action": "No action required based on available information. If needed, manually review the repository's README and code contents to confirm its actual purpose.",
+    "item": {
+      "source": "github",
+      "id": "1267327801",
+      "title": "keshav-kr-agrawal/kawach",
+      "body": "",
+      "url": "https://github.com/keshav-kr-agrawal/kawach",
+      "created_utc": "2026-06-12T12:45:18Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "research_or_detection",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "LumiVeil appears to be a name/title without sufficient descriptive content provided to evaluate its purpose. Based on the name alone, there is no evidence this is a tool designed for non-consensual synthetic media generation, deepfakes, face-swapping targeting real people without consent, or safety filter bypassing. Without access to the repository content, code, documentation, or actual functionality details, no harmful intent can be reasonably determined. The project name suggests it could be related to visual effects, privacy protection, or other legitimate applications.",
+    "recommended_action": "Allow. If concerned about specific project details, recommend human review of the actual repository code and documentation to determine true purpose and functionality.",
+    "item": {
+      "source": "github",
+      "id": "1273147598",
+      "title": "HimanshuBhandari2196/LumiVeil",
+      "body": "",
+      "url": "https://github.com/HimanshuBhandari2196/LumiVeil",
+      "created_utc": "2026-06-18T08:51:12Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The repository name suggests it may be related to deepfakes, but without access to the actual repository contents, code, documentation, or implementation details, I cannot determine if this is a tool for generating non-consensual synthetic media, a detection/research project, or something unrelated to synthetic media entirely. The name 'riskapi_and_ml_service' is vague and could refer to risk assessment, machine learning services, or fraud detection. A comprehensive evaluation would require examining the actual codebase, README, and purpose statement.",
+    "recommended_action": "Manual review of the repository's README, code structure, and documentation to determine its actual purpose. If it is a deepfake detection or safety tool, it should be flagged as false. If it contains code or models for generating non-consensual synthetic media, it should be escalated as harmful.",
+    "item": {
+      "source": "github",
+      "id": "1298159323",
+      "title": "alfa-deepfake/riskapi_and_ml_service",
+      "body": "",
+      "url": "https://github.com/alfa-deepfake/riskapi_and_ml_service",
+      "created_utc": "2026-07-12T09:46:48Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project appears to be a voice detection/classification tool designed to distinguish between AI-generated and human voices. This is a legitimate detection and security research tool, not a tool for generating synthetic media without consent. Such detection tools are important for identifying deepfakes and synthetic media, which supports safety efforts rather than enabling harm.",
+    "recommended_action": "No action needed. This is a beneficial detection tool for identifying AI-generated content.",
+    "item": {
+      "source": "github",
+      "id": "1268470490",
+      "title": "srujanem/voice-check",
+      "body": "Distinguish between the ai voice and the human voice",
+      "url": "https://github.com/srujanem/voice-check",
+      "created_utc": "2026-06-13T15:15:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository appears to be a deepfake detection project based on the title and naming convention. Detection and research projects are explicitly legitimate use cases for studying synthetic media. The project name 'Deepfake_Detection' indicates it is designed to identify deepfakes rather than create them, which is a defensive and protective research activity.",
+    "recommended_action": "No action required. Verify project contents if possible, but the title strongly suggests this is detection/research work rather than a tool for creating non-consensual synthetic media.",
+    "item": {
+      "source": "github",
+      "id": "1305603922",
+      "title": "guptacharvi19/Deepfake_Detection",
+      "body": "",
+      "url": "https://github.com/guptacharvi19/Deepfake_Detection",
+      "created_utc": "2026-07-19T10:08:47Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a personal GitHub Pages repository (indicated by the username.github.io naming convention), which is used for hosting personal websites or portfolios. The description 'personal page' confirms this is a legitimate personal website repository. There is no indication of deepfake generation tools, tutorials for non-consensual synthetic media, safety filter bypasses, or related harmful content. This is a standard GitHub Pages project unrelated to the DeepGuard Observatory's scope.",
+    "recommended_action": "No action required. This content falls outside the monitoring scope.",
+    "item": {
+      "source": "github",
+      "id": "52756706",
+      "title": "hadyelsahar/hadyelsahar.github.io",
+      "body": "personal page",
+      "url": "https://github.com/hadyelsahar/hadyelsahar.github.io",
+      "created_utc": "2016-02-29T02:04:31Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "OmniVoice-Studio appears to be a voice-related audio project. Without access to the repository contents, the title and description suggest this is likely a voice synthesis, audio processing, or voice editing tool. This differs from non-consensual deepfake/synthetic media tools that generate fake images or videos of real people without consent. Voice synthesis tools themselves are not inherently harmful - they have legitimate applications in accessibility, entertainment, and content creation. The project name suggests it may be a studio/workspace tool for voice work rather than a tool designed specifically to create non-consensual synthetic media of real people.",
+    "recommended_action": "No action needed. If the repository contains explicit tutorials for creating non-consensual voice deepfakes of real people or evidence of its use for such purposes, re-evaluate.",
+    "item": {
+      "source": "github",
+      "id": "1305465726",
+      "title": "Fazzbro/OmniVoice-Studio",
+      "body": "",
+      "url": "https://github.com/Fazzbro/OmniVoice-Studio",
+      "created_utc": "2026-07-19T06:08:51Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "Foocus is a fork/variant of an open-source image generation tool (likely based on Fooocus). The title and URL alone do not indicate this is built specifically for generating non-consensual synthetic media. Without access to the actual repository content, description, or readme, it appears to be a general-purpose image generation framework. Many legitimate image generation tools can be misused, but the tool itself is not inherently designed as a non-consensual deepfake generator. The repository name suggests it's a variant/fork by a user, but provides no clear evidence of malicious purpose.",
+    "recommended_action": "Monitor the repository content if accessible. Flag only if evidence emerges that this fork specifically adds features for facial manipulation without consent or removes safety guardrails designed to prevent non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1182400472",
+      "title": "sunsideaspect/foocus_sunside",
+      "body": "",
+      "url": "https://github.com/sunsideaspect/foocus_sunside",
+      "created_utc": "2026-03-15T13:24:23Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "The project name 'deepsleuth' and the context of GitHub hosting suggests this is likely a deepfake detection or analysis tool rather than a generation tool. The naming convention implies investigative/forensic capability (\"sleuth\"). Without access to the actual repository content, code, or detailed documentation, I cannot definitively confirm the project's purpose, but the name and platform strongly suggest research or detection work rather than non-consensual media generation. If this were a harmful tool, the description would typically contain explicit references to generation, transformation, or synthesis capabilities.",
+    "recommended_action": "Monitor - flag for human review if repository content reveals it contains generation models, tutorials for bypassing safety filters, or explicit non-consensual use documentation. If confirmed as detection/forensic research, no action needed.",
+    "item": {
+      "source": "github",
+      "id": "1296668628",
+      "title": "miiidev/deepsleuth",
+      "body": "",
+      "url": "https://github.com/miiidev/deepsleuth",
+      "created_utc": "2026-07-10T15:55:53Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This repository appears to be a personal collection/index of starred repositories - essentially a curated bookmark list. The title and description clearly indicate it's a self-referential organizational tool for managing starred repositories on GitHub. There is no indication of tools for generating non-consensual synthetic media, tutorials for deepfakes, safety filter bypasses, or related harmful content. This is a common and benign GitHub practice.",
+    "recommended_action": "No action needed. This is routine GitHub activity unrelated to synthetic media generation or non-consensual content.",
+    "item": {
+      "source": "github",
+      "id": "1042019309",
+      "title": "D3XX3R/starred",
+      "body": "Repo is mostly for myself to have a somewhat sorted list of all my starred repos",
+      "url": "https://github.com/D3XX3R/starred",
+      "created_utc": "2025-08-21T11:07:53Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a GitHub repository containing an auto-generated list of starred repositories. The title and description indicate it is simply a personal collection/index of GitHub repositories that the user has starred. There is no indication this relates to deepfake generation, non-consensual synthetic media, safety filter bypasses, or any harmful content. This is a common GitHub pattern where users create curated lists of interesting projects.",
+    "recommended_action": "No action needed. This is a benign repository listing tool.",
+    "item": {
+      "source": "github",
+      "id": "305848197",
+      "title": "laur89/awesome-stars",
+      "body": "auto-generated list of my stars",
+      "url": "https://github.com/laur89/awesome-stars",
+      "created_utc": "2020-10-20T22:30:09Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "ENZI appears to be a French educational project focused on technical pedagogy with a visual, structured, and comprehension-oriented approach. The description indicates it is a 'Codex skill' for teaching/learning technical concepts. There is no indication this involves synthetic media generation, deepfakes, face-swapping, nudification, or any non-consensual content creation tools. This is a legitimate educational resource.",
+    "recommended_action": "No action needed. This content is unrelated to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1210206273",
+      "title": "marceldigbeu/enzi",
+      "body": " ENZI est un skill Codex de pédagogie technique qui explique avec une approche visuelle , structurée et orientée compréhension.",
+      "url": "https://github.com/marceldigbeu/enzi",
+      "created_utc": "2026-04-14T07:27:49Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a generic face-swap Gradio Space with minimal metadata (empty pipeline description, only 'gradio' and 'region:us' tags). Face-swap tools have legitimate uses (entertainment, art, research) and there is no indication this is specifically built to target real people without consent, no NSFW/nudify functionality mentioned, and no tutorial for bypassing safety filters. The absence of any consent documentation is not itself sufficient to flag, per conservative guidance. Without evidence of non-consensual intent, this remains ambiguous.",
+    "recommended_action": "Do not flag at this time. Optionally queue for manual review to inspect the actual pipeline/README for any NSFW capabilities or targeting of specific individuals that would change the assessment.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:ovi054/face-swap-pro",
+      "title": "space: ovi054/face-swap-pro",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/ovi054/face-swap-pro",
+      "created_utc": "2023-09-06T11:41:45.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
