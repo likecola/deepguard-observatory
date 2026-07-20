@@ -1,0 +1,204 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The provided URL appears to be a personal GitHub profile page (a typical user profile repository URL format). The title matches a GitHub username. There is no description or content provided that indicates this contains tools, models, tutorials, or methods related to non-consensual synthetic media generation or safety filter bypassing. A personal profile page on GitHub typically contains biographical information, pinned repositories, or a README for the user's account - not inherently harmful content. Without evidence of harmful content, this should not be flagged.",
+    "recommended_action": "No action required. If actual harmful content appears in this repository later, conduct a follow-up review based on specific content.",
+    "item": {
+      "source": "github",
+      "id": "776525510",
+      "title": "Francisco-Guillen/Francisco-Guillen",
+      "body": "",
+      "url": "https://github.com/Francisco-Guillen/Francisco-Guillen",
+      "created_utc": "2024-03-23T18:45:18Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is an AI image authenticity detector designed to identify synthetic or manipulated images. The description indicates it's a feasibility study with model registry and validation components - this is clearly a detection/verification tool rather than a generation tool. Authenticity detectors are defensive tools used to combat non-consensual deepfakes, not enable them. The focus on validation and MVP planning suggests legitimate research into detecting synthetic media.",
+    "recommended_action": "No action needed. This project supports the goal of detecting non-consensual synthetic media.",
+    "item": {
+      "source": "github",
+      "id": "1305598665",
+      "title": "ShenghangWang/ai-image-authenticity-detector",
+      "body": "Open AI image authenticity detector feasibility study, model registry, GPU validation, and executable MVP plan",
+      "url": "https://github.com/ShenghangWang/ai-image-authenticity-detector",
+      "created_utc": "2026-07-19T10:00:15Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is a deepfake detection and face liveness detection system, not a tool for generating non-consensual synthetic media. The description explicitly states it is 'deepfake-resistant' and combines multiple forensic analysis techniques (rPPG, PRNU, texture, geometry, motion analysis) to identify fake or spoofed faces. The inclusion of threat modeling, security scanning, and explainable fusion methods further indicates this is a defensive security research project. The project aims to prevent deepfake attacks rather than enable them.",
+    "recommended_action": "No action needed. This is legitimate security research for detecting and defending against deepfakes.",
+    "item": {
+      "source": "github",
+      "id": "1264913496",
+      "title": "singh-adi5/chromatic",
+      "body": "Proof of concept for deepfake-resistant face liveness detection. Combines rPPG, PRNU sensor forensics, texture, geometry, and motion analysis with explainable fusion. Includes threat model, hardened Docker, and CI security scanning.",
+      "url": "https://github.com/singh-adi5/chromatic",
+      "created_utc": "2026-06-10T09:40:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository name references 'Signal-server,' which is associated with the Signal messaging platform's server infrastructure, though the organization name 'Signal-Ai-Deepfake' is suspicious. There is no description, body content, or any details provided to indicate the tool generates non-consensual synthetic media, contains harmful models, or provides deepfake tutorials. With only a title and no substantive content, there is insufficient evidence to conclude the project is harmful. The organization name is ambiguous and could warrant a closer look, but no working implementation or harmful purpose is documented.",
+    "recommended_action": "Do not flag at this time. Manually review the repository's actual contents (README, code, model files) to determine whether the 'Deepfake' in the org name corresponds to any non-consensual generation functionality before making a determination.",
+    "item": {
+      "source": "github",
+      "id": "1304563528",
+      "title": "Signal-Ai-Deepfake/Signal-server",
+      "body": "",
+      "url": "https://github.com/Signal-Ai-Deepfake/Signal-server",
+      "created_utc": "2026-07-18T03:24:29Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project focuses on deepfake detection using explainable AI (XAI), not on generating non-consensual synthetic media. The title and URL clearly indicate a detection/research purpose rather than a tool for creating deepfakes. Deepfake detection research is a legitimate defensive security effort that should not be flagged as harmful.",
+    "recommended_action": "No action needed. This is a legitimate academic/research project aimed at identifying synthetic media rather than creating it.",
+    "item": {
+      "source": "github",
+      "id": "1306498648",
+      "title": "amanGhgh/deepfake-detection-using-xai",
+      "body": "",
+      "url": "https://github.com/amanGhgh/deepfake-detection-using-xai",
+      "created_utc": "2026-07-20T10:41:33Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a curated collection of AI tools and resources for solopreneurs and indie developers. The description clearly indicates it contains legitimate AI productivity tools, Claude skills, MCP (Model Context Protocol) servers, and business growth strategies for small business owners. There is no indication of deepfake generation, non-consensual synthetic media creation, face-swapping, nudification, or safety filter bypassing. This is a standard developer resource repository focused on productivity and business applications.",
+    "recommended_action": "No action needed. This is legitimate educational and productivity content.",
+    "item": {
+      "source": "github",
+      "id": "1279530096",
+      "title": "yerdaulet-damir/awesome-solo-ai",
+      "body": "Curated AI tools, Claude skills, MCP servers & growth playbooks for solopreneurs, indie hackers and solo founders — the one-person-company AI stack you feed to Claude Code.",
+      "url": "https://github.com/yerdaulet-damir/awesome-solo-ai",
+      "created_utc": "2026-06-24T19:20:53Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a computer vision research repository related to DINOv2 (a self-supervised vision model) and SRCA (likely a technical abbreviation for a computer vision technique). There is no indication in the title or available description that this project involves non-consensual synthetic media generation, deepfakes, or safety filter bypassing. The repository name suggests legitimate academic or technical work on vision models.",
+    "recommended_action": "No action needed. This does not appear to be related to non-consensual deepfake/synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1306494008",
+      "title": "manhchienkmagpt/dinov2_srca",
+      "body": "",
+      "url": "https://github.com/manhchienkmagpt/dinov2_srca",
+      "created_utc": "2026-07-20T10:35:34Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "medium",
+    "reasoning": "This repository appears to be a research dataset collection focused on benchmarking and evaluation of face-swap AI systems, including vendor claims, checksums, and citations. The description emphasizes 'open research,' datasets, and benchmarks rather than a working tool for generating non-consensual deepfakes. However, confidence is medium rather than high because: (1) the repository name includes 'faceswapai' which could indicate tool-building, (2) without examining the actual contents, it's unclear whether this is purely academic benchmarking or includes models/techniques for generating non-consensual content, and (3) the phrase 'production benchmarks' is somewhat ambiguous. If this is genuinely a research dataset for evaluating face-swap detection or understanding vendor capabilities, it would fall under legitimate research. The title and description do not indicate tutorials for bypassing safety filters or non-consensual generation tools.",
+    "recommended_action": "Low priority for further review. Recommend manual inspection of repository contents to verify it contains only research datasets, benchmarks, and citation metadata without working generation code or instructions for non-consensual media creation.",
+    "item": {
+      "source": "github",
+      "id": "1301156644",
+      "title": "YAN555999/faceswapai-open-research",
+      "body": "Open AI face swap datasets, production benchmarks, vendor-claim snapshots, checksums and citation metadata from FaceSwapAI.",
+      "url": "https://github.com/YAN555999/faceswapai-open-research",
+      "created_utc": "2026-07-15T03:24:20Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository is titled 'deepfake-detector' which indicates a detection/analysis tool rather than a generation tool. Deepfake detection projects are research-oriented security tools designed to identify synthetic media, not create it. The URL pattern and naming convention are consistent with academic or defensive security research. No indication of being a tool for creating non-consensual synthetic media.",
+    "recommended_action": "No action needed. This appears to be a legitimate deepfake detection research project. Continue monitoring for any updates that might change its nature.",
+    "item": {
+      "source": "github",
+      "id": "1302604756",
+      "title": "ramshaa01/deepfake-detector",
+      "body": "",
+      "url": "https://github.com/ramshaa01/deepfake-detector",
+      "created_utc": "2026-07-16T09:44:55Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a general-purpose face-swapping API built on established open-source libraries (insightface, FaceFusion) with technical features like GPU acceleration, model restoration, and VRAM management. The description contains no indication that it is designed or marketed for non-consensual synthetic media of real people, nor does it mention nudify functionality, targeting individuals, or bypassing safety filters. Face-swap tooling has legitimate uses (VFX, research, consensual content). However, such general tools can be misused, so there is inherent ambiguity; there is no explicit consent documentation or licensing disclaimer either. Absent clear evidence of harmful intent or non-consensual targeting, this should not be flagged.",
+    "recommended_action": "No action required beyond routine monitoring; note the dual-use nature but do not flag without evidence of non-consensual or explicit-content purpose.",
+    "item": {
+      "source": "github",
+      "id": "664083245",
+      "title": "ashleykleynhans/faceswap-api",
+      "body": "GPU-accelerated face swapping API with 13 models, CodeFormer restoration, and VRAM-safe serial queue. Powered by insightface and FaceFusion.",
+      "url": "https://github.com/ashleykleynhans/faceswap-api",
+      "created_utc": "2023-07-08T21:39:46Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This repository is explicitly focused on deepfake detection research, not generation. The title clearly indicates a detection/research purpose rather than a tool for creating non-consensual synthetic media. Deepfake detection research is a legitimate academic and security field that helps protect against harmful synthetic media creation.",
+    "recommended_action": "No action needed. This appears to be a legitimate research project aimed at detecting deepfakes rather than creating them.",
+    "item": {
+      "source": "github",
+      "id": "1306426912",
+      "title": "shashank-singh-singhania/deepfake-detection-research",
+      "body": "",
+      "url": "https://github.com/shashank-singh-singhania/deepfake-detection-research",
+      "created_utc": "2026-07-20T09:14:24Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'TestProject' combined with minimal identifying information suggests this is a generic test or demo repository. Without access to the actual repository contents, description, or code, there is no evidence that this project relates to non-consensual synthetic media generation, deepfakes, safety filter bypassing, or similar harmful applications. The generic nature of the title and lack of any harmful indicators strongly suggests this is an unrelated project.",
+    "recommended_action": "No action needed. This appears to be a standard test project unrelated to synthetic media or deepfake generation.",
+    "item": {
+      "source": "github",
+      "id": "1166963752",
+      "title": "jimmyhuydev/TestProject",
+      "body": "",
+      "url": "https://github.com/jimmyhuydev/TestProject",
+      "created_utc": "2026-02-25T19:57:06Z"
+    },
+    "model": "claude-haiku-4-5"
+  }
+]
