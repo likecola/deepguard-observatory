@@ -1,10 +1,10 @@
 # DeepGuard Observatory — Summary
 
-_Auto-generated 2026-07-20 11:34 UTC. Do not edit by hand — run `python src/report.py`._
+_Auto-generated 2026-07-21 10:56 UTC. Do not edit by hand — run `python src/report.py`._
 
 ## Totals
 
-- Scan runs recorded: **10**
+- Scan runs recorded: **11**
 - Harmful findings tracked: **34**
 - Awaiting report (status `new`): **34**
 - Reported to platforms: **0**
