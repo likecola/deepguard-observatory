@@ -1,0 +1,188 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository name 'sebi' likely refers to the Securities and Exchange Board of India (SEBI), an Indian financial regulatory body. Without access to the actual repository contents, the context suggests this is a legitimate project related to financial data, compliance, or regulatory tools—not a tool for generating non-consensual synthetic media. The naming convention is consistent with standard software projects and does not indicate harmful intent related to deepfakes or synthetic media generation.",
+    "recommended_action": "No action required. This appears to be a legitimate, unrelated project.",
+    "item": {
+      "source": "github",
+      "id": "1308706836",
+      "title": "rohanambati-bot/sebi",
+      "body": "",
+      "url": "https://github.com/rohanambati-bot/sebi",
+      "created_utc": "2026-07-22T10:52:51Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a GitHub user profile repository (indicated by matching username format). Such repositories typically contain user information, README files, or portfolio content. Without access to the actual content of the repository, and given that the URL structure suggests a standard GitHub profile/portfolio repository rather than a tool or guide for creating non-consensual synthetic media, there is no indication of harmful content. The title and URL alone do not suggest this is related to deepfakes, nudification tools, face-swap applications, or safety filter bypass techniques.",
+    "recommended_action": "No action required. If monitoring this account in the future, flag any repositories that explicitly distribute non-consensual generation tools or tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1171605237",
+      "title": "KPriyanshu775/KPriyanshu775",
+      "body": "",
+      "url": "https://github.com/KPriyanshu775/KPriyanshu775",
+      "created_utc": "2026-03-03T12:14:20Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is explicitly positioned as a deepfake detection and authenticity verification system. The title and description indicate it focuses on identifying and verifying synthetic media rather than generating it. Such defensive/detection technologies are legitimate security research and help protect against non-consensual deepfakes. No evidence suggests this is a tool for creating non-consensual synthetic media or bypassing safety filters.",
+    "recommended_action": "No action needed. This appears to be a legitimate deepfake detection project aligned with protective cybersecurity research.",
+    "item": {
+      "source": "github",
+      "id": "1308700878",
+      "title": "jadonvansh2005/DEEPSHIELD",
+      "body": "An AI-Powered Deepfake Detection and Authenticity Verification System Using Multi-Modal Analysis",
+      "url": "https://github.com/jadonvansh2005/DEEPSHIELD",
+      "created_utc": "2026-07-22T10:45:55Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository 'surakshak360/docs' appears to be a documentation repository with a generic name. Without access to the actual content of the repository, it presents as a standard documentation project. The name 'surakshak360' (where 'surakshak' means 'protector/security' in Hindi) and the generic 'docs' folder suggest this is likely a legitimate documentation or security-related project rather than a tool for non-consensual synthetic media generation. There are no indicators in the title or available metadata suggesting this relates to deepfakes, face-swapping, nudification, or safety filter bypass techniques.",
+    "recommended_action": "No action required. This appears to be a legitimate documentation repository. If concerned about specific content, a manual review of the repository contents would be appropriate, but based on available information, there is no evidence of harmful synthetic media tools or tutorials.",
+    "item": {
+      "source": "github",
+      "id": "1304515561",
+      "title": "surakshak360/docs",
+      "body": "",
+      "url": "https://github.com/surakshak360/docs",
+      "created_utc": "2026-07-18T01:43:02Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The title 'Veritas-Nexus' described as a 'Unified Digital Media Intelligence Platform' does not inherently indicate a non-consensual synthetic media generation tool. The name suggests a platform focused on media intelligence/analysis rather than generation. Without access to the actual repository code or documentation, and based solely on the title and vague description, there are no clear indicators of deepfake generation, face-swap, nudification, or safety filter bypass functionality. The description is too generic to determine harmful intent.",
+    "recommended_action": "No action required based on available information. If concerns arise from actual code inspection, re-evaluate.",
+    "item": {
+      "source": "github",
+      "id": "1290194189",
+      "title": "niiomar/Veritas-Nexus",
+      "body": "Unified Digital Media Intelligence Platform",
+      "url": "https://github.com/niiomar/Veritas-Nexus",
+      "created_utc": "2026-07-05T17:27:03Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a cybersecurity intelligence platform for processing security logs and generating threat intelligence reports. It is designed for defensive purposes (analyzing logs to identify threats) rather than generating non-consensual synthetic media. The project uses LangGraph for multi-agent AI processing of security data, which is a legitimate cybersecurity tool. There is no connection to deepfakes, face-swapping, synthetic media generation, or safety filter bypassing.",
+    "recommended_action": "No action needed. This project falls outside the scope of non-consensual synthetic media generation tools.",
+    "item": {
+      "source": "github",
+      "id": "1308422523",
+      "title": "Humaira-Muqades/sentinel-cyber-intelligence",
+      "body": "AI-powered cyber defense intelligence platform. A seven-agent LangGraph pipeline that turns raw security logs into analyst-ready threat intelligence reports.",
+      "url": "https://github.com/Humaira-Muqades/sentinel-cyber-intelligence",
+      "created_utc": "2026-07-22T05:35:03Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is an index of audio benchmarks with download and license pointers. It appears to be a resource catalog for audio datasets and evaluation metrics, which is a legitimate research and development tool. There is no indication this relates to non-consensual synthetic media generation, deepfake creation, or safety filter bypassing. Audio benchmarks are commonly used for machine learning model evaluation, speech recognition, audio processing, and similar applications.",
+    "recommended_action": "No action needed. This is a legitimate research resource.",
+    "item": {
+      "source": "github",
+      "id": "1294816062",
+      "title": "kennethli319/audio-benchmark-index",
+      "body": "Living index of audio benchmarks with download and license pointers",
+      "url": "https://github.com/kennethli319/audio-benchmark-index",
+      "created_utc": "2026-07-09T07:30:37Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "The repository title and description explicitly indicate this is a detection tool for AI-generated content and deepfakes, not a generation tool. Detection and analysis tools are legitimate research applications that help identify synthetic media rather than create it. The naming convention (AI-SCERN) and stated purpose align with defensive/safety research rather than enabling non-consensual synthetic media creation.",
+    "recommended_action": "No action required. This appears to be a legitimate deepfake detection research project.",
+    "item": {
+      "source": "github",
+      "id": "1173445283",
+      "title": "anasali89ji/AI-SCERN",
+      "body": "AI detection and deepfake detection ",
+      "url": "https://github.com/anasali89ji/AI-SCERN",
+      "created_utc": "2026-03-05T11:24:13Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository title 'faceswap-native' suggests a general face-swapping tool, but there is no description, README content, or other details provided to assess intent or functionality. Face-swap technology has many legitimate uses (film, VFX, research, entertainment) and there is no indication this tool targets real people without consent, produces non-consensual explicit content, or bypasses safety filters. Without further content, flagging would be speculative.",
+    "recommended_action": "Do not flag at this time; manually review the repository README, code, and stated purpose to determine whether it enables non-consensual synthetic media before making a final determination.",
+    "item": {
+      "source": "github",
+      "id": "1307923543",
+      "title": "nfsvtek-netizen/faceswap-native",
+      "body": "",
+      "url": "https://github.com/nfsvtek-netizen/faceswap-native",
+      "created_utc": "2026-07-21T16:47:31Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This project is an OpenAI-compatible API server for running language models locally on GPU hardware. It is a general-purpose LLM inference tool with no specific connection to non-consensual synthetic media generation, deepfakes, face-swapping, nudification, or safety filter bypassing. While any sufficiently powerful model hosting tool could theoretically be misused, the project itself is a legitimate infrastructure tool for local model deployment, similar to vLLM, Ollama, or other open-source inference servers. There is no evidence in the title or description that this is designed for or marketed toward non-consensual media generation.",
+    "recommended_action": "No action required. This is a legitimate open-source LLM inference framework.",
+    "item": {
+      "source": "github",
+      "id": "1231830520",
+      "title": "nextime/coderai",
+      "body": "OpenAI-compatible API server to run models on your local GPU",
+      "url": "https://github.com/nextime/coderai",
+      "created_utc": "2026-05-07T10:27:31Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This is a Hugging Face Space titled 'FaceSwap' with essentially no description, tags, or pipeline details provided. Face-swapping tools have many legitimate uses (entertainment, research, consensual creative projects), and there is no evidence here that the tool is built or intended for non-consensual synthetic media, contains no explicit nudity/adult targeting, and no tutorials for bypassing safety filters. Without additional metadata indicating malicious intent, this cannot be confidently flagged as harmful. However, the generic 'FaceSwap' framing and lack of consent documentation warrants monitoring.",
+    "recommended_action": "Do not flag at this time; add to a watchlist for manual review if additional signals (e.g., NSFW capabilities, targeting of specific individuals, or absence of consent safeguards) emerge.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:InsightWhispersAI/FaceSwap",
+      "title": "space: InsightWhispersAI/FaceSwap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/InsightWhispersAI/FaceSwap",
+      "created_utc": "2025-04-23T18:45:39.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]
