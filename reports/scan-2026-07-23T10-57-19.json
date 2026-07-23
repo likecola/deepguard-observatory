@@ -1,0 +1,156 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a specification document for a Trust Identity Protocol (TIP) focused on verified human identity and AI content provenance. The project appears to be an open standard for authentication and provenance tracking, which is actually a positive security measure. There is no indication this is a tool for generating non-consensual synthetic media, a bypass for safety filters, or a tutorial for creating deepfakes. Instead, it seems designed to help verify authenticity and track content origin—the opposite of enabling non-consensual deepfake creation. The presence of a DOI and whitepaper indicates academic/legitimate research.",
+    "recommended_action": "No action needed. This is a legitimate identity and provenance protocol project, not a tool for creating non-consensual synthetic media.",
+    "item": {
+      "source": "github",
+      "id": "1183377823",
+      "title": "theailaborg/tip-protocol",
+      "body": "Trust Identity Protocol (TIP) Specification v5.0. The open, post-quantum, federated standard for verified human identity and AI content provenance on the internet. Whitepaper at theailab.org/whitepaper, DOI 10.5281/zenodo.20722378.",
+      "url": "https://github.com/theailaborg/tip-protocol",
+      "created_utc": "2026-03-16T14:48:22Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The repository title 'SocialShield_Application' suggests a project focused on protection or safety in social contexts. Without access to the full repository contents, the name indicates a defensive/protective application rather than a tool for generating non-consensual synthetic media. The title does not contain terminology associated with deepfake generation, face-swapping, nudification, or safety filter bypass. This appears to be a general application project unrelated to non-consensual synthetic media generation.",
+    "recommended_action": "No action needed. If concerned about the repository's actual purpose, review the full README and source code, but based on available information, this does not appear to be a harmful project.",
+    "item": {
+      "source": "github",
+      "id": "1269763630",
+      "title": "Rushi-kesava-Reddy/SocialShield_Application",
+      "body": "",
+      "url": "https://github.com/Rushi-kesava-Reddy/SocialShield_Application",
+      "created_utc": "2026-06-15T04:34:17Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "medium",
+    "reasoning": "The repository title 'project--rakshak' ('rakshak' means 'protector' in Hindi) and the minimal context provided do not indicate content related to non-consensual deepfake generation, synthetic media creation, or safety filter bypassing. Without access to the actual repository contents, code, or detailed description, there are no clear indicators of harmful intent. The name suggests a protective or defensive purpose rather than a tool for generating non-consensual synthetic media.",
+    "recommended_action": "No action needed based on available information. If additional context becomes available showing the project involves non-consensual synthetic media generation, re-evaluate.",
+    "item": {
+      "source": "github",
+      "id": "1308864460",
+      "title": "aarju-24/project--rakshak",
+      "body": "",
+      "url": "https://github.com/aarju-24/project--rakshak",
+      "created_utc": "2026-07-22T13:35:47Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a legitimate AI safety and governance monitoring tool designed for families, schools, and clubs. The title and description indicate it's focused on monitoring and safety governance rather than enabling non-consensual synthetic media generation. There is no indication of nudification tools, face-swap technology for non-consensual use, deepfake generation tutorials, or safety filter bypass methods. The project name and purpose suggest it is an educational/protective tool for responsible AI use.",
+    "recommended_action": "No action required. This project does not match the criteria for non-consensual deepfake/synthetic media generation tools.",
+    "item": {
+      "source": "github",
+      "id": "1164104664",
+      "title": "mick-e/bhapi-ai-portal",
+      "body": "Bhapi Family AI Governance Portal - AI safety monitoring for families, schools, and clubs",
+      "url": "https://github.com/mick-e/bhapi-ai-portal",
+      "created_utc": "2026-02-22T16:42:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a Rust project (vos-rs) with minimal information provided. Based on the name pattern, this is likely a utility or library project unrelated to synthetic media generation or deepfakes. The abbreviated nature of the submission and lack of any description containing keywords related to face-swapping, nudification, deepfakes, or media manipulation indicates this is not a tool designed for non-consensual synthetic media generation.",
+    "recommended_action": "No action required. If deeper investigation shows this has hidden functionality related to synthetic media, escalation may be warranted, but current information does not suggest harmful intent.",
+    "item": {
+      "source": "github",
+      "id": "1307414433",
+      "title": "tangyu-dch/vos-rs",
+      "body": "",
+      "url": "https://github.com/tangyu-dch/vos-rs",
+      "created_utc": "2026-07-21T07:38:35Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This appears to be a personal GitHub profile repository (username matching repo name), typically used for profile customization or README display. No description provided suggests no specific project content. Without access to the actual repository contents, there is no evidence of deepfake generation tools, non-consensual media tutorials, safety filter bypasses, or related harmful content.",
+    "recommended_action": "No action required. Archive as baseline reference if needed, but no flags warrant further investigation.",
+    "item": {
+      "source": "github",
+      "id": "1308407947",
+      "title": "nidhidhameliya/nidhidhameliya",
+      "body": "",
+      "url": "https://github.com/nidhidhameliya/nidhidhameliya",
+      "created_utc": "2026-07-22T05:14:47Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The submission provides only a repository title ('Nodensss/faceswaps') and URL with no description, README content, code details, or any indication of purpose. While the name 'faceswaps' relates to face-swapping technology which could be used for non-consensual synthetic media, face-swapping in itself is a neutral technique with many legitimate uses (research, entertainment, licensed content). There is no evidence here of targeting real people without consent, generating explicit content, filter bypass, or a harmful-model collection. Insufficient information to conclude harm, so I default to not harmful with low confidence.",
+    "recommended_action": "Manual review needed: fetch the repository README, code, and any sample outputs to determine whether the tool is designed for or documents non-consensual deepfake generation. Re-evaluate once content is available.",
+    "item": {
+      "source": "github",
+      "id": "1305301112",
+      "title": "Nodensss/faceswaps",
+      "body": "",
+      "url": "https://github.com/Nodensss/faceswaps",
+      "created_utc": "2026-07-19T00:01:47Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository 'visionpro' appears to be a generic technical project name with no description provided. Based on the minimal information available (only a URL and generic title), there is no evidence that this project is designed to generate non-consensual synthetic media, bypass safety filters, or create deepfakes. Without access to the actual repository contents, code, or documentation, no harmful intent can be determined. The name 'visionpro' is a common term for computer vision projects and does not inherently indicate malicious purpose.",
+    "recommended_action": "No action required. If concerned about specific content within the repository, conduct a direct inspection of the repository code and documentation.",
+    "item": {
+      "source": "github",
+      "id": "1309738659",
+      "title": "abhikalakappanavar20-tech/visionpro",
+      "body": "",
+      "url": "https://github.com/abhikalakappanavar20-tech/visionpro",
+      "created_utc": "2026-07-23T09:01:46Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": true,
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "reasoning": "The space is explicitly titled 'nsfw-face-swap' and is a deployed Gradio application. The combination of NSFW (adult/explicit content) with face-swap functionality strongly indicates a tool designed to generate non-consensual explicit synthetic media of real people by swapping faces onto explicit content. There is no indication of consent documentation, licensing, or a legitimate research purpose. As a live Gradio space, it is a working, deployed tool rather than theoretical discussion.",
+    "recommended_action": "Flag for review and report to Hugging Face for policy violation (non-consensual intimate imagery generation). Escalate as a deployed nudify/face-swap tool.",
+    "item": {
+      "source": "huggingface",
+      "id": "space:metal1616/nsfw-face-swap",
+      "title": "space: metal1616/nsfw-face-swap",
+      "body": "Pipeline: \nTags: gradio, region:us",
+      "url": "https://huggingface.co/spaces/metal1616/nsfw-face-swap",
+      "created_utc": "2024-11-10T14:41:16.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]

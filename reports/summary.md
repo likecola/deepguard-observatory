@@ -1,12 +1,12 @@
 # DeepGuard Observatory — Summary
 
-_Auto-generated 2026-07-22 10:57 UTC. Do not edit by hand — run `python src/report.py`._
+_Auto-generated 2026-07-23 10:57 UTC. Do not edit by hand — run `python src/report.py`._
 
 ## Totals
 
-- Scan runs recorded: **12**
-- Harmful findings tracked: **34**
-- Awaiting report (status `new`): **34**
+- Scan runs recorded: **13**
+- Harmful findings tracked: **35**
+- Awaiting report (status `new`): **35**
 - Reported to platforms: **0**
 - Removed by platforms: **0** (removal rate: n/a)
 - Dismissed as false positives: **0**
@@ -15,20 +15,20 @@ _Auto-generated 2026-07-22 10:57 UTC. Do not edit by hand — run `python src/re
 
 | Month | Findings |
 |---|---|
-| 2026-07 | 34 |
+| 2026-07 | 35 |
 
 ## Findings by source
 
 | Source | Findings |
 |---|---|
-| huggingface | 28 |
+| huggingface | 29 |
 | github | 6 |
 
 ## Findings by category
 
 | Category | Findings |
 |---|---|
-| nonconsensual_generation_tool | 33 |
+| nonconsensual_generation_tool | 34 |
 | harmful_model_collection | 1 |
 
 ## Open findings
@@ -69,6 +69,7 @@ _Auto-generated 2026-07-22 10:57 UTC. Do not edit by hand — run `python src/re
 | `huggingface:space:Justforailolomg/face-swap-docker-NSFW` | [space: Justforailolomg/face-swap-docker-NSFW](https://huggingface.co/spaces/Justforailolomg/face-swap-docker-NSFW) | huggingface | nonconsensual_generation_tool | medium | 2026-07-13 | new |
 | `github:1299741800` | [R0U5/Nudify](https://github.com/R0U5/Nudify) | github | nonconsensual_generation_tool | high | 2026-07-14 | new |
 | `huggingface:space:mateus1231256/DeepNude` | [space: mateus1231256/DeepNude](https://huggingface.co/spaces/mateus1231256/DeepNude) | huggingface | nonconsensual_generation_tool | high | 2026-07-14 | new |
+| `huggingface:space:metal1616/nsfw-face-swap` | [space: metal1616/nsfw-face-swap](https://huggingface.co/spaces/metal1616/nsfw-face-swap) | huggingface | nonconsensual_generation_tool | high | 2026-07-23 | new |
 
 ---
 

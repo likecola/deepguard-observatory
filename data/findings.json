@@ -347,6 +347,18 @@
     "title": "space: mateus1231256/DeepNude",
     "url": "https://huggingface.co/spaces/mateus1231256/DeepNude"
   },
+  "huggingface:space:metal1616/nsfw-face-swap": {
+    "category": "nonconsensual_generation_tool",
+    "confidence": "high",
+    "first_seen": "2026-07-23",
+    "reasoning": "The space is explicitly titled 'nsfw-face-swap' and is a deployed Gradio application. The combination of NSFW (adult/explicit content) with face-swap functionality strongly indicates a tool designed to generate non-consensual explicit synthetic media of real people by swapping faces onto explicit content. There is no indication of consent documentation, licensing, or a legitimate research purpose. As a live Gradio space, it is a working, deployed tool rather than theoretical discussion.",
+    "recommended_action": "Flag for review and report to Hugging Face for policy violation (non-consensual intimate imagery generation). Escalate as a deployed nudify/face-swap tool.",
+    "source": "huggingface",
+    "status": "new",
+    "status_updated": null,
+    "title": "space: metal1616/nsfw-face-swap",
+    "url": "https://huggingface.co/spaces/metal1616/nsfw-face-swap"
+  },
   "huggingface:space:pdffff123/DeepNude": {
     "category": "nonconsensual_generation_tool",
     "confidence": "high",
