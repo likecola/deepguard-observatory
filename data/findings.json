@@ -83,6 +83,18 @@
     "title": "model: Undressee/Ananya",
     "url": "https://huggingface.co/Undressee/Ananya"
   },
+  "huggingface:model:liangwc25/lora-undress-striptease": {
+    "category": "harmful_model_collection",
+    "confidence": "medium",
+    "first_seen": "2026-07-24",
+    "reasoning": "The model name 'lora-undress-striptease' strongly suggests a LoRA fine-tuned specifically to generate nudity/undressing imagery, and the 'not-for-all-audiences' tag confirms adult/NSFW content. Such 'undress' LoRAs are commonly used in 'nudify' pipelines to generate non-consensual synthetic nude imagery of real people. However, the description is sparse and does not explicitly document targeting of real, identifiable individuals or absence of consent, so there is some ambiguity as to whether it is purely for fictional/generated characters versus real-person nudification. Given the clear undress-oriented purpose and its typical use in non-consensual generation workflows, this leans harmful.",
+    "recommended_action": "Flag for human review; verify whether the model is intended/used for undressing real people. Consider reporting to Hugging Face for review under non-consensual intimate imagery policies.",
+    "source": "huggingface",
+    "status": "new",
+    "status_updated": null,
+    "title": "model: liangwc25/lora-undress-striptease",
+    "url": "https://huggingface.co/liangwc25/lora-undress-striptease"
+  },
   "huggingface:model:ninjawick/webui-faceswap-unlocked": {
     "category": "harmful_model_collection",
     "confidence": "medium",

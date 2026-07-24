@@ -1,0 +1,209 @@
+[
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository name and URL provided contain no descriptive content, code samples, or documentation that would indicate the project's actual purpose. Without access to the repository's README, documentation, or codebase, it is impossible to determine if this is a harmful tool. The name 'YazanAi-Dev3' is generic and provides no clear indication of being a deepfake/nudification tool or non-consensual synthetic media generator. Based solely on the available information, there are no red flags present.",
+    "recommended_action": "If DeepGuard Observatory has direct repository access, manually review the repository's README, source code, and commit history to determine actual functionality. Without substantive content indicators, this should not be flagged as harmful.",
+    "item": {
+      "source": "github",
+      "id": "1031322337",
+      "title": "YazanAi-Dev3/YazanAi-Dev3",
+      "body": "",
+      "url": "https://github.com/YazanAi-Dev3/YazanAi-Dev3",
+      "created_utc": "2025-08-03T13:55:15Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository name 'HalfSaid' and limited information provided suggest this is unrelated to non-consensual deepfake or synthetic media generation. Without access to the actual repository contents, code, or documentation, there are no indicators of harmful functionality for creating non-consensual synthetic media. The project appears to be a generic software repository without evidence of deepfake, face-swap, nudification, or safety filter bypass capabilities.",
+    "recommended_action": "No action required. Monitor for updates if the project description or code changes to suggest harmful functionality related to non-consensual synthetic media generation.",
+    "item": {
+      "source": "github",
+      "id": "1310913197",
+      "title": "EdenCorporations/HalfSaid",
+      "body": "",
+      "url": "https://github.com/EdenCorporations/HalfSaid",
+      "created_utc": "2026-07-24T10:24:23Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is titled 'fake-news-detector', which indicates a tool designed to detect false or misleading content rather than generate it. The context clearly positions this as a detection/identification tool for misinformation, not a generative tool for creating non-consensual synthetic media. This falls squarely within legitimate research and safety applications.",
+    "recommended_action": "No action needed. This is a benign detection/research tool.",
+    "item": {
+      "source": "github",
+      "id": "1310882839",
+      "title": "Yesha1846/fake-news-detector",
+      "body": "",
+      "url": "https://github.com/Yesha1846/fake-news-detector",
+      "created_utc": "2026-07-24T09:48:17Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This project is a deepfake detection system designed to identify and analyze synthetic media, not generate it. The description clearly indicates it's a defensive tool that: (1) analyzes uploaded videos to detect deepfakes, (2) uses multiple neural network classifiers for detection, (3) provides explainability through GradCAM visualizations showing what triggered detections, and (4) generates forensic reports. These are all indicators of legitimate detection/research work aimed at identifying non-consensual synthetic media rather than creating it. The use of established libraries (Streamlit, PyTorch, Ollama) and emphasis on explainability further supports this as a research/detection tool.",
+    "recommended_action": "No action needed. This is a legitimate deepfake detection project that supports the goal of identifying and mitigating non-consensual synthetic media.",
+    "item": {
+      "source": "github",
+      "id": "1310918549",
+      "title": "S-IfrahZaidi/DeepGuard-MultiModel-DeepFake-Detection-Systm",
+      "body": "Multi-model deepfake detection system with GradCAM explainability and LLM-generated forensic reports. Upload a video, run up to 6 neural network classifiers, and get visual heatmaps showing what triggered the detection. Built with Streamlit, PyTorch, and Ollama.",
+      "url": "https://github.com/S-IfrahZaidi/DeepGuard-MultiModel-DeepFake-Detection-Systm",
+      "created_utc": "2026-07-24T10:31:01Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection system designed to identify and analyze synthetic media, not to generate it. The project explicitly focuses on forensic analysis and detection using established ML architectures (EfficientNet-B4, Xception) and explainability tools (Grad-CAM). The mention of 'Indian' context and MediaPipe FaceMesh suggests academic/research application for regional deepfake detection. Detection systems are a protective measure against non-consensual synthetic media and should not be flagged as harmful.",
+    "recommended_action": "No action needed. This is a legitimate detection/research project that contributes to combating deepfakes rather than enabling them.",
+    "item": {
+      "source": "github",
+      "id": "1308836353",
+      "title": "Sachita10/Indian_Deepkfake_Detection_System",
+      "body": "AI-powered Indian Deepfake Detection System using EfficientNet-B4, Xception, Grad-CAM, MediaPipe FaceMesh, Flask, and Explainable AI for image and video forensic analysis.",
+      "url": "https://github.com/Sachita10/Indian_Deepkfake_Detection_System",
+      "created_utc": "2026-07-22T13:06:47Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "This is a curated directory/list of open source software companies. The content is a business resource documenting commercial entities in the OSS ecosystem. It has no connection to deepfakes, synthetic media generation, non-consensual content creation, or safety filter bypass techniques. This is a standard informational GitHub repository.",
+    "recommended_action": "No action required. This content does not relate to the scope of DeepGuard Observatory's monitoring mandate.",
+    "item": {
+      "source": "github",
+      "id": "1075769667",
+      "title": "Chinstrap-Community/Awesome-OSS-Companies",
+      "body": "A comprehensive directory of commercial open source software (COSS) companies.",
+      "url": "https://github.com/Chinstrap-Community/Awesome-OSS-Companies",
+      "created_utc": "2025-10-14T01:04:44Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "DeepfakeBench appears to be a research benchmarking project for deepfake detection and analysis. The naming convention and GitHub presence suggest this is an academic/research tool for evaluating deepfake detection methods rather than a tool for generating non-consensual synthetic media. Benchmarking projects are standard in computer vision research and serve legitimate purposes in improving detection capabilities and understanding deepfake vulnerabilities. Without evidence of being a generation tool, bypass mechanism, or tutorial for creating non-consensual content, this should be classified as research-oriented.",
+    "recommended_action": "No action required. Monitor repository for changes if it pivots to generation/bypass focus, but current classification indicates legitimate research purpose.",
+    "item": {
+      "source": "github",
+      "id": "1303871388",
+      "title": "aitkhadija/DeepfakeBench",
+      "body": "",
+      "url": "https://github.com/aitkhadija/DeepfakeBench",
+      "created_utc": "2026-07-17T10:33:17Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "This project describes a general-purpose AI video creation toolkit ('viral video factory') including face-swap, motion transfer, voiceover, and upscaling features. While face-swap capability could be misused for non-consensual deepfakes, the description does not indicate the tool is built or marketed for creating non-consensual synthetic media of real people, nor does it mention targeting specific individuals, nudification, or bypassing safety filters. Face-swap is a common legitimate feature in video editing tools for content creation. There is no explicit harmful intent, consent-violation focus, or filter-bypass instruction present. The ambiguity lies in the dual-use nature of face-swap technology, but there is insufficient evidence to classify this as purpose-built for harm.",
+    "recommended_action": "No action required beyond routine monitoring. Consider periodic review if the repository later adds features explicitly targeting real individuals, nudification, or NSFW generation without consent documentation.",
+    "item": {
+      "source": "github",
+      "id": "1310809766",
+      "title": "FrankHu-HK/kun-video-promax-hjk",
+      "body": "AI Viral Video Factory (Local-First): face-swap, motion transfer, AI voiceover, 4K upscale, and a director planning layer. 100 percent local, zero cloud, zero cost.",
+      "url": "https://github.com/FrankHu-HK/kun-video-promax-hjk",
+      "created_utc": "2026-07-24T08:26:26Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "low",
+    "reasoning": "The repository is titled 'FaceSwap' but provides no description, README content, or other details in the submission. Face-swap technology has many legitimate uses (entertainment, research, licensed applications) as well as potential for abuse. Without any body text, documentation, or evidence indicating the tool is built or marketed for non-consensual synthetic media of real people, there is insufficient information to classify it as harmful. The bare title alone does not meet the threshold for flagging.",
+    "recommended_action": "Manual review: examine the actual repository README, code, and stated purpose to determine whether it targets non-consensual generation. Insufficient metadata to auto-classify.",
+    "item": {
+      "source": "github",
+      "id": "1310801712",
+      "title": "dlooezzo/FaceSwap",
+      "body": "",
+      "url": "https://github.com/dlooezzo/FaceSwap",
+      "created_utc": "2026-07-24T08:17:46Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": false,
+      "category": "unrelated",
+      "confidence": "low"
+    }
+  },
+  {
+    "is_harmful": false,
+    "category": "unrelated",
+    "confidence": "high",
+    "reasoning": "The repository title 'ChudStream-Releases' appears to be a release distribution repository. Without access to the actual content, description, or file listings, there is no evidence this relates to non-consensual deepfake generation, synthetic media tools, safety filter bypasses, or tutorials for creating non-consensual content. The name suggests it may be a streaming or media project, but provides no indicators of harmful synthetic media capabilities. The limited information provided does not warrant flagging as harmful.",
+    "recommended_action": "No action required. If this repository were to contain actual deepfake/nudify tools or tutorials, it would require manual review of the repository contents to confirm.",
+    "item": {
+      "source": "github",
+      "id": "1309432629",
+      "title": "ChudForks/ChudStream-Releases",
+      "body": "",
+      "url": "https://github.com/ChudForks/ChudStream-Releases",
+      "created_utc": "2026-07-23T02:16:04Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": false,
+    "category": "research_or_detection",
+    "confidence": "high",
+    "reasoning": "This is a deepfake detection model designed to identify synthetic media, not generate it. The model is explicitly tagged as 'deepfake_detection' and 'forensics', uses MIT license, and is based on academic research (arxiv:2411.04125). Detection and forensics tools are important safety infrastructure for combating non-consensual synthetic media. The ONNX format and transformers.js compatibility indicate this is meant for defensive/analytical purposes.",
+    "recommended_action": "No action needed. This is a legitimate detection tool that supports safety efforts.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:onnx-community/CommunityForensics-DeepfakeDet-ViT-ONNX",
+      "title": "model: onnx-community/CommunityForensics-DeepfakeDet-ViT-ONNX",
+      "body": "Pipeline: image-classification\nTags: transformers.js, onnx, vit, image-classification, timm, transformers, detection, deepfake, forensics, deepfake_detection, community, opensight, arxiv:2411.04125, base_model:buildborderless/CommunityForensics-DeepfakeDet-ViT, base_model:quantized:buildborderless/CommunityForensics-DeepfakeDet-ViT, license:mit, region:us",
+      "url": "https://huggingface.co/onnx-community/CommunityForensics-DeepfakeDet-ViT-ONNX",
+      "created_utc": "2026-05-12T16:25:10.000Z"
+    },
+    "model": "claude-haiku-4-5"
+  },
+  {
+    "is_harmful": true,
+    "category": "harmful_model_collection",
+    "confidence": "medium",
+    "reasoning": "The model name 'lora-undress-striptease' strongly suggests a LoRA fine-tuned specifically to generate nudity/undressing imagery, and the 'not-for-all-audiences' tag confirms adult/NSFW content. Such 'undress' LoRAs are commonly used in 'nudify' pipelines to generate non-consensual synthetic nude imagery of real people. However, the description is sparse and does not explicitly document targeting of real, identifiable individuals or absence of consent, so there is some ambiguity as to whether it is purely for fictional/generated characters versus real-person nudification. Given the clear undress-oriented purpose and its typical use in non-consensual generation workflows, this leans harmful.",
+    "recommended_action": "Flag for human review; verify whether the model is intended/used for undressing real people. Consider reporting to Hugging Face for review under non-consensual intimate imagery policies.",
+    "item": {
+      "source": "huggingface",
+      "id": "model:liangwc25/lora-undress-striptease",
+      "title": "model: liangwc25/lora-undress-striptease",
+      "body": "Pipeline: \nTags: safetensors, region:us, not-for-all-audiences",
+      "url": "https://huggingface.co/liangwc25/lora-undress-striptease",
+      "created_utc": "2026-07-23T11:01:37.000Z"
+    },
+    "model": "claude-opus-4-8",
+    "screen_result": {
+      "is_harmful": true,
+      "category": "nonconsensual_generation_tool",
+      "confidence": "high"
+    }
+  }
+]

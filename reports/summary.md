@@ -1,12 +1,12 @@
 # DeepGuard Observatory — Summary
 
-_Auto-generated 2026-07-23 10:57 UTC. Do not edit by hand — run `python src/report.py`._
+_Auto-generated 2026-07-24 10:53 UTC. Do not edit by hand — run `python src/report.py`._
 
 ## Totals
 
-- Scan runs recorded: **13**
-- Harmful findings tracked: **35**
-- Awaiting report (status `new`): **35**
+- Scan runs recorded: **14**
+- Harmful findings tracked: **36**
+- Awaiting report (status `new`): **36**
 - Reported to platforms: **0**
 - Removed by platforms: **0** (removal rate: n/a)
 - Dismissed as false positives: **0**
@@ -15,13 +15,13 @@ _Auto-generated 2026-07-23 10:57 UTC. Do not edit by hand — run `python src/re
 
 | Month | Findings |
 |---|---|
-| 2026-07 | 35 |
+| 2026-07 | 36 |
 
 ## Findings by source
 
 | Source | Findings |
 |---|---|
-| huggingface | 29 |
+| huggingface | 30 |
 | github | 6 |
 
 ## Findings by category
@@ -29,7 +29,7 @@ _Auto-generated 2026-07-23 10:57 UTC. Do not edit by hand — run `python src/re
 | Category | Findings |
 |---|---|
 | nonconsensual_generation_tool | 34 |
-| harmful_model_collection | 1 |
+| harmful_model_collection | 2 |
 
 ## Open findings
 
@@ -70,6 +70,7 @@ _Auto-generated 2026-07-23 10:57 UTC. Do not edit by hand — run `python src/re
 | `github:1299741800` | [R0U5/Nudify](https://github.com/R0U5/Nudify) | github | nonconsensual_generation_tool | high | 2026-07-14 | new |
 | `huggingface:space:mateus1231256/DeepNude` | [space: mateus1231256/DeepNude](https://huggingface.co/spaces/mateus1231256/DeepNude) | huggingface | nonconsensual_generation_tool | high | 2026-07-14 | new |
 | `huggingface:space:metal1616/nsfw-face-swap` | [space: metal1616/nsfw-face-swap](https://huggingface.co/spaces/metal1616/nsfw-face-swap) | huggingface | nonconsensual_generation_tool | high | 2026-07-23 | new |
+| `huggingface:model:liangwc25/lora-undress-striptease` | [model: liangwc25/lora-undress-striptease](https://huggingface.co/liangwc25/lora-undress-striptease) | huggingface | harmful_model_collection | medium | 2026-07-24 | new |
 
 ---
 
