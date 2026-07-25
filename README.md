@@ -1,12 +1,12 @@
 # DeepGuard Observatory
 
-A community-driven monitoring system for detecting and tracking deepfake-related content in open-source platforms.
+An open-source intelligence (OSINT) pipeline that detects, investigates, and reports the tools and networks behind non-consensual deepfake content.
 
 ## Overview
 
-DeepGuard Observatory monitors public platforms (GitHub, Hugging Face, Reddit, optionally Civitai) for AI models and techniques that could be used to create non-consensual synthetic media. When harmful content is detected, we report it through official channels and maintain transparent statistics about ecosystem health.
+DeepGuard Observatory scans public platforms (GitHub, Hugging Face, Reddit, optionally Civitai) for AI models and tools that can be used to create non-consensual synthetic media, uses the Claude API to confirm which are genuinely harmful, then **investigates the actors and infrastructure behind them** — tracing one finding to the account, the account to its other sites, and those sites to shared registration/hosting that reveals a single operator. Confirmed harm is reported through official channels, and outcomes are tracked for transparent statistics.
 
-The focus is deliberately the *upstream* of the problem — the places where tools and models are distributed — rather than shallow coverage of every social network. Walled gardens without public APIs (X, Meta platforms) are out of scope; see Limitations.
+The focus is deliberately the *upstream* of the problem — where tools and models are distributed and promoted — rather than shallow coverage of every social network. Walled gardens without public APIs (X, Meta platforms) are out of scope; see Limitations.
 
 **This is a solo weekend project.** The goal is modest but concrete: catch and prevent the deepfakes we can see, document what we find, and let the data speak for itself.
 
@@ -19,19 +19,24 @@ There's no public record of which platforms respond fastest, what patterns emerg
 ## How It Works
 
 ```
-Scan → Analyze → Report → Track → Repeat
-  ↓        ↓        ↓        ↓       ↓
-Daily   Claude  Official  Publish  Auto
-check   API     channels  stats    run
+   ── automated, daily ──          ── manual, deep ──
+  Scan → Analyze → Track    →    Investigate → Enrich   →   Report → Publish
+   ↓        ↓        ↓                ↓           ↓            ↓         ↓
+ multi-  Claude   findings       actor/repo   domain      official  monthly
+ source  two-tier  ledger         dossier    registration channels   stats
 ```
 
 ### Process
 
 1. **Scan**: Daily keyword checks of GitHub repos, Hugging Face models/spaces, Reddit posts, and (opt-in) Civitai models
-2. **Analyze**: Use Claude API to confirm if content is actually harmful
-3. **Report**: Submit through official platform channels
-4. **Track**: Record outcomes and response times
-5. **Publish**: Monthly transparency report with statistics
+2. **Analyze**: Use the Claude API to confirm which candidates are actually harmful
+3. **Track**: Record each harmful finding in a status ledger
+4. **Investigate** *(manual)*: Pivot from a finding to the account behind it and build an OSINT dossier — other repos, harvested links, cross-platform presence
+5. **Enrich** *(manual)*: Look up domain registration to cluster scattered sites into a single operator
+6. **Report**: Submit through official platform channels
+7. **Publish**: Monthly transparency report with statistics
+
+Steps 1–3 run automatically via GitHub Actions; steps 4–5 are the investigator's manual deep-dive.
 
 ### What Gets Reported
 
@@ -220,21 +225,25 @@ plain-language textbook, one lesson per feature.
 
 ## Legal & Ethics
 
+This project **investigates** — it builds profiles of the actors and
+infrastructure behind harmful services. That makes the boundaries below more
+important, not less. They reflect what the tooling actually does.
+
 ### We Do
 
-✓ Monitor only publicly available data  
-✓ Use official reporting channels  
-✓ Keep all reports anonymous  
-✓ Publish methodology transparently  
-✓ Allow corrections and feedback  
+✓ Use only publicly available data (OSINT) — public repos, public APIs, public registration records  
+✓ Investigate the accounts, sites, and infrastructure behind harmful services, to establish who is responsible  
+✓ Report through official platform / registrar / host abuse channels  
+✓ Keep dossiers private by default (git-ignored); publish any individual profile only deliberately  
+✓ Publish methodology transparently and allow corrections  
 
 ### We Don't
 
-✗ Collect personal information  
-✗ Download illegal content  
-✗ Send automated spam  
-✗ Harass anyone  
-✗ Target specific people or companies  
+✗ Access private data, accounts, or anything requiring a login or a hack  
+✗ Contact, confront, dox, or publicly name the people investigated  
+✗ Download or store illegal content  
+✗ Enter dark-web or illegal marketplaces — that work requires an organization's legal cover, not a solo project  
+✗ Send automated spam or harass anyone  
 
 ## Limitations
 
@@ -269,5 +278,3 @@ MIT License - do what you want with this code.
 **Status**: Active development  
 **Maintainer**: Solo developer, ~5 hours/week  
 **Last Updated**: July 2026  
-
-For Korean documentation, see [README_KO.md](README_KO.md)
