@@ -174,6 +174,21 @@ almost certainly one operator. On the first run, 20+ of `REDACTED`'s domains all
 traced to the same registrar (Spaceship) and the same nameservers within a
 6-week window — infrastructure proof that a single actor runs the network.
 
+### Triaging what to report first
+
+`liveness.py` checks which leads are actually online, so you report active harm
+first:
+
+```bash
+python src/liveness.py REDACTED        # one site
+python src/liveness.py dossier REDACTED       # every domain, sorted by priority
+```
+
+It labels each site LIVE / BLOCKED / ERROR / GONE / DEAD from its HTTP response
+and sorts live sites to the top. A dead site is deprioritized but still evidence
+it existed (its registration record persists). On `REDACTED`, 33 of 34 domains
+were live — the network is still operating.
+
 New to the code? See [docs/LEARNING_KO.md](docs/LEARNING_KO.md) — a running
 plain-language textbook, one lesson per feature.
 
@@ -191,6 +206,7 @@ plain-language textbook, one lesson per feature.
 │   ├── report.py               # Findings tracker + summary generation
 │   ├── investigate.py          # Actor investigation / dossier builder (OSINT)
 │   ├── enrich.py               # Domain infrastructure lookup (RDAP/WHOIS)
+│   ├── liveness.py             # Which leads are up now — reporting triage
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -206,6 +222,7 @@ plain-language textbook, one lesson per feature.
 - [x] Auto-generated summary with monthly trends (`reports/summary.md`)
 - [x] Actor investigation / dossier builder (`investigate.py`)
 - [x] Infrastructure enrichment via RDAP/WHOIS (`enrich.py`)
+- [x] Liveness triage of leads (`liveness.py`)
 - [ ] Recursive pivoting — follow harvested domains/usernames automatically
 - [ ] Shared-analytics-ID clustering (same Google Analytics / AdSense across sites)
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
