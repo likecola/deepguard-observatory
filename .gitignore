@@ -227,3 +227,4 @@ data/dossiers/
 reports/dossier-*.md
 reports/enrichment-*.md
 reports/triage-*.md
+reports/report-*.md

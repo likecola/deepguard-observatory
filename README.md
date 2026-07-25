@@ -189,6 +189,20 @@ and sorts live sites to the top. A dead site is deprioritized but still evidence
 it existed (its registration record persists). On `REDACTED`, 33 of 34 domains
 were live — the network is still operating.
 
+### Preparing a report
+
+`reporter.py` assembles an evidence-based abuse-report packet for one site —
+where to report and a ready-to-paste draft — by reusing `liveness` and `enrich`:
+
+```bash
+python src/reporter.py REDACTED
+```
+
+**It sends nothing.** You review the packet (`reports/report-*.md`) and submit
+it yourself through the listed channels (Cloudflare abuse, the registrar, GitHub,
+search removal). If the service can produce sexual imagery of minors, that is
+CSAM and goes to the NCMEC CyberTipline / IWF, not just abuse channels.
+
 New to the code? See [docs/LEARNING_KO.md](docs/LEARNING_KO.md) — a running
 plain-language textbook, one lesson per feature.
 
@@ -207,6 +221,7 @@ plain-language textbook, one lesson per feature.
 │   ├── investigate.py          # Actor investigation / dossier builder (OSINT)
 │   ├── enrich.py               # Domain infrastructure lookup (RDAP/WHOIS)
 │   ├── liveness.py             # Which leads are up now — reporting triage
+│   ├── reporter.py             # Builds an abuse-report packet (you submit it)
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -223,10 +238,10 @@ plain-language textbook, one lesson per feature.
 - [x] Actor investigation / dossier builder (`investigate.py`)
 - [x] Infrastructure enrichment via RDAP/WHOIS (`enrich.py`)
 - [x] Liveness triage of leads (`liveness.py`)
+- [x] Reporting helper — evidence-based abuse-report packets (`reporter.py`)
 - [ ] Recursive pivoting — follow harvested domains/usernames automatically
 - [ ] Shared-analytics-ID clustering (same Google Analytics / AdSense across sites)
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
-- [ ] Reporting helper (`reporter.py`) — drafts for official platform report channels
 - [ ] Platform response-time tracking (days from `reported` to `removed`)
 
 ## Metrics
