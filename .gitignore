@@ -225,3 +225,4 @@ __marimo__/
 # Investigation dossiers (OSINT on individuals) - generated locally, publish deliberately
 data/dossiers/
 reports/dossier-*.md
+reports/enrichment-*.md

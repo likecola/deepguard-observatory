@@ -154,6 +154,24 @@ git-ignored** — they profile individuals (from public data, but still), so
 publishing any specific one is a deliberate choice, not automatic. Everything is
 for reporting through official channels, not for contacting anyone.
 
+### Enriching the leads
+
+`enrich.py` looks up who registered a domain and when, via RDAP (the modern
+JSON WHOIS — no key, no extra dependency):
+
+```bash
+python src/enrich.py REDACTED          # one domain
+python src/enrich.py dossier REDACTED        # every domain in a saved dossier
+```
+
+Domains that share a registrar, a registration window, and nameservers are
+almost certainly one operator. On the first run, 20+ of `REDACTED`'s domains all
+traced to the same registrar (Spaceship) and the same nameservers within a
+6-week window — infrastructure proof that a single actor runs the network.
+
+New to the code? See [docs/LEARNING_KO.md](docs/LEARNING_KO.md) — a running
+plain-language textbook, one lesson per feature.
+
 ## Project Structure
 
 ```
@@ -167,6 +185,7 @@ for reporting through official channels, not for contacting anyone.
 │   ├── analyzer.py             # Two-tier Claude analysis
 │   ├── report.py               # Findings tracker + summary generation
 │   ├── investigate.py          # Actor investigation / dossier builder (OSINT)
+│   ├── enrich.py               # Domain infrastructure lookup (RDAP/WHOIS)
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -181,8 +200,9 @@ for reporting through official channels, not for contacting anyone.
 - [x] Findings tracker with report/removal status (`data/findings.json`)
 - [x] Auto-generated summary with monthly trends (`reports/summary.md`)
 - [x] Actor investigation / dossier builder (`investigate.py`)
+- [x] Infrastructure enrichment via RDAP/WHOIS (`enrich.py`)
 - [ ] Recursive pivoting — follow harvested domains/usernames automatically
-- [ ] Infrastructure enrichment (WHOIS, hosting, shared analytics IDs) per lead
+- [ ] Shared-analytics-ID clustering (same Google Analytics / AdSense across sites)
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
 - [ ] Reporting helper (`reporter.py`) — drafts for official platform report channels
 - [ ] Platform response-time tracking (days from `reported` to `removed`)
