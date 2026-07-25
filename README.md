@@ -131,6 +131,29 @@ python src/report.py mark github:12345 removed    # platform took it down
 # other statuses: rejected (platform declined), dismissed (false positive)
 ```
 
+## Investigating an actor
+
+Scanning is automated and shallow; investigation is manual and deep. Given one
+finding, `investigate.py` pivots from the repo to the **account behind it** and
+builds a dossier from public sources only (OSINT):
+
+```bash
+python src/investigate.py github:REDACTED   # from a finding key
+python src/investigate.py github REDACTED      # or an account directly
+```
+
+It collects the account's profile, every public repo (deepfake-related ones
+flagged), external links harvested from bios and repo homepages, domains taken
+from repo names, and any Hugging Face models under the same username — then
+suggests pivots (linked socials, domains) to investigate next. One flagged repo
+routinely expands into dozens of leads when the account runs a promotion
+network.
+
+Dossiers are written to `data/dossiers/` and `reports/dossier-*.md`. **They are
+git-ignored** — they profile individuals (from public data, but still), so
+publishing any specific one is a deliberate choice, not automatic. Everything is
+for reporting through official channels, not for contacting anyone.
+
 ## Project Structure
 
 ```
@@ -143,6 +166,7 @@ python src/report.py mark github:12345 removed    # platform took it down
 │   ├── civitai_scanner.py      # Civitai model search (opt-in — region-blocked in some countries)
 │   ├── analyzer.py             # Two-tier Claude analysis
 │   ├── report.py               # Findings tracker + summary generation
+│   ├── investigate.py          # Actor investigation / dossier builder (OSINT)
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -156,9 +180,12 @@ python src/report.py mark github:12345 removed    # platform took it down
 
 - [x] Findings tracker with report/removal status (`data/findings.json`)
 - [x] Auto-generated summary with monthly trends (`reports/summary.md`)
+- [x] Actor investigation / dossier builder (`investigate.py`)
+- [ ] Recursive pivoting — follow harvested domains/usernames automatically
+- [ ] Infrastructure enrichment (WHOIS, hosting, shared analytics IDs) per lead
+- [ ] TTP catalog — how the ecosystem's promotion networks operate
 - [ ] Reporting helper (`reporter.py`) — drafts for official platform report channels
 - [ ] Platform response-time tracking (days from `reported` to `removed`)
-- [ ] Telegram public channel scanning (evaluate once the project is established)
 
 ## Metrics
 
