@@ -143,8 +143,8 @@ finding, `investigate.py` pivots from the repo to the **account behind it** and
 builds a dossier from public sources only (OSINT):
 
 ```bash
-python src/investigate.py github:REDACTED   # from a finding key
-python src/investigate.py github REDACTED      # or an account directly
+python src/investigate.py github:<finding-id>   # from a finding key
+python src/investigate.py github <account>      # or an account directly
 ```
 
 It collects the account's profile, every public repo (deepfake-related ones
@@ -165,14 +165,14 @@ for reporting through official channels, not for contacting anyone.
 JSON WHOIS — no key, no extra dependency):
 
 ```bash
-python src/enrich.py REDACTED          # one domain
-python src/enrich.py dossier REDACTED        # every domain in a saved dossier
+python src/enrich.py example-site.net       # one domain
+python src/enrich.py dossier <account>      # every domain in a saved dossier
 ```
 
 Domains that share a registrar, a registration window, and nameservers are
-almost certainly one operator. On the first run, 20+ of `REDACTED`'s domains all
-traced to the same registrar (Spaceship) and the same nameservers within a
-6-week window — infrastructure proof that a single actor runs the network.
+almost certainly one operator. In testing, 20+ domains from a single account all
+traced to the same registrar and the same nameservers within a 6-week window —
+infrastructure proof that one actor runs the network.
 
 ### Triaging what to report first
 
@@ -180,14 +180,14 @@ traced to the same registrar (Spaceship) and the same nameservers within a
 first:
 
 ```bash
-python src/liveness.py REDACTED        # one site
-python src/liveness.py dossier REDACTED       # every domain, sorted by priority
+python src/liveness.py example-site.net     # one site
+python src/liveness.py dossier <account>     # every domain, sorted by priority
 ```
 
 It labels each site LIVE / BLOCKED / ERROR / GONE / DEAD from its HTTP response
 and sorts live sites to the top. A dead site is deprioritized but still evidence
-it existed (its registration record persists). On `REDACTED`, 33 of 34 domains
-were live — the network is still operating.
+it existed (its registration record persists). In one tested network, 33 of 34
+domains were live — the operation was still active.
 
 ### Preparing a report
 
@@ -195,7 +195,7 @@ were live — the network is still operating.
 where to report and a ready-to-paste draft — by reusing `liveness` and `enrich`:
 
 ```bash
-python src/reporter.py REDACTED
+python src/reporter.py example-site.net
 ```
 
 **It sends nothing.** You review the packet (`reports/report-*.md`) and submit
@@ -203,8 +203,33 @@ it yourself through the listed channels (Cloudflare abuse, the registrar, GitHub
 search removal). If the service can produce sexual imagery of minors, that is
 CSAM and goes to the NCMEC CyberTipline / IWF, not just abuse channels.
 
-New to the code? See [docs/LEARNING_KO.md](docs/LEARNING_KO.md) — a running
-plain-language textbook, one lesson per feature.
+## Case Study (anonymized)
+
+A single automated scan flagged **one** GitHub repository as a non-consensual
+deepfake tool. Running the investigation pipeline on it:
+
+1. **Investigate** — the repo's owner turned out to run **37 repositories**, each
+   named after a different AI "girlfriend" / nudify / porn service domain — an
+   affiliate-promotion network, not a lone repo. → **34 domain leads**.
+2. **Enrich** — RDAP lookups showed **20+ of those domains registered through the
+   same registrar, within a 6-week window, sharing the same 2–3 nameservers.**
+   Infrastructure evidence that one operator runs the whole set.
+3. **Triage** — a liveness sweep found **33 of 34 sites live** — the network was
+   actively operating, so reporting was time-sensitive.
+4. **Report** — the tool generated evidence-based abuse-report packets (routed to
+   the CDN, registrar, and platform channels) for manual submission.
+
+One low-signal finding became a mapped, attributed, actively-operating network —
+the difference between *observing* and *investigating*. (Target identifiers are
+withheld here and kept out of this public repo.)
+
+## Note on data
+
+The **code** is public; the **intelligence it produces is not.** Findings, scan
+results, dossiers, enrichment, and report packets are all written under `data/`
+and `reports/`, which are git-ignored and stay on your machine. Scanning runs
+locally (see the manual-only GitHub Actions workflow). If you want persistent
+automation, run it in a private repo so target data never becomes public.
 
 ## Project Structure
 

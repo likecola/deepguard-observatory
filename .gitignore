@@ -222,9 +222,13 @@ __marimo__/
 
 # macOS
 .DS_Store
-# Investigation dossiers (OSINT on individuals) - generated locally, publish deliberately
-data/dossiers/
-reports/dossier-*.md
-reports/enrichment-*.md
-reports/triage-*.md
-reports/report-*.md
+# Live intelligence & investigation output — LOCAL ONLY, never committed to the
+# public repo. The code is public; the target data is not. All of these are
+# regenerated locally when you run the tools.
+# (No inline comments below: .gitignore treats them as part of the pattern.)
+data/
+reports/
+
+# Personal Korean notes (name live targets) — local only
+docs/LEARNING_KO.md
+docs/WORKLOG_KO.md

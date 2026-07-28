@@ -1,12 +1,18 @@
-name: Daily Monitoring
+# Manual scan (privacy-first).
+#
+# Scanning now runs LOCALLY by default so the intelligence it produces (target
+# names, URLs) never lands in this public repo. This workflow is kept for a
+# manual, on-demand run you can watch in the Actions tab — it prints results to
+# the run log but does NOT commit them.
+#
+# If you later want persistent daily automation, do it in a *private* repo (or a
+# private data store) so target data stays out of public view — then re-add the
+# `schedule:` trigger and a commit step there.
+
+name: Manual Scan
 
 on:
-  schedule:
-    - cron: '0 9 * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   scan:
@@ -25,7 +31,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run scan
+    - name: Run scan (results printed to the log only, not committed)
       env:
         REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
@@ -35,11 +41,3 @@ jobs:
         GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
         CIVITAI_ENABLED: ${{ vars.CIVITAI_ENABLED }}
       run: python src/main.py
-
-    - name: Commit results
-      run: |
-        git config user.email "bot@deepguard.local"
-        git config user.name "DeepGuard Bot"
-        git add reports/ data/
-        git diff --quiet && git diff --staged --quiet || git commit -m "Daily scan results"
-        git push
