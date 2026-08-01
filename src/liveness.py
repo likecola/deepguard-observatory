@@ -12,8 +12,8 @@ We judge liveness by the HTTP status the server returns:
 - no response   -> DEAD     (connection refused / timeout / DNS gone)
 
 CLI:
-    python src/liveness.py REDACTED        # one domain
-    python src/liveness.py dossier REDACTED      # every domain in a dossier
+    python src/liveness.py example-site.net        # one domain
+    python src/liveness.py dossier <account>      # every domain in a dossier
 """
 
 import json

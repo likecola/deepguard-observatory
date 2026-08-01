@@ -8,7 +8,7 @@ It reuses our own modules - liveness.check() and enrich.lookup_domain() - so
 the evidence is generated fresh, not copied from an old file.
 
 CLI:
-    python src/reporter.py REDACTED
+    python src/reporter.py example-site.net
 """
 
 import json

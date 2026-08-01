@@ -5,8 +5,8 @@ no extra dependency. When many domains share a registrar + registration window
 + nameservers, that's strong evidence they're run by the same operator.
 
 CLI:
-    python src/enrich.py REDACTED          # one domain
-    python src/enrich.py dossier REDACTED        # every domain in a saved dossier
+    python src/enrich.py example-site.net          # one domain
+    python src/enrich.py dossier <account>        # every domain in a saved dossier
 """
 
 import json

@@ -18,7 +18,7 @@ Output:
 
 CLI:
     python src/investigate.py github <username>   # investigate an account
-    python src/investigate.py <finding-key>       # e.g. github:REDACTED
+    python src/investigate.py <finding-key>       # e.g. github:12345
 """
 
 import json
@@ -53,7 +53,7 @@ FLAG_KEYWORDS = (
 
 _URL_RE = re.compile(r"https?://[^\s\"'<>)\]]+")
 
-# Some actors name each repo after the domain they promote (e.g. "REDACTED").
+# Some actors name each repo after the domain they promote (e.g. "example-site.net").
 # Match a repo name that is itself a domain: label(s) + a plausible TLD.
 _DOMAIN_NAME_RE = re.compile(
     r"^[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|net|org|io|ai|nl|eu|co|xyz|app|site|online)$",
