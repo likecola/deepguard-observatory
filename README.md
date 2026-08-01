@@ -203,6 +203,22 @@ it yourself through the listed channels (Cloudflare abuse, the registrar, GitHub
 search removal). If the service can produce sexual imagery of minors, that is
 CSAM and goes to the NCMEC CyberTipline / IWF, not just abuse channels.
 
+### Mapping the network
+
+`pivot.py` starts from one account and walks outward — its domains → other
+accounts that reference those domains → and so on — to map a network of actors
+rather than a single one:
+
+```bash
+python src/pivot.py github <account>        # depth 1, up to 6 accounts
+python src/pivot.py github <account> 2 8    # depth 2, up to 8 accounts
+```
+
+A *visited* set prevents loops; depth/account caps and a per-account domain
+sample bound the crawl and the API usage. Set a read-only `GITHUB_TOKEN` to raise
+the search rate limit. Output is a network map under `data/networks/` and
+`reports/network-*.md` (git-ignored).
+
 ## Case Study (anonymized)
 
 A single automated scan flagged **one** GitHub repository as a non-consensual
@@ -247,6 +263,7 @@ automation, run it in a private repo so target data never becomes public.
 │   ├── enrich.py               # Domain infrastructure lookup (RDAP/WHOIS)
 │   ├── liveness.py             # Which leads are up now — reporting triage
 │   ├── reporter.py             # Builds an abuse-report packet (you submit it)
+│   ├── pivot.py                # Recursive pivoting — maps the actor network
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -264,7 +281,7 @@ automation, run it in a private repo so target data never becomes public.
 - [x] Infrastructure enrichment via RDAP/WHOIS (`enrich.py`)
 - [x] Liveness triage of leads (`liveness.py`)
 - [x] Reporting helper — evidence-based abuse-report packets (`reporter.py`)
-- [ ] Recursive pivoting — follow harvested domains/usernames automatically
+- [x] Recursive pivoting — map the actor network (`pivot.py`)
 - [ ] Shared-analytics-ID clustering (same Google Analytics / AdSense across sites)
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
 - [ ] Platform response-time tracking (days from `reported` to `removed`)
