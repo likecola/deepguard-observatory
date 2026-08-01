@@ -195,8 +195,15 @@ domains were live — the operation was still active.
 where to report and a ready-to-paste draft — by reusing `liveness` and `enrich`:
 
 ```bash
-python src/reporter.py example-site.net
+python src/reporter.py example-site.net     # one site
+python src/reporter.py queue <account>      # all live sites in a dossier, batched
 ```
+
+The `queue` mode prepares a packet for every live site in a dossier plus a
+master checklist (`reports/report-queue-*.md`) — it removes the busywork but
+**still submits nothing**: you review, paste, solve the CAPTCHA, and submit each
+one. Automated submission is deliberately not built (abuse channels want genuine
+human reports; auto-submission gets flagged as spam and undermines credibility).
 
 **It sends nothing.** You review the packet (`reports/report-*.md`) and submit
 it yourself through the listed channels (Cloudflare abuse, the registrar, GitHub,
