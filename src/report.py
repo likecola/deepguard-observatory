@@ -92,6 +92,34 @@ def mark(key: str, status: str) -> None:
     print(f"{key} -> {status}")
 
 
+def mark_site(domain: str, status: str) -> None:
+    """Track a report made at the *site* level (a domain, not a GitHub finding)."""
+    if status not in STATUSES:
+        raise SystemExit(f"Unknown status {status!r}. Valid: {', '.join(STATUSES)}")
+
+    findings = load_findings()
+    key = f"site:{domain}"
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    entry = findings.get(key, {
+        "title": domain,
+        "url": f"https://{domain}",
+        "source": "site",
+        "category": "nonconsensual_generation_tool",
+        "confidence": "",
+        "reasoning": "",
+        "recommended_action": "",
+        "first_seen": today,
+        "status": "new",
+        "status_updated": None,
+    })
+    entry["status"] = status
+    entry["status_updated"] = today
+    findings[key] = entry
+    save_findings(findings)
+    generate_summary()
+    print(f"{key} -> {status}")
+
+
 def _percent(part: int, whole: int) -> str:
     return f"{100 * part / whole:.0f}%" if whole else "n/a"
 
@@ -177,6 +205,8 @@ def main() -> None:
         print(f"Summary regenerated: {path}")
     elif args[0] == "mark" and len(args) == 3:
         mark(args[1], args[2])
+    elif args[0] == "site" and len(args) == 3:
+        mark_site(args[1], args[2])
     else:
         raise SystemExit(__doc__)
 
