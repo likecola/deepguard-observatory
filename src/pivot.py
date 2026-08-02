@@ -36,6 +36,27 @@ SEARCH_DELAY_SECONDS = 6
 # Only pivot on a sample of each account's domains, to bound API calls.
 MAX_DOMAINS_PER_ACCOUNT = 5
 
+# Generic domains that everyone references — pivoting on these links totally
+# unrelated (and usually legitimate) accounts, so they are skipped.
+GENERIC_DOMAINS = {
+    "github.com", "gitlab.com", "bitbucket.org", "godoc.org", "pkg.go.dev",
+    "npmjs.com", "pypi.org", "medium.com", "dev.to",
+    "google.com", "youtube.com", "youtu.be", "twitter.com", "x.com",
+    "facebook.com", "instagram.com", "linkedin.com", "reddit.com",
+    "wikipedia.org", "stackoverflow.com", "discord.gg", "discord.com",
+    "t.me", "telegram.me", "patreon.com", "paypal.com", "buymeacoffee.com",
+    "hacktricks.xyz", "book.hacktricks.xyz",
+}
+
+
+def _is_generic(domain: str) -> bool:
+    d = domain.lower()
+    if d.startswith("www."):
+        d = d[4:]
+    if d.endswith((".github.io", ".readthedocs.io", ".gitbook.io", ".medium.com")):
+        return True
+    return d in GENERIC_DOMAINS
+
 
 def related_accounts(domain: str, exclude: set) -> set:
     """Other GitHub accounts whose repos reference this domain."""
@@ -69,10 +90,10 @@ def crawl(start: str, max_depth: int = 1, max_accounts: int = 6) -> dict:
         dossier = investigate.build_dossier("github", account)
         domains = sorted(
             {investigate._domain(lead) for lead in dossier.get("leads", [])
-             if investigate._domain(lead)}
+             if investigate._domain(lead) and not _is_generic(investigate._domain(lead))}
         )
         nodes[account] = {"depth": depth, "domains": len(domains)}
-        print(f"[depth {depth}] {account}: {len(domains)} domain(s)")
+        print(f"[depth {depth}] {account}: {len(domains)} distinctive domain(s)")
 
         if depth >= max_depth:
             continue
