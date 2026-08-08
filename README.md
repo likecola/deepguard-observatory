@@ -226,6 +226,22 @@ sample bound the crawl and the API usage. Set a read-only `GITHUB_TOKEN` to rais
 the search rate limit. Output is a network map under `data/networks/` and
 `reports/network-*.md` (git-ignored).
 
+### Clustering by shared analytics
+
+Sites can hide behind different registrars and nameservers, but an operator
+usually reuses the same Google Analytics / AdSense / Tag Manager / Pixel account
+across all of them. `analytics.py` reads those IDs out of each page and clusters
+sites that share one — a strong same-operator signal independent of hosting:
+
+```bash
+python src/analytics.py example-site.net    # one site's tracking IDs
+python src/analytics.py dossier <account>   # cluster a dossier's domains
+```
+
+Limitation: it reads the server-delivered HTML, so JS-rendered or bot-challenged
+pages may expose no IDs. Rendering those would need a headless browser (a future
+enhancement) — not a bot-detection bypass.
+
 ## Case Study (anonymized)
 
 A single automated scan flagged **one** GitHub repository as a non-consensual
@@ -271,6 +287,7 @@ automation, run it in a private repo so target data never becomes public.
 │   ├── liveness.py             # Which leads are up now — reporting triage
 │   ├── reporter.py             # Builds an abuse-report packet (you submit it)
 │   ├── pivot.py                # Recursive pivoting — maps the actor network
+│   ├── analytics.py            # Clusters sites by shared tracking IDs
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -289,7 +306,9 @@ automation, run it in a private repo so target data never becomes public.
 - [x] Liveness triage of leads (`liveness.py`)
 - [x] Reporting helper — evidence-based abuse-report packets (`reporter.py`)
 - [x] Recursive pivoting — map the actor network (`pivot.py`)
-- [ ] Shared-analytics-ID clustering (same Google Analytics / AdSense across sites)
+- [x] Shared-analytics-ID clustering (`analytics.py`)
+- [ ] Headless-browser rendering for JS-injected tracking IDs
+- [ ] Payment-rail / ad-network reporting — cut the money, not just the host
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
 - [ ] Platform response-time tracking (days from `reported` to `removed`)
 
