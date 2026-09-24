@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeepGuard Observatory</title>
+<style>
+  :root { color-scheme: dark; --bg:#0d1117; --card:#161b22; --line:#22282f;
+           --fg:#e6edf3; --muted:#8b949e; --accent:#2f81f7; --accent2:#3fb950; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+          font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif; }
+  .wrap { max-width: 900px; margin:0 auto; padding: 32px 20px 60px; }
+  header h1 { margin:0 0 4px; font-size:26px; letter-spacing:-0.5px; }
+  header p { margin:0; color:var(--muted); }
+  .stamp { font-size:13px; color:var(--muted); margin-top:6px; }
+  .tiles { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0; }
+  .tile { flex:1 1 120px; background:var(--card); border:1px solid var(--line);
+           border-radius:12px; padding:16px; }
+  .tile.accent { border-color:var(--accent); }
+  .tile .v { font-size:30px; font-weight:700; }
+  .tile .l { color:var(--muted); font-size:13px; margin-top:2px; }
+  section { background:var(--card); border:1px solid var(--line);
+             border-radius:12px; padding:18px 20px; margin:16px 0; }
+  section h2 { margin:0 0 14px; font-size:15px; color:var(--muted);
+                text-transform:uppercase; letter-spacing:0.5px; }
+  .row { display:flex; align-items:center; gap:12px; margin:7px 0; }
+  .lbl { flex:0 0 40%; font-size:14px; }
+  .track { flex:1; height:10px; background:#0d1117; border-radius:6px; overflow:hidden; }
+  .fill { display:block; height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
+  .num { flex:0 0 40px; text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .muted { color:var(--muted); }
+  footer { color:var(--muted); font-size:13px; margin-top:28px; line-height:1.7; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>DeepGuard Observatory</h1>
+    <p>Detecting, investigating &amp; reporting the networks behind non-consensual deepfake tools.</p>
+    <div class="stamp">Updated 2026-09-24 11:50 UTC &middot; aggregate figures only, no target data</div>
+  </header>
+
+  <div class="tiles"><div class="tile accent"><div class="v">39</div><div class="l">Findings tracked</div></div><div class="tile"><div class="v">37</div><div class="l">Awaiting report</div></div><div class="tile"><div class="v">2</div><div class="l">Reported</div></div><div class="tile"><div class="v">1</div><div class="l">Removed</div></div><div class="tile"><div class="v">50%</div><div class="l">Removal rate</div></div></div>
+
+  <section>
+    <h2>Findings by month</h2>
+    <div class="row"><span class="lbl">2026-07</span><span class="track"><span class="fill" style="width:100.0%"></span></span><span class="num">38</span></div>
+<div class="row"><span class="lbl">2026-08</span><span class="track"><span class="fill" style="width:2.6%"></span></span><span class="num">1</span></div>
+  </section>
+
+  <section>
+    <h2>By source</h2>
+    <div class="row"><span class="lbl">Huggingface</span><span class="track"><span class="fill" style="width:100.0%"></span></span><span class="num">31</span></div>
+<div class="row"><span class="lbl">Github</span><span class="track"><span class="fill" style="width:22.6%"></span></span><span class="num">7</span></div>
+<div class="row"><span class="lbl">Site</span><span class="track"><span class="fill" style="width:3.2%"></span></span><span class="num">1</span></div>
+  </section>
+
+  <section>
+    <h2>By category</h2>
+    <div class="row"><span class="lbl">Nonconsensual generation tool</span><span class="track"><span class="fill" style="width:100.0%"></span></span><span class="num">37</span></div>
+<div class="row"><span class="lbl">Harmful model collection</span><span class="track"><span class="fill" style="width:5.4%"></span></span><span class="num">2</span></div>
+  </section>
+
+  <footer>
+    Method: public data (OSINT) only &middot; confirmed with an LLM &middot;
+    reported through official channels. Target identifiers are kept private and
+    never appear here.<br>
+    Source &amp; methodology: <a href="https://github.com/likecola/deepguard-observatory">github.com/likecola/deepguard-observatory</a>
+  </footer>
+</div>
+</body>
+</html>
