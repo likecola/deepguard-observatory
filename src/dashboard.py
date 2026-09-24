@@ -15,6 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FINDINGS_PATH = ROOT / "data" / "findings.json"
 OUT_PATH = ROOT / "index.html"
+README_PATH = ROOT / "README.md"
+STATS_START = "<!-- STATS:START -->"
+STATS_END = "<!-- STATS:END -->"
 
 
 def _pretty(name: str) -> str:
@@ -141,7 +144,31 @@ def build() -> Path:
 </html>
 """
     OUT_PATH.write_text(html)
+    _update_readme(now, len(findings), by_status, reported_total, removed,
+                   removal_rate, by_source)
     return OUT_PATH
+
+
+def _update_readme(now, total, by_status, reported_total, removed,
+                   removal_rate, by_source) -> None:
+    """Inject an aggregate stats block into README between the markers."""
+    if not README_PATH.exists():
+        return
+    text = README_PATH.read_text()
+    if STATS_START not in text or STATS_END not in text:
+        return
+    sources = " · ".join(f"{_pretty(s)} {n}" for s, n in by_source.most_common())
+    block = (
+        f"_Updated {now} · aggregate only, no target data._\n\n"
+        "| Findings | Awaiting report | Reported | Removed | Removal rate |\n"
+        "|---|---|---|---|---|\n"
+        f"| {total} | {by_status['new']} | {reported_total} | {removed} |"
+        f" {removal_rate} |\n\n"
+        f"**By source:** {sources}"
+    )
+    pre = text[: text.index(STATS_START) + len(STATS_START)]
+    post = text[text.index(STATS_END):]
+    README_PATH.write_text(f"{pre}\n{block}\n{post}")
 
 
 if __name__ == "__main__":

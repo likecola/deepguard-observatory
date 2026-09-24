@@ -10,6 +10,18 @@ The focus is deliberately the *upstream* of the problem — where tools and mode
 
 **This is a solo weekend project.** The goal is modest but concrete: catch and prevent the deepfakes we can see, document what we find, and let the data speak for itself.
 
+## Snapshot
+
+<!-- STATS:START -->
+_Updated 2026-09-24 12:02 UTC · aggregate only, no target data._
+
+| Findings | Awaiting report | Reported | Removed | Removal rate |
+|---|---|---|---|---|
+| 39 | 37 | 2 | 1 | 50% |
+
+**By source:** Huggingface 31 · Github 7 · Site 1
+<!-- STATS:END -->
+
 ## The Problem
 
 Deepfake technology poses real harm—particularly to women and children. While large AI companies have internal safety teams, open-source communities lack coordinated visibility into how their tools are being misused. 
