@@ -300,6 +300,7 @@ automation, run it in a private repo so target data never becomes public.
 │   ├── reporter.py             # Builds an abuse-report packet (you submit it)
 │   ├── pivot.py                # Recursive pivoting — maps the actor network
 │   ├── analytics.py            # Clusters sites by shared tracking IDs
+│   ├── certs.py                # Certificate-transparency signal (crt.sh)
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -319,6 +320,8 @@ automation, run it in a private repo so target data never becomes public.
 - [x] Reporting helper — evidence-based abuse-report packets (`reporter.py`)
 - [x] Recursive pivoting — map the actor network (`pivot.py`)
 - [x] Shared-analytics-ID clustering (`analytics.py`)
+- [x] Certificate-transparency signal — launch dates & cert siblings (`certs.py`)
+- [ ] Unified multi-signal clustering + network graph (registrar + NS + analytics + cert + social links)
 - [ ] Headless-browser rendering for JS-injected tracking IDs
 - [ ] Payment-rail / ad-network reporting — cut the money, not just the host
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
