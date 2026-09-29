@@ -14,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FINDINGS_PATH = ROOT / "data" / "findings.json"
+CLUSTERS_PATH = ROOT / "data" / "clusters.json"
 OUT_PATH = ROOT / "index.html"
 README_PATH = ROOT / "README.md"
 STATS_START = "<!-- STATS:START -->"
@@ -47,6 +48,25 @@ def _tile(value, label, accent=False) -> str:
     return f'<div class="{cls}"><div class="v">{value}</div><div class="l">{label}</div></div>'
 
 
+def _network_section() -> str:
+    """Anonymized operator-network structure from data/clusters.json (sizes only)."""
+    if not CLUSTERS_PATH.exists():
+        return ""
+    data = json.loads(CLUSTERS_PATH.read_text())
+    sizes = data.get("sizes", [])
+    if not sizes:
+        return ""
+    rows = _bars([(f"Operator {chr(65 + i)}", n) for i, n in enumerate(sizes)])
+    singletons = data.get("singletons", 0)
+    return (
+        '<section>\n<h2>Mapped operator networks</h2>\n'
+        f'<p class="muted" style="margin:-6px 0 14px">Distinct sites that trace '
+        f'to a single operator (by shared nameserver / tracking ID). '
+        f'{singletons} sites not yet clustered. Identities kept private.</p>\n'
+        f'{rows}\n</section>'
+    )
+
+
 def build() -> Path:
     findings = json.loads(FINDINGS_PATH.read_text()) if FINDINGS_PATH.exists() else {}
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -71,6 +91,7 @@ def build() -> Path:
     month_bars = _bars([(m, n) for m, n in sorted(by_month.items())])
     source_bars = _bars([(_pretty(s), n) for s, n in by_source.most_common()])
     category_bars = _bars([(_pretty(c), n) for c, n in by_category.most_common()])
+    network_section = _network_section()
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -132,6 +153,8 @@ def build() -> Path:
     <h2>By category</h2>
     {category_bars}
   </section>
+
+  {network_section}
 
   <footer>
     Method: public data (OSINT) only &middot; confirmed with an LLM &middot;

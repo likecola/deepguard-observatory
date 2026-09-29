@@ -13,7 +13,7 @@ The focus is deliberately the *upstream* of the problem — where tools and mode
 ## Snapshot
 
 <!-- STATS:START -->
-_Updated 2026-09-24 12:02 UTC · aggregate only, no target data._
+_Updated 2026-09-29 00:41 UTC · aggregate only, no target data._
 
 | Findings | Awaiting report | Reported | Removed | Removal rate |
 |---|---|---|---|---|
