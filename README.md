@@ -301,6 +301,7 @@ automation, run it in a private repo so target data never becomes public.
 │   ├── pivot.py                # Recursive pivoting — maps the actor network
 │   ├── analytics.py            # Clusters sites by shared tracking IDs
 │   ├── certs.py                # Certificate-transparency signal (crt.sh)
+│   ├── cluster.py              # Unified fingerprint clustering + network graph
 │   └── state.py                # Dedup state (seen IDs)
 ├── reports/                # Per-run scan results
 ├── data/                   # Dedup state
@@ -321,7 +322,9 @@ automation, run it in a private repo so target data never becomes public.
 - [x] Recursive pivoting — map the actor network (`pivot.py`)
 - [x] Shared-analytics-ID clustering (`analytics.py`)
 - [x] Certificate-transparency signal — launch dates & cert siblings (`certs.py`)
-- [ ] Unified multi-signal clustering + network graph (registrar + NS + analytics + cert + social links)
+- [x] Unified fingerprint clustering + network graph (`cluster.py`)
+- [ ] Fold cert siblings & social/telegram links into the clustering signals
+- [ ] Severity scoring & priority queue (hub-ness + reachability, free signals only)
 - [ ] Headless-browser rendering for JS-injected tracking IDs
 - [ ] Payment-rail / ad-network reporting — cut the money, not just the host
 - [ ] TTP catalog — how the ecosystem's promotion networks operate
